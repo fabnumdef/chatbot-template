@@ -5,6 +5,7 @@
 - Bonjour
 - Bonsoir
 - Salut
+- Bonjou
 
 ## intent:goodbye
 - bye
@@ -18,6 +19,7 @@
 - en effet
 - bien sûr
 - correct
+- Oui :D
 
 ## intent:deny
 - no
@@ -42,6 +44,7 @@
 - terrible
 - pas très bien
 - dommage
+- Je suis triste
 
 ## intent:bot_challenge
 - es-tu un bot ?
@@ -49,3 +52,4 @@
 - es-tu humain ?
 - est-ce que je parle à un bot ?
 - est-ce que je parle à un humain ?
+- Es tu un bot ,
