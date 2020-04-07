@@ -1,40 +1,73 @@
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-
-actions:
-- utter_greet
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
-- utter_goodbye
-- utter_iamabot
-
+  - get_started
+  - out_of_scope
+  - qui_es_tu
+  - envoyer_image
+  - envoyer_lien_texte
+  - envoyer_lien_bouton
+  - envoyer_choix_multiple
+  - fabrique_chatbot
+  - online_chatbot
+  - framework_chatbot
 responses:
-  utter_greet:
-  - text: "Hey! Comment vas-tu ?"
-
-  utter_cheer_up:
-  - text: "Voici quelque chose pour te remonter le moral:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Est-ce que ça t'as aidé ?"
-
-  utter_happy:
-  - text: "Supper, continue !"
-
-  utter_goodbye:
-  - text: "Au revoir."
-
-  utter_iamabot:
-  - text: "Je suis un chatbot conçu par la fabrique numérique."
-
+  utter_framework_chatbot_0:
+    - text: >-
+        Si vos chatbots nécessitent des actions complexes, des connections vers
+        vos outils interne etc … Un développement spécifique sera nécessaire !
+  utter_framework_chatbot_1:
+    - text: >-
+        Parmis les plus connus on peut citer le Microsoft Bot Framework, RASA ou
+        bien WIT.ai
+  utter_online_chatbot_0:
+    - text: >-
+        Plusieurs plateformes en ligne existent pour créer directement des
+        chatbots. Parmis les plus connues on peut citer Chatbotlab, Botnation ou
+        bien Botstar.
+  utter_fabrique_chatbot_0:
+    - text: "La Fabrique à Chatbots \U0001F3ED\U0001F916\U0001F4AC\U0001F4AC te permet rapidement et sans connaissance préalable des chatbots de construire un chatbot FAQ (questions / réponses)"
+  utter_envoyer_choix_multiple_0:
+    - text: Vaste question que tu me poses là !
+  utter_envoyer_choix_multiple_1:
+    - text: "Plusieurs solutions existent pour créer un chatbot, la Fabrique à Chatbots \U0001F3ED\U0001F916\U0001F4AC\U0001F4AC en fait partie."
+  utter_envoyer_choix_multiple_2:
+    - text: >-
+        je peux te donner quelques informations suivant le type de plateforme
+        que tu souhaites utiliser.
+      buttons:
+        - title: "Fabrique à Chatbots \U0001F3ED\U0001F916\U0001F4AC\U0001F4AC"
+          payload: fabrique_chatbot
+        - title: "Editeur graphique \U0001F9E9"
+          payload: online_chatbot
+        - title: "Framework de développement \U0001F4BB"
+          payload: framework_chatbot
+  utter_envoyer_lien_bouton_0:
+    - text: >-
+        Et hop, tu peux cliquer sur le bouton ci-dessous pour aller directement
+        sur le site !
+      buttons:
+        - title: Accéder à beta.gouv ⚗️
+          payload: 'https://beta.gouv.fr/'
+  utter_envoyer_lien_texte_0:
+    - text: 'https://www.google.fr'
+  utter_envoyer_image_0:
+    - text: "Et voici une photo \U0001F5BC️, je te l'affiche directement dans le bot c'est plus simple \U0001F609"
+      image: 'https://i.imgur.com/nGF1K8f.jpg'
+  utter_qui_es_tu_0:
+    - text: 'Bonjour, je suis FaC !'
+  utter_qui_es_tu_1:
+    - text: "Le chatbot de démonstration de la Fabrique à Chatbots \U0001F3ED\U0001F916\U0001F4AC\U0001F4AC"
+  utter_qui_es_tu_2:
+    - text: "Je peut vous éclairer sur le fonctionnement de la Fabrique à Chatbots, vous n'avez qu'à me poser la question \U0001F60A"
+  utter_out_of_scope_0:
+    - text: "Je suis la phrase par défaut quand je ne sais pas répondre à une question \U0001F622. Mais je m'améliore vite \U0001F9D0."
+  utter_get_started_0:
+    - text: >-
+        Bonjour, cet ID correspond au premier message que je vais envoyer quand
+        l'utilisateur va ouvrir le chat.
+  utter_get_started_1:
+    - text: >-
+        Si vous ne souhaitez pas que je me présente, il suffit de supprimer l'ID
+        "get_started"
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

@@ -1,0 +1,70 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "qui_es_tu",
+        "text": "Qui es-tu ?"
+      },
+      {
+        "intent": "qui_es_tu",
+        "text": "Tu es qui ?"
+      },
+      {
+        "intent": "qui_es_tu",
+        "text": "T'es qui ?"
+      },
+      {
+        "intent": "qui_es_tu",
+        "text": "A qui je parle ?"
+      },
+      {
+        "intent": "qui_es_tu",
+        "text": "Qui me parle ?"
+      },
+      {
+        "intent": "qui_es_tu",
+        "text": "Qui êtes-vous ?"
+      },
+      {
+        "intent": "envoyer_image",
+        "text": "Comment afficher une image ?"
+      },
+      {
+        "intent": "envoyer_image",
+        "text": "Je veut une image"
+      },
+      {
+        "intent": "envoyer_image",
+        "text": "tu mets une image ?"
+      },
+      {
+        "intent": "envoyer_image",
+        "text": "comment mettre une photo ?"
+      },
+      {
+        "intent": "envoyer_lien_texte",
+        "text": "Comment aller sur google ?"
+      },
+      {
+        "intent": "envoyer_lien_bouton",
+        "text": "Comment aller sur le site de beta.gouv ?"
+      },
+      {
+        "intent": "envoyer_choix_multiple",
+        "text": "Comment faire un chatbot ?"
+      },
+      {
+        "intent": "fabrique_chatbot",
+        "text": "A quoi sert la Fabrique à Chatbots ?"
+      },
+      {
+        "intent": "online_chatbot",
+        "text": "Existe-t-il des éditeurs de chatbot en ligne ?"
+      },
+      {
+        "intent": "framework_chatbot",
+        "text": "Qu'est-ce qu'un framework de chatbot ?"
+      }
+    ]
+  }
+}
