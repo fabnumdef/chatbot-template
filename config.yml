@@ -13,4 +13,4 @@ policies:
     nlu_threshold: 0.7
     ambiguity_threshold: 0.1
     core_threshold: 0.7
-    fallback_action_name: 'utter_out_of_scope_0'
+    fallback_action_name: 'utter_phrase_hors_sujet_0'
