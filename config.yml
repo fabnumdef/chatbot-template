@@ -7,9 +7,11 @@ pipeline: supervised_embeddings
 # https://rasa.com/docs/rasa/core/policies/
 policies:
   - name: MemoizationPolicy
+    max_history: 1
   - name: KerasPolicy
+    max_history: 1
   - name: MappingPolicy
   - name: FallbackPolicy
-    nlu_threshold: 0.4
-    core_threshold: 0.3
+    nlu_threshold: 0.7
+    core_threshold: 0.1
     fallback_action_name: 'utter_phrase_hors_sujet_0'
