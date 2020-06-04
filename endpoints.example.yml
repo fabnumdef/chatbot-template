@@ -30,7 +30,7 @@ tracker_store:
   dialect: "postgresql"
   url: "localhost"
   port: "5432"
-  username: "postgres"
+  username: "rasa_user"
   password: "postgres"
   db: "rasa"
 
