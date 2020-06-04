@@ -12,6 +12,6 @@ policies:
     max_history: 1
   - name: MappingPolicy
   - name: FallbackPolicy
-    nlu_threshold: 0.7
-    core_threshold: 0.1
+    nlu_threshold: 0.4
+    core_threshold: 0.3
     fallback_action_name: 'utter_phrase_hors_sujet_0'
