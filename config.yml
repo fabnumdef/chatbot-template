@@ -1,15 +1,29 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
-language: fr
-pipeline: supervised_embeddings
+language: 'fr'
+pipeline:
+  - name: 'WhitespaceTokenizer'
+  - name: 'RegexFeaturizer'
+  - name: 'CRFEntityExtractor'
+  - name: 'EntitySynonymMapper'
+  - name: 'CountVectorsFeaturizer'
+  - name: 'CountVectorsFeaturizer'
+    analyzer: 'char_wb'
+    min_ngram: 1
+    max_ngram: 4
+  - name: 'EmbeddingIntentClassifier'
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
-  - name: MemoizationPolicy
+  - name: AugmentedMemoizationPolicy
     max_history: 1
   - name: KerasPolicy
-    max_history: 1
+    featurizer:
+      - name: MaxHistoryTrackerFeaturizer
+        max_history: 5
+        state_featurizer:
+          - name: BinarySingleStateFeaturizer
   - name: MappingPolicy
   - name: FallbackPolicy
     nlu_threshold: 0.6
