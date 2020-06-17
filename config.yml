@@ -9,11 +9,7 @@ policies:
   - name: MemoizationPolicy
     max_history: 1
   - name: KerasPolicy
-    featurizer:
-      - name: MaxHistoryTrackerFeaturizer
-        max_history: 1
-        state_featurizer:
-          - name: BinarySingleStateFeaturizer
+    max_history: 1
   - name: MappingPolicy
   - name: FallbackPolicy
     nlu_threshold: 0.6
