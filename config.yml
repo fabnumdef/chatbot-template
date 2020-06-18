@@ -11,20 +11,21 @@ pipeline:
     analyzer: 'char_wb'
     min_ngram: 1
     max_ngram: 4
-  - name: 'EmbeddingIntentClassifier'
+  - name: 'DIETClassifier'
+    hidden_layers_sizes:
+      text: [256, 128]
+    number_of_transformer_layers: 0
+    weight_sparsity: 0
+    intent_classification: True
+    entity_recognition: False
+    use_masked_language_model: False
+    BILOU_flag: False
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
   - name: AugmentedMemoizationPolicy
     max_history: 1
-  - name: KerasPolicy
-    featurizer:
-      - name: MaxHistoryTrackerFeaturizer
-        max_history: 5
-        state_featurizer:
-          - name: BinarySingleStateFeaturizer
-  - name: MappingPolicy
   - name: FallbackPolicy
     nlu_threshold: 0.6
     core_threshold: 0.5
