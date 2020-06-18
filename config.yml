@@ -21,7 +21,7 @@ policies:
     max_history: 1
   - name: TEDPolicy
     max_history: 1
-    epochs: 100
+    epochs: 50
   - name: FallbackPolicy
     nlu_threshold: 0.6
     core_threshold: 0.5
