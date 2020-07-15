@@ -2,22 +2,21 @@
 # https://rasa.com/docs/rasa/nlu/components/
 language: fr
 pipeline:
-  - name: 'WhitespaceTokenizer'
-  - name: 'RegexFeaturizer'
-  - name: 'CRFEntityExtractor'
-  - name: 'EntitySynonymMapper'
-  - name: 'CountVectorsFeaturizer'
-  - name: 'CountVectorsFeaturizer'
+  - name: WhitespaceTokenizer
+  - name: RegexFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
     analyzer: 'char_wb'
     min_ngram: 1
     max_ngram: 4
-  - name: 'DIETClassifier'
+  - name: DIETClassifier
+    entity_recognition: false
     epochs: 20
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
-  - name: AugmentedMemoizationPolicy
+  - name: MemoizationPolicy
     max_history: 1
   - name: TEDPolicy
     max_history: 1
