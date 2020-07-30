@@ -27,9 +27,9 @@ class ActionAskPiaf(Action):
             tracker: Tracker,
             domain: Dict[Text, Any],
     ) -> List[Dict]:
-        question = tracker.latest_message.text
+        question = (tracker.latest_message)['text']
         response = ask_question_to_piaf(question)
-        if response['probability'] > 0.80:
+        if response is not None and response['probability'] > 0.80:
             dispatcher.utter_message(f"J'ai trouvé la réponse suivante: \n {response['answer']}")
             dispatcher.utter_message(f"Dans le corps de texte suivant: {response['context']}")
             dispatcher.utter_message(template='utter_are_you_satisfied')
