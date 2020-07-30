@@ -22,6 +22,6 @@ policies:
     max_history: 1
     epochs: 1
   - name: FallbackPolicy
-    nlu_threshold: 0.6
-    core_threshold: 0.5
-    fallback_action_name: 'utter_phrase_hors_sujet_0'
+    nlu_threshold: 0.8
+    core_threshold: 0.6
+    fallback_action_name: 'action_ask_piaf'
