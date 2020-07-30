@@ -14,7 +14,7 @@ pipeline:
     max_ngram: 4
   - name: DIETClassifier
     entity_recognition: false
-    epochs: 100
+    epochs: 20
   - name: FallbackClassifier
     threshold: 0.6
     ambiguity_threshold: 0.1
