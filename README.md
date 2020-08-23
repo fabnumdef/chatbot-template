@@ -7,6 +7,16 @@ Ce service est un guide pour la définition d’une problématique de diffusion 
 
 C’est également une aide pratique pour la constitution d’une base documentaire (template excel) où sont consignées les questions/réponses du chatbot, et pour la réalisation de l’interface qui permet de créer et maintenir le chatbot (back office pour mise à jour de la base documentaire).
 
+### Architecture
+
+| Repo Git           | URL                                                   | Technologies       | Description                        |
+| ------------------ | ----------------------------------------------------- | ------------------ | ---------------------------------- |
+| Fabrique - Front   | https://github.com/fabnumdef/fabrique-chatbot-front   | Angular 10         | Front du site de la Fabrique       |
+| Fabrique - Back    | https://github.com/fabnumdef/fabrique-chatbot-back    | NestJS 6           | Back du site de la Fabrique        |
+| Chatbot - Front    | https://github.com/fabnumdef/chatbot-front            | Angular 10         | Front des Backoffices des chatbots |
+| Chatbot - Back     | https://github.com/fabnumdef/chatbot-back             | NestJS 6           | Back des Backoffices des chatbots  |
+| Chatbot - Template | https://github.com/fabnumdef/chatbot-template         | RASA 1.10          | Template RASA des chatbots         |
+
 ### Utilisation
 
 Ce repo est un template de base pour la configuration RASA utilisé par tout chatbot crée via la Fabrique à chatbots.
