@@ -11,7 +11,7 @@ pipeline:
     max_ngram: 4
   - name: DIETClassifier
     entity_recognition: false
-    epochs: 20
+    epochs: 10
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
