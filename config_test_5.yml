@@ -12,9 +12,7 @@ pipeline:
     max_ngram: 4
   - name: DIETClassifier
     entity_recognition: false
-    epochs: 20
-  - name: ResponseSelector
-    epochs: 100
+    epochs: 50
 #  - name: FallbackClassifier
 #    threshold: 0.6
 #    ambiguity_threshold: 0.1
@@ -24,9 +22,9 @@ pipeline:
 policies:
   - name: MemoizationPolicy
     max_history: 1
-#  - name: RulePolicy
-#    core_fallback_threshold: 0.5
-#    core_fallback_action_name: "utter_phrase_hors_sujet_0"
+  #  - name: RulePolicy
+  #    core_fallback_threshold: 0.5
+  #    core_fallback_action_name: "utter_phrase_hors_sujet_0"
   - name: FallbackPolicy
     nlu_threshold: 0.6
     core_threshold: 0.5
