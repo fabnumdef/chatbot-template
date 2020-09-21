@@ -1,6 +1,12 @@
 import requests
 
 def ask_question_to_piaf(question):
+    # update question string
+    question = question.strip()
+    last_char = sample_str[-1]
+    if last_char == '?':
+        question = question + ' ?'
+
     print('asking piaf', question)
     url = "https://piaf.datascience.etalab.studio/models/1/doc-qa"
     data = {"questions": [f"{question}"], "top_k_reader": 3, "top_k_retriever": 5}
