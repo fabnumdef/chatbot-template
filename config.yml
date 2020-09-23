@@ -5,6 +5,7 @@ pipeline:
   - name: WhitespaceTokenizer
   - name: RegexFeaturizer
     case_sensitive: False
+  - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
   - name: CountVectorsFeaturizer
     analyzer: 'char_wb'
@@ -22,6 +23,7 @@ pipeline:
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
+  - name: RulePolicy
   - name: MemoizationPolicy
     max_history: 1
 #  - name: RulePolicy
