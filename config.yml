@@ -16,6 +16,10 @@ pipeline:
     epochs: 20
   - name: ResponseSelector
     epochs: 100
+    retrieval_intent: faq
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: chitchat
 #  - name: FallbackClassifier
 #    threshold: 0.6
 #    ambiguity_threshold: 0.1
@@ -23,15 +27,19 @@ pipeline:
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
-  - name: MemoizationPolicy
-    max_history: 1
-#  - name: RulePolicy
-#    core_fallback_threshold: 0.5
-#    core_fallback_action_name: "utter_phrase_hors_sujet_0"
-  - name: FallbackPolicy
-    nlu_threshold: 0.6
-    core_threshold: 0.5
-    fallback_action_name: 'utter_phrase_hors_sujet_0'
+  - name: RulePolicy
+    core_fallback_threshold: 0.5
+    core_fallback_action_name: "utter_faq/phrase_hors_sujet"
+
+rules:
+  - rule: respond to FAQs
+    steps:
+      - intent: faq
+      - action: respond_faq
+  - rule: respond to chitchat
+    steps:
+      - intent: chitchat
+      - action: respond_chitchat
 
 #rules:
 #  - rule: Response out of scope
