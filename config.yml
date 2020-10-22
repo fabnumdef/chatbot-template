@@ -13,28 +13,17 @@ pipeline:
     max_ngram: 4
   - name: DIETClassifier
     entity_recognition: false
-    epochs: 20
-  - name: ResponseSelector
     epochs: 100
-#  - name: FallbackClassifier
-#    threshold: 0.6
-#    ambiguity_threshold: 0.1
+  - name: FallbackClassifier
+    threshold: 0.6
+    ambiguity_threshold: 0.1
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
   - name: MemoizationPolicy
     max_history: 1
-#  - name: RulePolicy
-#    core_fallback_threshold: 0.5
-#    core_fallback_action_name: "utter_phrase_hors_sujet_0"
-  - name: FallbackPolicy
-    nlu_threshold: 0.6
-    core_threshold: 0.5
-    fallback_action_name: 'utter_phrase_hors_sujet_0'
+  - name: RulePolicy
+    core_fallback_threshold: 0.5
+    core_fallback_action_name: "utter_phrase_hors_sujet_0"
 
-#rules:
-#  - rule: Response out of scope
-#    steps:
-#      - intent: nlu_fallback
-#      - action: utter_phrase_hors_sujet_0
