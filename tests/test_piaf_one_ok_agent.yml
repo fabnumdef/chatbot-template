@@ -1,0 +1,169 @@
+stories:
+- story: Full flow with PIAF 1 ok (on theme), go to agent (no good response)
+  steps:
+  - user: |
+     start
+    intent: get_started
+  - action: utter_get_started
+  - action: action_send_themes
+  - user: |
+      /choose_theme{"theme":"N19806"}
+    intent: choose_theme
+  - action: utter_ask_question
+  - user: |
+      Poulet
+    intent: nlu_fallback
+  - action: action_ask_piaf
+  - slot_was_set:
+    - ask_piaf_1: true
+    - ask_piaf_1_ok: true
+    - ask_piaf_1_finish: true
+  - action: utter_satisfaction
+  - user: |
+      /satisfaction_deny
+    intent: satisfaction_deny
+  - action: utter_rephrase_piaf_2
+  - user: |
+      Poulet
+    intent: nlu_fallback
+  - action: action_ask_piaf
+  - slot_was_set:
+    - ask_piaf_2: true
+  - action: utter_rephrase_piaf_3
+  - action: action_send_sub_themes
+  - user: |
+      /choose_sub_theme{"sub_theme":"Contrats et carrière"}
+    intent: choose_sub_theme
+  - action: action_send_directories
+  - user: |
+      /choose_directory{"directory":"N505"}
+    intent: choose_directory
+  - action: action_send_sub_directories
+  - user: |
+      /choose_sub_directory{"sub_directory":"Déroulement de carrière"}
+    intent: choose_sub_directory
+  - action: action_send_cards
+  - action: utter_satisfaction
+  - user: |
+      /satisfaction_deny
+    intent: satisfaction_deny
+  - action: utter_ask_agent
+  - user: |
+      /ask_agent
+    intent: ask_agent
+  - action: utter_greet
+
+- story: Full flow with PIAF 1 ok (on sub theme), go to agent (no good response)
+  steps:
+  - user: |
+     start
+    intent: get_started
+  - action: utter_get_started
+  - action: action_send_themes
+  - user: |
+      /choose_theme{"theme":"N19806"}
+    intent: choose_theme
+  - action: utter_ask_question
+  - user: |
+      Poulet
+    intent: nlu_fallback
+  - action: action_ask_piaf
+  - slot_was_set:
+    - ask_piaf_1: true
+  - action: utter_rephrase_piaf_1
+  - action: action_send_sub_themes
+  - user: |
+      /choose_sub_theme{"sub_theme":"Contrats et carrière"}
+    intent: choose_sub_theme
+  - action: action_ask_piaf
+  - slot_was_set:
+    - ask_piaf_1_ok: true
+    - ask_piaf_1_finish: true
+  - action: utter_satisfaction
+  - user: |
+      /satisfaction_deny
+    intent: satisfaction_deny
+  - action: utter_rephrase_piaf_2
+  - user: |
+      Poulet
+    intent: nlu_fallback
+  - action: action_ask_piaf
+  - slot_was_set:
+    - ask_piaf_2: true
+  - action: utter_rephrase_piaf_3
+  - action: action_send_directories
+  - user: |
+      /choose_directory{"directory":"N505"}
+    intent: choose_directory
+  - action: action_send_sub_directories
+  - user: |
+      /choose_sub_directory{"sub_directory":"Déroulement de carrière"}
+    intent: choose_sub_directory
+  - action: action_send_cards
+  - action: utter_satisfaction
+  - user: |
+      /satisfaction_deny
+    intent: satisfaction_deny
+  - action: utter_ask_agent
+  - user: |
+      /ask_agent
+    intent: ask_agent
+  - action: utter_greet
+
+- story: Full flow with PIAF 1 ok (on directory), go to agent (no good response)
+  steps:
+  - user: |
+     start
+    intent: get_started
+  - action: utter_get_started
+  - action: action_send_themes
+  - user: |
+      /choose_theme{"theme":"N19806"}
+    intent: choose_theme
+  - action: utter_ask_question
+  - user: |
+      Poulet
+    intent: nlu_fallback
+  - action: action_ask_piaf
+  - slot_was_set:
+    - ask_piaf_1: true
+  - action: utter_rephrase_piaf_1
+  - action: action_send_sub_themes
+  - user: |
+      /choose_sub_theme{"sub_theme":"Contrats et carrière"}
+    intent: choose_sub_theme
+  - action: action_ask_piaf
+  - action: action_send_directories
+  - user: |
+      /choose_directory{"directory":"N505"}
+    intent: choose_directory
+  - action: action_ask_piaf
+  - slot_was_set:
+    - ask_piaf_1_ok: true
+    - ask_piaf_1_finish: true
+  - action: utter_satisfaction
+  - user: |
+      /satisfaction_deny
+    intent: satisfaction_deny
+  - action: utter_rephrase_piaf_2
+  - user: |
+      Poulet
+    intent: nlu_fallback
+  - action: action_ask_piaf
+  - slot_was_set:
+    - ask_piaf_2: true
+  - action: utter_rephrase_piaf_3
+  - action: action_send_sub_directories
+  - user: |
+      /choose_sub_directory{"sub_directory":"Déroulement de carrière"}
+    intent: choose_sub_directory
+  - action: action_send_cards
+  - action: utter_satisfaction
+  - user: |
+      /satisfaction_deny
+    intent: satisfaction_deny
+  - action: utter_ask_agent
+  - user: |
+      /ask_agent
+    intent: ask_agent
+  - action: utter_greet
