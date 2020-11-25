@@ -175,7 +175,7 @@ stories:
     steps:
       - checkpoint: check_ask_agent
       - intent: ask_agent
-      - action: utter_greet
+      - action: utter_goodbye_service_public
 
   # OTHER QUESTION
   - story: Handle not other Question
