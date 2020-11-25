@@ -27,7 +27,11 @@ class ActionAskPiaf(Action):
             tracker: Tracker,
             domain: Dict[Text, Any],
     ) -> List[Dict]:
-        question = (tracker.latest_message)['text']
+        if((tracker.latest_message)['intent'] == 'nlu_fallback'):
+            question = (tracker.latest_message)['text']
+        else:
+            question = tracker.get_slot('question')
+
         return ask_question_to_piaf(self, dispatcher, tracker, domain, question)
 
 class ActionSendThemes(Action):

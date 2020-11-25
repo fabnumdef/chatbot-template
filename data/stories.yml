@@ -185,6 +185,7 @@ stories:
       - checkpoint: check_other_question
       - intent: no_other_question
       - action: utter_goodbye_service_public
+      - action: action_restart
 
   - story: Handle Other Question
     steps:

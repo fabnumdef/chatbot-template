@@ -17,6 +17,9 @@ intents:
   - no_ask_agent
 
 slots:
+  question:
+    type: text
+    influence_conversation: false
   theme:
     type: text
     influence_conversation: false
