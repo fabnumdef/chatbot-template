@@ -3,7 +3,7 @@ stories:
   # PIAF 1
   - story: get_started, PIAF 1
     steps:
-      - intent: get_started
+      - intent: phrase_presentation
       - action: utter_get_started
       - action: action_send_themes
       - intent: choose_theme
@@ -19,6 +19,7 @@ stories:
         - ask_piaf_1: true
         - ask_piaf_1_ok: false
         - ask_piaf_1_finish: false
+        - theme: true
         - sub_theme: null
         - directory: null
         - ask_piaf_2: false
@@ -35,6 +36,7 @@ stories:
         - ask_piaf_1: true
         - ask_piaf_1_ok: false
         - ask_piaf_1_finish: false
+        - theme: true
         - sub_theme: true
         - directory: null
         - ask_piaf_2: false
