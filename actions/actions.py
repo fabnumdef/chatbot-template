@@ -27,7 +27,7 @@ class ActionAskPiaf(Action):
             tracker: Tracker,
             domain: Dict[Text, Any],
     ) -> List[Dict]:
-        if((tracker.latest_message)['intent'] == 'nlu_fallback'):
+        if((tracker.latest_message)['intent']['confidence'] < 0.8):
             question = (tracker.latest_message)['text']
         else:
             question = tracker.get_slot('question')
