@@ -41,8 +41,7 @@ class ActionSendThemes(Action):
             domain: Dict[Text, Any],
         ) -> List[Dict]:
         themes = return_themes()
-        dispatcher.utter_message(f"Sélectionnez le sujet de votre demande :")
-        dispatcher.utter_message(buttons = themes)
+        dispatcher.utter_message(text = "Sélectionnez le sujet de votre demande :", buttons = themes)
         return []
 
 class ActionSendSubThemes(Action):
@@ -57,8 +56,7 @@ class ActionSendSubThemes(Action):
         ) -> List[Dict]:
         theme = tracker.get_slot('theme')
         sub_themes = return_sub_themes(theme)
-        dispatcher.utter_message(f"Votre question concerne :")
-        dispatcher.utter_message(buttons = sub_themes)
+        dispatcher.utter_message(text = "Votre question concerne :", buttons = sub_themes)
         return []
 
 class ActionSendDirectories(Action):
@@ -74,8 +72,7 @@ class ActionSendDirectories(Action):
         theme = tracker.get_slot('theme')
         sub_theme = tracker.get_slot('sub_theme')
         directories = return_directories(theme, sub_theme)
-        dispatcher.utter_message(f"Choisissez parmis les thèmes suivants :")
-        dispatcher.utter_message(buttons = directories)
+        dispatcher.utter_message(text = "Choisissez parmis les dossiers suivants :", buttons = directories)
         return []
 
 class ActionSendSubDirectories(Action):
@@ -92,8 +89,7 @@ class ActionSendSubDirectories(Action):
         sub_theme = tracker.get_slot('sub_theme')
         directory = tracker.get_slot('directory')
         sub_directories = return_sub_directories(theme, sub_theme, directory)
-        dispatcher.utter_message(f"Choisissez parmis les thèmes suivants :")
-        dispatcher.utter_message(buttons = sub_directories)
+        dispatcher.utter_message(text = "Choisissez parmis les sous-dossiers suivants :", buttons = sub_directories)
         return []
 
 class ActionSendCards(Action):
@@ -111,6 +107,5 @@ class ActionSendCards(Action):
         directory = tracker.get_slot('directory')
         sub_directory = tracker.get_slot('sub_directory')
         cards = return_cards(theme, sub_theme, directory, sub_directory)
-        dispatcher.utter_message(f"Choisissez parmis les fiches suivantes :")
-        dispatcher.utter_message(buttons = cards)
+        dispatcher.utter_message(text = "Choisissez parmis les fiches suivantes :", buttons = cards)
         return []

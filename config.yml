@@ -14,9 +14,9 @@ pipeline:
     max_ngram: 4
   - name: DIETClassifier
     entity_recognition: false
-    epochs: 20
+    epochs: 100
   - name: FallbackClassifier
-    threshold: 0.6
+    threshold: 0.7
     ambiguity_threshold: 0.1
 
 # Configuration for Rasa Core.
