@@ -3,7 +3,7 @@ version: "2.0"
 
 intents:
   - nlu_fallback
-  - get_started
+  - phrase_presentation
   - choose_theme
   - choose_sub_theme
   - choose_directory
