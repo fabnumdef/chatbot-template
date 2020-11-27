@@ -13,14 +13,16 @@ pipeline:
     entity_recognition: false
     epochs: 100
   - name: FallbackClassifier
-    threshold: 0.8
+    threshold: 0.95
     ambiguity_threshold: 0.1
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
   - name: MemoizationPolicy
+    max_history: 2
   - name: TEDPolicy
-    max_history: 1
+    max_history: 5
     epochs: 100
   - name: RulePolicy
+    enable_fallback_prediction: false

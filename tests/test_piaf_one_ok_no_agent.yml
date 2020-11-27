@@ -2,10 +2,10 @@ stories:
 - story: Full flow with PIAF 1 ok (on theme), go to agent (no good response)
   steps:
   - user: |
-     start
-    intent: get_started
+      /phrase_presentation
+    intent: phrase_presentation
   - action: utter_get_started
-  - action: action_send_themes
+  - action: action_send_tree
   - user: |
       /choose_theme{"theme":"N19806"}
     intent: choose_theme
@@ -17,7 +17,6 @@ stories:
   - slot_was_set:
     - ask_piaf_1: true
     - ask_piaf_1_ok: true
-    - ask_piaf_1_finish: true
   - action: utter_satisfaction
   - user: |
       /satisfaction_deny
@@ -30,19 +29,19 @@ stories:
   - slot_was_set:
     - ask_piaf_2: true
   - action: utter_rephrase_piaf_3
-  - action: action_send_sub_themes
+  - action: action_send_tree
   - user: |
       /choose_sub_theme{"sub_theme":"Contrats et carrière"}
     intent: choose_sub_theme
-  - action: action_send_directories
+  - action: action_send_tree
   - user: |
       /choose_directory{"directory":"N505"}
     intent: choose_directory
-  - action: action_send_sub_directories
+  - action: action_send_tree
   - user: |
       /choose_sub_directory{"sub_directory":"Déroulement de carrière"}
     intent: choose_sub_directory
-  - action: action_send_cards
+  - action: action_send_tree
   - action: utter_satisfaction
   - user: |
       /satisfaction_affirm
@@ -52,14 +51,15 @@ stories:
       /no_other_question
     intent: no_other_question
   - action: utter_goodbye_service_public
+  - action: action_restart
 
 - story: Full flow with PIAF 1 ok (on sub theme), go to agent (no good response)
   steps:
   - user: |
-     start
-    intent: get_started
+      /phrase_presentation
+    intent: phrase_presentation
   - action: utter_get_started
-  - action: action_send_themes
+  - action: action_send_tree
   - user: |
       /choose_theme{"theme":"N19806"}
     intent: choose_theme
@@ -71,14 +71,13 @@ stories:
   - slot_was_set:
     - ask_piaf_1: true
   - action: utter_rephrase_piaf_1
-  - action: action_send_sub_themes
+  - action: action_send_tree
   - user: |
       /choose_sub_theme{"sub_theme":"Contrats et carrière"}
     intent: choose_sub_theme
   - action: action_ask_piaf
   - slot_was_set:
     - ask_piaf_1_ok: true
-    - ask_piaf_1_finish: true
   - action: utter_satisfaction
   - user: |
       /satisfaction_deny
@@ -91,15 +90,15 @@ stories:
   - slot_was_set:
     - ask_piaf_2: true
   - action: utter_rephrase_piaf_3
-  - action: action_send_directories
+  - action: action_send_tree
   - user: |
       /choose_directory{"directory":"N505"}
     intent: choose_directory
-  - action: action_send_sub_directories
+  - action: action_send_tree
   - user: |
       /choose_sub_directory{"sub_directory":"Déroulement de carrière"}
     intent: choose_sub_directory
-  - action: action_send_cards
+  - action: action_send_tree
   - action: utter_satisfaction
   - user: |
       /satisfaction_affirm
@@ -109,14 +108,15 @@ stories:
       /no_other_question
     intent: no_other_question
   - action: utter_goodbye_service_public
+  - action: action_restart
 
 - story: Full flow with PIAF 1 ok (on directory), go to agent (no good response)
   steps:
   - user: |
-     start
-    intent: get_started
+      /phrase_presentation
+    intent: phrase_presentation
   - action: utter_get_started
-  - action: action_send_themes
+  - action: action_send_tree
   - user: |
       /choose_theme{"theme":"N19806"}
     intent: choose_theme
@@ -128,19 +128,18 @@ stories:
   - slot_was_set:
     - ask_piaf_1: true
   - action: utter_rephrase_piaf_1
-  - action: action_send_sub_themes
+  - action: action_send_tree
   - user: |
       /choose_sub_theme{"sub_theme":"Contrats et carrière"}
     intent: choose_sub_theme
   - action: action_ask_piaf
-  - action: action_send_directories
+  - action: action_send_tree
   - user: |
       /choose_directory{"directory":"N505"}
     intent: choose_directory
   - action: action_ask_piaf
   - slot_was_set:
     - ask_piaf_1_ok: true
-    - ask_piaf_1_finish: true
   - action: utter_satisfaction
   - user: |
       /satisfaction_deny
@@ -153,11 +152,11 @@ stories:
   - slot_was_set:
     - ask_piaf_2: true
   - action: utter_rephrase_piaf_3
-  - action: action_send_sub_directories
+  - action: action_send_tree
   - user: |
       /choose_sub_directory{"sub_directory":"Déroulement de carrière"}
     intent: choose_sub_directory
-  - action: action_send_cards
+  - action: action_send_tree
   - action: utter_satisfaction
   - user: |
       /satisfaction_affirm
@@ -167,3 +166,4 @@ stories:
       /no_other_question
     intent: no_other_question
   - action: utter_goodbye_service_public
+  - action: action_restart

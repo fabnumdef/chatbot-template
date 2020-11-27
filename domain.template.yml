@@ -32,18 +32,15 @@ slots:
   sub_directory:
     type: text
     influence_conversation: false
-  card:
-    type: text
-    influence_conversation: false
-  ask_piaf_1:
-    type: bool
-    initial_value: false
-    influence_conversation: false
-  ask_piaf_1_ok:
+  send_cards:
     type: bool
     initial_value: false
     influence_conversation: true
-  ask_piaf_1_finish:
+  ask_piaf_1:
+    type: bool
+    initial_value: false
+    influence_conversation: true
+  ask_piaf_1_ok:
     type: bool
     initial_value: false
     influence_conversation: true
@@ -99,11 +96,7 @@ responses:
 
 actions:
   - action_ask_piaf
-  - action_send_themes
-  - action_send_sub_themes
-  - action_send_directories
-  - action_send_sub_directories
-  - action_send_cards
+  - action_send_tree
 
 session_config:
   session_expiration_time: 60  # value in minutes
