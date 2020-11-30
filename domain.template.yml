@@ -59,9 +59,9 @@ responses:
   utter_ask_question:
     - text: "Vous pouvez à présent poser votre question :"
   utter_rephrase_piaf_1:
-    - text: "Je n'ai pas rouvé, pouvez-vous m'aider en choisissant un sous-thème ou en reformulant la question."
+    - text: "Je n'ai pas trouvé, pouvez-vous m'aider en choisissant un sous-thème ou en reformulant la question."
   utter_rephrase_piaf_2:
-    - text: "Réessayer en rephrasant la question et en posant une question d'une vingtaine de mots maximum."
+    - text: "Pour nous aider à trouver une meilleure réponse, veuillez poser la question différemment."
   utter_rephrase_piaf_3:
     - text: "Hmm je n'ai toujours pas trouvé ... nous allons chercher la fiche ensemble."
   utter_send_card:
@@ -94,10 +94,14 @@ responses:
           payload: "/no_ask_agent"
   utter_activate_text:
     - custom:
-        activate_text: True
+        data:
+          custom:
+            activate_text: True
   utter_deactivate_text:
     - custom:
-        activate_text: False
+        data:
+          custom:
+            activate_text: False
 
 
 actions:

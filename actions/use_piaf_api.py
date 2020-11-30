@@ -4,6 +4,8 @@ from rasa_sdk.executor import CollectingDispatcher
 from typing import Any, Text, Dict, List, Union
 from rasa_sdk.events import SlotSet, UserUttered
 
+proba_score = 0.5
+
 def ask_question_to_piaf(self,
                          dispatcher: CollectingDispatcher,
                          tracker: Tracker,
@@ -12,7 +14,7 @@ def ask_question_to_piaf(self,
     # update question string
     question = question.strip()
     last_char = question[-1]
-    if last_char == '?':
+    if last_char != '?':
         question = question + ' ?'
 
     theme = tracker.get_slot('theme')
@@ -48,31 +50,31 @@ def ask_question_to_piaf(self,
         link = response.get('meta').get('link')
         name = response.get('meta').get('name')
 
-        if probability >= 0.70:
-            if score is not None and score >= 0.70:
-                dispatcher.utter_message(f"J'ai trouvé la réponse suivante : \n {answer}")
+        if probability >= proba_score:
+            # if score is not None and score >= proba_score:
+            dispatcher.utter_message(f"J'ai trouvé la réponse suivante : \n {answer}")
 
             dispatcher.utter_message(f"Dans le corps de texte suivant : {context}")
-            dispatcher.utter_message(template = "utter_send_card", payload = link, title = name)
+            dispatcher.utter_message(template = "utter_send_card", payload = link, title = 'Voir la fiche')
     else:
         probability = 0
 
     # PIAF 1
     if (not tracker.get_slot('ask_piaf_1') or not tracker.get_slot('ask_piaf_1_ok')):
-        if probability >= 0.70:
+        if probability >= proba_score:
             return [SlotSet('ask_piaf_1', True), SlotSet('ask_piaf_1_ok', True), SlotSet('question', question)]
-        elif probability < 0.70 and not sub_theme:
+        elif probability < proba_score and not sub_theme:
             print('not sub theme')
             return [SlotSet('ask_piaf_1', True), SlotSet('question', question)]
-        elif probability < 0.70 and not directory:
+        elif probability < proba_score and not directory:
             print('not directory')
             return [SlotSet('ask_piaf_1', True), SlotSet('question', question)]
-        elif probability < 0.70 and directory:
+        elif probability < proba_score and directory:
             print('directory')
             return [SlotSet('ask_piaf_1', True), SlotSet('question', question)]
     # PIAF 2
     else:
-        if probability >= 0.70:
+        if probability >= proba_score:
             return [SlotSet('ask_piaf_2', True), SlotSet('ask_piaf_2_ok', True), SlotSet('question', question)]
         else:
             return [SlotSet('ask_piaf_2', True), SlotSet('question', question)]
