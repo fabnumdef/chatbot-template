@@ -92,6 +92,12 @@ responses:
           payload: "/ask_agent"
         - title: "Non"
           payload: "/no_ask_agent"
+  utter_activate_text:
+    - custom:
+        activate_text: True
+  utter_deactivate_text:
+    - custom:
+        activate_text: False
 
 
 actions:

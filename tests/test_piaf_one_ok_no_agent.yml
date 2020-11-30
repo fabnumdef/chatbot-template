@@ -4,15 +4,18 @@ stories:
   - user: |
       /phrase_presentation
     intent: phrase_presentation
+  - action: utter_deactivate_text
   - action: utter_get_started
   - action: action_send_tree
   - user: |
       /choose_theme{"theme":"N19806"}
     intent: choose_theme
   - action: utter_ask_question
+  - action: utter_activate_text
   - user: |
       Poulet
     intent: nlu_fallback
+  - action: utter_deactivate_text
   - action: action_ask_piaf
   - slot_was_set:
     - ask_piaf_1: true
@@ -22,9 +25,11 @@ stories:
       /satisfaction_deny
     intent: satisfaction_deny
   - action: utter_rephrase_piaf_2
+  - action: utter_activate_text
   - user: |
       Poulet
     intent: nlu_fallback
+  - action: utter_deactivate_text
   - action: action_ask_piaf
   - slot_was_set:
     - ask_piaf_2: true
@@ -58,15 +63,18 @@ stories:
   - user: |
       /phrase_presentation
     intent: phrase_presentation
+  - action: utter_deactivate_text
   - action: utter_get_started
   - action: action_send_tree
   - user: |
       /choose_theme{"theme":"N19806"}
     intent: choose_theme
   - action: utter_ask_question
+  - action: utter_activate_text
   - user: |
       Poulet
     intent: nlu_fallback
+  - action: utter_deactivate_text
   - action: action_ask_piaf
   - slot_was_set:
     - ask_piaf_1: true
@@ -83,9 +91,11 @@ stories:
       /satisfaction_deny
     intent: satisfaction_deny
   - action: utter_rephrase_piaf_2
+  - action: utter_activate_text
   - user: |
       Poulet
     intent: nlu_fallback
+  - action: utter_deactivate_text
   - action: action_ask_piaf
   - slot_was_set:
     - ask_piaf_2: true
@@ -115,15 +125,18 @@ stories:
   - user: |
       /phrase_presentation
     intent: phrase_presentation
+  - action: utter_deactivate_text
   - action: utter_get_started
   - action: action_send_tree
   - user: |
       /choose_theme{"theme":"N19806"}
     intent: choose_theme
   - action: utter_ask_question
+  - action: utter_activate_text
   - user: |
       Poulet
     intent: nlu_fallback
+  - action: utter_deactivate_text
   - action: action_ask_piaf
   - slot_was_set:
     - ask_piaf_1: true
@@ -145,9 +158,11 @@ stories:
       /satisfaction_deny
     intent: satisfaction_deny
   - action: utter_rephrase_piaf_2
+  - action: utter_activate_text
   - user: |
       Poulet
     intent: nlu_fallback
+  - action: utter_deactivate_text
   - action: action_ask_piaf
   - slot_was_set:
     - ask_piaf_2: true

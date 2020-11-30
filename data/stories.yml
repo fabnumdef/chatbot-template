@@ -4,11 +4,14 @@ stories:
   - story: get_started, PIAF 1
     steps:
       - intent: phrase_presentation
+      - action: utter_deactivate_text
       - action: utter_get_started
       - action: action_send_tree
       - intent: choose_theme
       - action: utter_ask_question
+      - action: utter_activate_text
       - intent: nlu_fallback
+      - action: utter_deactivate_text
       - action: action_ask_piaf
       - checkpoint: check_piaf_1
 
@@ -68,7 +71,9 @@ stories:
         - ask_piaf_1: true
         - ask_piaf_2: false
       - action: utter_rephrase_piaf_2
+      - action: utter_activate_text
       - intent: nlu_fallback
+      - action: utter_deactivate_text
       - action: action_ask_piaf
       - checkpoint: check_piaf_2
 
