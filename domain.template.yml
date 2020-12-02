@@ -10,6 +10,10 @@ slots:
   tree_id:
     type: text
     influence_conversation: false
+  tree_id_selected:
+    type: list
+    influence_conversation: false
+    initial_value: []
 
 actions:
   - action_send_tree

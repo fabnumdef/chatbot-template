@@ -9,6 +9,8 @@
 
 from typing import Any, Text, Dict, List, Union
 
+from rasa_sdk.events import SlotSet
+
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from actions.tree import return_tree
@@ -23,11 +25,17 @@ class ActionSendTree(Action):
             tracker: Tracker,
             domain: Dict[Text, Any],
         ) -> List[Dict]:
-        messages = return_tree(tracker.get_slot('tree_id'))
+        messages = return_tree(tracker.get_slot('tree_id'), tracker.get_slot('tree_id_selected'))
+
+        if tracker.get_slot('tree_id'):
+            tree_id_selected = tracker.get_slot('tree_id_selected') + [tracker.get_slot('tree_id')]
+        else:
+            tree_id_selected = tracker.get_slot('tree_id_selected')
+
         for message in messages:
             print (message)
             if 'buttons' in message:
                 dispatcher.utter_message(text = message['text'], buttons = message['buttons'])
             else:
                 dispatcher.utter_message(text = message['text'])
-        return []
+        return [SlotSet(key = "tree_id_selected", value = tree_id_selected)]
