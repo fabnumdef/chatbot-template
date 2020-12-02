@@ -6,22 +6,22 @@ with open('data/tree.json') as json_file:
 def return_tree(theme_id: str = None, sub_theme_id: str = None, directory_id: str = None, sub_directory_id: str = None):
     print('return item from tree : ', theme_id, sub_theme_id, directory_id, sub_directory_id)
     parent_item = data
-    search_attribute = 'id'
+    search_attribute = 'name'
     if theme_id:
-        parent_item = next((x for x in parent_item['data'] if x['id'] == theme_id), None)
-        search_attribute = 'name'
+        parent_item = next((x for x in parent_item['data'] if x['name'] == theme_id), None)
+        # search_attribute = 'name'
 
     if sub_theme_id:
         parent_item = next((x for x in parent_item['data'] if x['name'] == sub_theme_id), None)
-        search_attribute = 'id'
+        # search_attribute = 'id'
 
     if directory_id:
-        parent_item = next((x for x in parent_item['data'] if x['id'] == directory_id), None)
-        search_attribute = 'name'
+        parent_item = next((x for x in parent_item['data'] if x['name'] == directory_id), None)
+        # search_attribute = 'name'
 
     if sub_directory_id:
         parent_item = next((x for x in parent_item['data'] if x['name'] == sub_directory_id), None)
-        search_attribute = 'id'
+        # search_attribute = 'id'
 
     buttons = []
     text = ''
