@@ -56,6 +56,8 @@ slots:
 responses:
   utter_get_started:
     - text: "Bonjour, je suis le prototype de chatbot de service-public.fr. Toutes mes réponses sont automatisées, j'apprends actuellement à trouver la meilleure réponse à votre question."
+  utter_get_started_2:
+    - text: "Tout d'abord, veuillez sélectionner un thème sur lequel vous voulez poser une question"
   utter_ask_question:
     - text: "Vous pouvez à présent poser votre question :"
   utter_rephrase_piaf_1:

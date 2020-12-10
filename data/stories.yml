@@ -3,9 +3,11 @@ stories:
   # PIAF 1
   - story: get_started, PIAF 1
     steps:
+      - checkpoint: check_get_started
       - intent: phrase_presentation
       - action: utter_deactivate_text
       - action: utter_get_started
+      - action: utter_get_started_2
       - action: action_send_tree
       - intent: choose_theme
       - action: utter_ask_question
@@ -210,9 +212,4 @@ stories:
       - checkpoint: check_other_question
       - intent: other_question
       - action: action_restart
-#      - action: action_send_tree
-#      - intent: choose_theme
-#      - action: utter_ask_question
-#      - intent: nlu_fallback
-#      - action: action_ask_piaf
-#      - checkpoint: check_piaf_1
+      - checkpoint: check_get_started
