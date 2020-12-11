@@ -104,6 +104,11 @@ responses:
         data:
           custom:
             activate_text: False
+  utter_restart:
+    - custom:
+        data:
+          custom:
+            restart: True
 
 
 actions:

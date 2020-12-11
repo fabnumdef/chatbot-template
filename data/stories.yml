@@ -1,17 +1,11 @@
 version: "2.0"
 stories:
   # PIAF 1
-  - story: phrase_presentation
+  - story: get_started, PIAF 1
     steps:
       - intent: phrase_presentation
       - action: utter_deactivate_text
       - action: utter_get_started
-      - checkpoint: check_get_started
-
-  - story: get_started, PIAF 1
-    steps:
-      - checkpoint: check_get_started
-      - action: utter_deactivate_text
       - action: utter_get_started_2
       - action: action_send_tree
       - intent: choose_theme
@@ -217,4 +211,4 @@ stories:
       - checkpoint: check_other_question
       - intent: other_question
       - action: action_restart
-      - checkpoint: check_get_started
+      - action: utter_restart
