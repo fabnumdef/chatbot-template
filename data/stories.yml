@@ -9,3 +9,8 @@ stories:
     steps:
       - intent: send_tree
       - action: action_send_tree
+
+  - story: send full tree
+    steps:
+      - intent: send_full_tree
+      - action: action_send_full_tree

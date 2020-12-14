@@ -13,7 +13,7 @@ from rasa_sdk.events import SlotSet
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-from actions.tree import return_tree
+from actions.tree import return_tree, return_full_tree
 
 class ActionSendTree(Action):
     def name(self):
@@ -39,3 +39,17 @@ class ActionSendTree(Action):
             else:
                 dispatcher.utter_message(text = message['text'])
         return [SlotSet(key = "tree_id_selected", value = tree_id_selected)]
+
+class ActionSendFullTree(Action):
+    def name(self):
+        return "action_send_full_tree"
+
+    def run(
+            self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any],
+        ) -> List[Dict]:
+        data = return_full_tree()
+        dispatcher.utter_message(json_message  = data)
+        return []

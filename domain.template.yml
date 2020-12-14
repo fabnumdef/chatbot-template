@@ -5,6 +5,7 @@ intents:
   - nlu_fallback
   - phrase_presentation
   - send_tree
+  - send_full_tree
 
 slots:
   tree_id:
@@ -17,6 +18,7 @@ slots:
 
 actions:
   - action_send_tree
+  - action_send_full_tree
 
 session_config:
   session_expiration_time: 60  # value in minutes
