@@ -1,7 +1,5 @@
 import json
 
-root_id = "03240eb5-bc48-4c13-90e0-dcf79b442f08"
-
 with open('data/tree.json') as json_file:
     data = json.load(json_file)
 
@@ -9,7 +7,7 @@ def return_tree(item_id, tree_id_selected: list):
     print(item_id, tree_id_selected)
     messages = []
     if not item_id:
-        item_id = root_id
+        item_id = "03240eb5-bc48-4c13-90e0-dcf79b442f08"
     item = next((x for x in data if x['id'] == item_id), None)
     while True:
         print(item)
@@ -24,7 +22,7 @@ def return_tree(item_id, tree_id_selected: list):
 
     return messages
 
-def return_full_tree(id = root_id, messages = [], choices_proceeded = []):
+def return_full_tree(id, messages, choices_proceeded):
     print('return full tree')
     messages = messages + return_tree(id, [])
     choices_proceeded.append(id)

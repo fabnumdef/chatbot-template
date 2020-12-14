@@ -50,6 +50,6 @@ class ActionSendFullTree(Action):
             tracker: Tracker,
             domain: Dict[Text, Any],
         ) -> List[Dict]:
-        data = return_full_tree()
-        dispatcher.utter_message(json_message  = {'conversation': data})
+        data = return_full_tree(None, [], [])
+        dispatcher.utter_message(json_message  = {'data': {'custom': {'conversation': data}}})
         return []
