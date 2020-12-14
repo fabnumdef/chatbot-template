@@ -51,5 +51,5 @@ class ActionSendFullTree(Action):
             domain: Dict[Text, Any],
         ) -> List[Dict]:
         data = return_full_tree()
-        dispatcher.utter_message(json_message  = data)
+        dispatcher.utter_message(json_message  = {'conversation': data})
         return []
