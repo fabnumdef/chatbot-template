@@ -43,7 +43,7 @@ stories:
     - ask_piaf_2_ok: true
   - action: utter_satisfaction
   - user: |
-      /satisfaction_deny
+      /satisfaction_deny{"ask_piaf_1_ok": false, "ask_piaf_2_ok": false}
     intent: satisfaction_deny
   - action: utter_ask_agent
   - user: |
@@ -111,7 +111,7 @@ stories:
     - ask_piaf_2_ok: true
   - action: utter_satisfaction
   - user: |
-      /satisfaction_deny
+      /satisfaction_deny{"ask_piaf_1_ok": false, "ask_piaf_2_ok": false}
     intent: satisfaction_deny
   - action: utter_ask_agent
   - user: |

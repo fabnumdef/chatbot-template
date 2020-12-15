@@ -184,10 +184,8 @@ stories:
       - intent: choose_directory
       - action: action_ask_piaf
       - slot_was_set:
-          - ask_piaf_1: true
           - ask_piaf_1_ok: false
           - ask_piaf_2: false
-          - directory: true
       - checkpoint: begin_piaf_2
 
   # PIAF 2
@@ -363,26 +361,40 @@ stories:
       - checkpoint: check_satisfaction
 
   # SATISFACTION
-  - story: Handle Satisfcation OK
+  - story: Handle Satisfcation OK other question
     steps:
       - checkpoint: check_satisfaction
       - slot_was_set:
           - ask_piaf_1: true
       - intent: satisfaction_affirm
       - action: utter_other_question
-      - checkpoint: check_other_question
+      - intent: other_question
+      - action: action_restart
+      - action: utter_restart
+
+  - story: Handle Satisfcation OK no other question
+    steps:
+      - checkpoint: check_satisfaction
+      - slot_was_set:
+          - ask_piaf_1: true
+      - intent: satisfaction_affirm
+      - action: utter_other_question
+      - intent: no_other_question
+      - action: utter_goodbye_service_public
+      - action: action_restart
 
   - story: Handle Satisfcation NOT OK only PIAF 1
     steps:
       - checkpoint: check_satisfaction
       - slot_was_set:
           - ask_piaf_1: true
+          - directory: true
       - intent: satisfaction_deny
       - slot_was_set:
         - ask_piaf_2: false
       - checkpoint: begin_piaf_2
 
-  - story: Handle Satisfcation NOT OK only PIAF 1 & PIAF 2
+  - story: Handle Satisfcation NOT OK only PIAF 1 & PIAF 2 no ask agent
     steps:
       - checkpoint: check_satisfaction
       - slot_was_set:
@@ -391,32 +403,17 @@ stories:
       - slot_was_set:
         - ask_piaf_2: true
       - action: utter_ask_agent
-      - checkpoint: check_ask_agent
-
-  # CONTACT AGENT
-  - story: Handle NOT contact agent
-    steps:
-      - checkpoint: check_ask_agent
       - intent: no_ask_agent
       - action: utter_goodbye_service_public
 
-  - story: Handle contact agent
+  - story: Handle Satisfcation NOT OK only PIAF 1 & PIAF 2 ask agent
     steps:
-      - checkpoint: check_ask_agent
+      - checkpoint: check_satisfaction
+      - slot_was_set:
+          - ask_piaf_1: true
+      - intent: satisfaction_deny
+      - slot_was_set:
+          - ask_piaf_2: true
+      - action: utter_ask_agent
       - intent: ask_agent
       - action: utter_goodbye_service_public
-
-  # OTHER QUESTION
-  - story: Handle not other Question
-    steps:
-      - checkpoint: check_other_question
-      - intent: no_other_question
-      - action: utter_goodbye_service_public
-      - action: action_restart
-
-  - story: Handle Other Question
-    steps:
-      - checkpoint: check_other_question
-      - intent: other_question
-      - action: action_restart
-      - action: utter_restart

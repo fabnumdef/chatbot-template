@@ -35,6 +35,8 @@ stories:
   - user: |
       /choose_directory{"directory":"N505"}
     intent: choose_directory
+  - action: action_ask_piaf
+  - action: utter_rephrase_piaf_2
   - action: utter_activate_text
   - user: |
       Poulet
@@ -51,7 +53,7 @@ stories:
   - action: action_send_tree
   - action: utter_satisfaction
   - user: |
-      /satisfaction_deny
+      /satisfaction_deny{"ask_piaf_1_ok": false, "ask_piaf_2_ok": false}
     intent: satisfaction_deny
   - action: utter_ask_agent
   - user: |
@@ -90,8 +92,15 @@ stories:
     - ask_piaf_1_ok: true
   - action: utter_satisfaction
   - user: |
-      /satisfaction_deny
+      /satisfaction_deny{"ask_piaf_1_ok": false, "ask_piaf_2_ok": false}
     intent: satisfaction_deny
+  - action: action_send_tree
+  - user: |
+      /choose_directory{"directory":"N505"}
+    intent: choose_directory
+  - action: action_ask_piaf
+  - slot_was_set:
+      - ask_piaf_1_ok: false
   - action: utter_rephrase_piaf_2
   - action: utter_activate_text
   - user: |
@@ -113,7 +122,7 @@ stories:
   - action: action_send_tree
   - action: utter_satisfaction
   - user: |
-      /satisfaction_deny
+      /satisfaction_deny{"ask_piaf_1_ok": false, "ask_piaf_2_ok": false}
     intent: satisfaction_deny
   - action: utter_ask_agent
   - user: |
@@ -157,7 +166,7 @@ stories:
     - ask_piaf_1_ok: true
   - action: utter_satisfaction
   - user: |
-      /satisfaction_deny
+      /satisfaction_deny{"ask_piaf_1_ok": false, "ask_piaf_2_ok": false}
     intent: satisfaction_deny
   - action: utter_rephrase_piaf_2
   - action: utter_activate_text
@@ -176,7 +185,7 @@ stories:
   - action: action_send_tree
   - action: utter_satisfaction
   - user: |
-      /satisfaction_deny
+      /satisfaction_deny{"ask_piaf_1_ok": false, "ask_piaf_2_ok": false}
     intent: satisfaction_deny
   - action: utter_ask_agent
   - user: |
