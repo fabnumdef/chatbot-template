@@ -1,7 +1,7 @@
 version: "2.0"
 stories:
   # PIAF 1
-  - story: get_started, PIAF 1
+  - story: get_started, PIAF 1 theme ok
     steps:
       - intent: phrase_presentation
       - action: utter_deactivate_text
@@ -14,39 +14,175 @@ stories:
       - intent: nlu_fallback
       - action: utter_deactivate_text
       - action: action_ask_piaf
-      - checkpoint: check_piaf_1
+      - slot_was_set:
+          - ask_piaf_1: true
+          - ask_piaf_1_ok: true
+          - ask_piaf_2: false
+      - action: utter_satisfaction
+      - checkpoint: check_satisfaction
 
-  - story: Handle PIAF 1, THEME, NOT OK
+  - story: get_started, PIAF 1 theme ok but no satisfaction, sub theme ok
     steps:
-      - checkpoint: check_piaf_1
+      - intent: phrase_presentation
+      - action: utter_deactivate_text
+      - action: utter_get_started
+      - action: utter_get_started_2
+      - action: action_send_tree
+      - intent: choose_theme
+      - action: utter_ask_question
+      - action: utter_activate_text
+      - intent: nlu_fallback
+      - action: utter_deactivate_text
+      - action: action_ask_piaf
+      - slot_was_set:
+          - ask_piaf_1: true
+          - ask_piaf_1_ok: true
+          - ask_piaf_2: false
+      - action: utter_satisfaction
+      - intent: satisfaction_deny
+      - action: utter_rephrase_piaf_1
+      - action: action_send_tree
+      - intent: choose_sub_theme
+      - action: action_ask_piaf
+      - slot_was_set:
+          - ask_piaf_1: true
+          - ask_piaf_1_ok: true
+          - ask_piaf_2: false
+      - action: utter_satisfaction
+      - checkpoint: check_satisfaction
+
+  - story: get_started, PIAF 1 theme ok but no satisfaction, sub theme ok but no satisfaction
+    steps:
+      - intent: phrase_presentation
+      - action: utter_deactivate_text
+      - action: utter_get_started
+      - action: utter_get_started_2
+      - action: action_send_tree
+      - intent: choose_theme
+      - action: utter_ask_question
+      - action: utter_activate_text
+      - intent: nlu_fallback
+      - action: utter_deactivate_text
+      - action: action_ask_piaf
+      - slot_was_set:
+          - ask_piaf_1: true
+          - ask_piaf_1_ok: true
+          - ask_piaf_2: false
+      - action: utter_satisfaction
+      - intent: satisfaction_deny
+      - action: utter_rephrase_piaf_1
+      - action: action_send_tree
+      - intent: choose_sub_theme
+      - action: action_ask_piaf
+      - slot_was_set:
+          - ask_piaf_1: true
+          - ask_piaf_1_ok: true
+          - ask_piaf_2: false
+      - action: utter_satisfaction
+      - intent: satisfaction_deny
+      - action: action_send_tree
+      - intent: choose_directory
+      - action: action_ask_piaf
+      - slot_was_set:
+          - ask_piaf_1: true
+          - ask_piaf_1_ok: true
+          - ask_piaf_2: false
+      - action: utter_satisfaction
+      - checkpoint: check_satisfaction
+
+  - story: get_started, PIAF 1 sub-theme ok
+    steps:
+      - intent: phrase_presentation
+      - action: utter_deactivate_text
+      - action: utter_get_started
+      - action: utter_get_started_2
+      - action: action_send_tree
+      - intent: choose_theme
+      - action: utter_ask_question
+      - action: utter_activate_text
+      - intent: nlu_fallback
+      - action: utter_deactivate_text
+      - action: action_ask_piaf
       - slot_was_set:
           - ask_piaf_1: true
           - ask_piaf_1_ok: false
-          - ask_piaf_2: false
           - sub_theme: null
       - action: utter_rephrase_piaf_1
       - action: action_send_tree
       - intent: choose_sub_theme
       - action: action_ask_piaf
-      - checkpoint: check_piaf_1
+      - slot_was_set:
+          - ask_piaf_1: true
+          - ask_piaf_1_ok: true
+          - ask_piaf_2: false
+      - action: utter_satisfaction
+      - checkpoint: check_satisfaction
 
-  - story: Handle PIAF 1, SUB THEME, NOT OK
+  - story: get_started, PIAF 1 directory ok
     steps:
-      - checkpoint: check_piaf_1
+      - intent: phrase_presentation
+      - action: utter_deactivate_text
+      - action: utter_get_started
+      - action: utter_get_started_2
+      - action: action_send_tree
+      - intent: choose_theme
+      - action: utter_ask_question
+      - action: utter_activate_text
+      - intent: nlu_fallback
+      - action: utter_deactivate_text
+      - action: action_ask_piaf
       - slot_was_set:
           - ask_piaf_1: true
           - ask_piaf_1_ok: false
-          - ask_piaf_2: false
+          - sub_theme: null
+      - action: utter_rephrase_piaf_1
+      - action: action_send_tree
+      - intent: choose_sub_theme
+      - action: action_ask_piaf
+      - slot_was_set:
+          - ask_piaf_1: true
+          - ask_piaf_1_ok: false
           - sub_theme: true
           - directory: null
       - action: action_send_tree
       - intent: choose_directory
       - action: action_ask_piaf
-      - checkpoint: check_piaf_1
+      - slot_was_set:
+          - ask_piaf_1: true
+          - ask_piaf_1_ok: true
+          - ask_piaf_2: false
+      - action: utter_satisfaction
+      - checkpoint: check_satisfaction
 
-  - story: END PIAF 1, NOT OK
+  - story: get_started, PIAF 1 not OK
     steps:
-      - checkpoint: check_piaf_1
+      - intent: phrase_presentation
+      - action: utter_deactivate_text
+      - action: utter_get_started
+      - action: utter_get_started_2
+      - action: action_send_tree
+      - intent: choose_theme
+      - action: utter_ask_question
+      - action: utter_activate_text
+      - intent: nlu_fallback
+      - action: utter_deactivate_text
+      - action: action_ask_piaf
+      - slot_was_set:
+          - ask_piaf_1: true
+          - ask_piaf_1_ok: false
+          - sub_theme: null
+      - action: utter_rephrase_piaf_1
+      - action: action_send_tree
+      - intent: choose_sub_theme
+      - action: action_ask_piaf
+      - slot_was_set:
+          - ask_piaf_1: true
+          - ask_piaf_1_ok: false
+          - sub_theme: true
+          - directory: null
+      - action: action_send_tree
+      - intent: choose_directory
+      - action: action_ask_piaf
       - slot_was_set:
           - ask_piaf_1: true
           - ask_piaf_1_ok: false
@@ -54,18 +190,8 @@ stories:
           - directory: true
       - checkpoint: begin_piaf_2
 
-  - story: Handle PIAF 1 OK
-    steps:
-      - checkpoint: check_piaf_1
-      - slot_was_set:
-        - ask_piaf_1: true
-        - ask_piaf_1_ok: true
-        - ask_piaf_2: false
-      - action: utter_satisfaction
-      - checkpoint: check_satisfaction
-
   # PIAF 2
-  - story: Begin PIAF 2
+  - story: PIAF 2 Ok
     steps:
       - checkpoint: begin_piaf_2
       - slot_was_set:
@@ -76,37 +202,123 @@ stories:
       - intent: nlu_fallback
       - action: utter_deactivate_text
       - action: action_ask_piaf
-      - checkpoint: check_piaf_2
-
-  - story: Handle PIAF 2 NOT OK, sub theme & directory
-    steps:
-      - checkpoint: check_piaf_2
       - slot_was_set:
-        - ask_piaf_2: true
-        - ask_piaf_2_ok: false
-        - directory: true
-        - send_cards: false
+          - ask_piaf_2: true
+          - ask_piaf_2_ok: true
+      - action: utter_satisfaction
+      - checkpoint: check_satisfaction
+
+  - story: PIAF 2 not ok, sub theme & directory & sub dir
+    steps:
+      - checkpoint: begin_piaf_2
+      - slot_was_set:
+        - ask_piaf_1: true
+        - ask_piaf_2: false
+      - action: utter_rephrase_piaf_2
+      - action: utter_activate_text
+      - intent: nlu_fallback
+      - action: utter_deactivate_text
+      - action: action_ask_piaf
+      - slot_was_set:
+          - ask_piaf_2: true
+          - ask_piaf_2_ok: false
+          - directory: true
+          - send_cards: false
       - action: utter_rephrase_piaf_3
       - action: action_send_tree
-      - checkpoint: check_send_cards
-
-  - story: Handle PIAF 2 NOT OK, sub theme & not directory
-    steps:
-      - checkpoint: check_piaf_2
       - slot_was_set:
-        - ask_piaf_2: true
-        - ask_piaf_2_ok: false
-        - sub_theme: true
-        - directory: null
+          - send_cards: false
+      - intent: choose_sub_directory
+      - action: action_send_tree
+      - action: utter_satisfaction
+      - checkpoint: check_satisfaction
+
+  - story: PIAF 2 not ok, sub theme & directory & cards
+    steps:
+      - checkpoint: begin_piaf_2
+      - slot_was_set:
+        - ask_piaf_1: true
+        - ask_piaf_2: false
+      - action: utter_rephrase_piaf_2
+      - action: utter_activate_text
+      - intent: nlu_fallback
+      - action: utter_deactivate_text
+      - action: action_ask_piaf
+      - slot_was_set:
+          - ask_piaf_2: true
+          - ask_piaf_2_ok: false
+          - directory: true
+          - send_cards: false
+      - action: utter_rephrase_piaf_3
+      - action: action_send_tree
+      - slot_was_set:
+          - send_cards: true
+      - action: utter_satisfaction
+      - checkpoint: check_satisfaction
+
+  - story: PIAF 2 not ok, sub theme & not directory & sub dir
+    steps:
+      - checkpoint: begin_piaf_2
+      - slot_was_set:
+        - ask_piaf_1: true
+        - ask_piaf_2: false
+      - action: utter_rephrase_piaf_2
+      - action: utter_activate_text
+      - intent: nlu_fallback
+      - action: utter_deactivate_text
+      - action: action_ask_piaf
+      - slot_was_set:
+          - ask_piaf_2: true
+          - ask_piaf_2_ok: false
+          - sub_theme: true
+          - directory: null
       - action: utter_rephrase_piaf_3
       - action: action_send_tree
       - intent: choose_directory
       - action: action_send_tree
-      - checkpoint: check_send_cards
+      - slot_was_set:
+          - send_cards: false
+      - intent: choose_sub_directory
+      - action: action_send_tree
+      - action: utter_satisfaction
+      - checkpoint: check_satisfaction
 
-  - story: Handle PIAF 2 NOT OK, not sub theme & not directory
+  - story: PIAF 2 not ok, sub theme & not directory & cards
     steps:
-      - checkpoint: check_piaf_2
+      - checkpoint: begin_piaf_2
+      - slot_was_set:
+        - ask_piaf_1: true
+        - ask_piaf_2: false
+      - action: utter_rephrase_piaf_2
+      - action: utter_activate_text
+      - intent: nlu_fallback
+      - action: utter_deactivate_text
+      - action: action_ask_piaf
+      - slot_was_set:
+          - ask_piaf_2: true
+          - ask_piaf_2_ok: false
+          - sub_theme: true
+          - directory: null
+      - action: utter_rephrase_piaf_3
+      - action: action_send_tree
+      - intent: choose_directory
+      - action: action_send_tree
+      - slot_was_set:
+          - send_cards: true
+      - action: utter_satisfaction
+      - checkpoint: check_satisfaction
+
+  - story: PIAF 2 not ok, not sub theme & not directory & sub dir
+    steps:
+      - checkpoint: begin_piaf_2
+      - slot_was_set:
+        - ask_piaf_1: true
+        - ask_piaf_2: false
+      - action: utter_rephrase_piaf_2
+      - action: utter_activate_text
+      - intent: nlu_fallback
+      - action: utter_deactivate_text
+      - action: action_ask_piaf
       - slot_was_set:
           - ask_piaf_2: true
           - ask_piaf_2_ok: false
@@ -117,36 +329,36 @@ stories:
       - action: action_send_tree
       - intent: choose_directory
       - action: action_send_tree
-      - checkpoint: check_send_cards
-
-  - story: Handle sub dir & cards
-    steps:
-      - checkpoint: check_send_cards
       - slot_was_set:
-          - ask_piaf_2: true
-          - ask_piaf_2_ok: false
-          - directory: true
+          - send_cards: false
       - intent: choose_sub_directory
       - action: action_send_tree
       - action: utter_satisfaction
       - checkpoint: check_satisfaction
 
-  - story: Handle only cards
+  - story: PIAF 2 not ok, not sub theme & not directory & cards
     steps:
-      - checkpoint: check_send_cards
+      - checkpoint: begin_piaf_2
+      - slot_was_set:
+        - ask_piaf_1: true
+        - ask_piaf_2: false
+      - action: utter_rephrase_piaf_2
+      - action: utter_activate_text
+      - intent: nlu_fallback
+      - action: utter_deactivate_text
+      - action: action_ask_piaf
       - slot_was_set:
           - ask_piaf_2: true
           - ask_piaf_2_ok: false
-          - send_cards: true
-      - action: utter_satisfaction
-      - checkpoint: check_satisfaction
-
-  - story: Handle PIAF 2 OK
-    steps:
-      - checkpoint: check_piaf_2
+          - sub_theme: null
+      - action: utter_rephrase_piaf_3
+      - action: action_send_tree
+      - intent: choose_sub_theme
+      - action: action_send_tree
+      - intent: choose_directory
+      - action: action_send_tree
       - slot_was_set:
-          - ask_piaf_2: true
-          - ask_piaf_2_ok: true
+          - send_cards: true
       - action: utter_satisfaction
       - checkpoint: check_satisfaction
 
@@ -160,27 +372,23 @@ stories:
       - action: utter_other_question
       - checkpoint: check_other_question
 
-  - story: Handle Satisfcation NOT OK
+  - story: Handle Satisfcation NOT OK only PIAF 1
     steps:
       - checkpoint: check_satisfaction
       - slot_was_set:
           - ask_piaf_1: true
       - intent: satisfaction_deny
-      - checkpoint: check_piaf_flow
-
-  - story: Handle Satisfcation NOT OK only PIAF 1 and sub theme and directory
-    steps:
-      - checkpoint: check_piaf_flow
       - slot_was_set:
-        - ask_piaf_1: true
         - ask_piaf_2: false
-      - checkpoint: check_piaf_1
+      - checkpoint: begin_piaf_2
 
-  - story: Handle Satisfcation NOT OK, PIAF 1 & PIAF 2
+  - story: Handle Satisfcation NOT OK only PIAF 1 & PIAF 2
     steps:
-      - checkpoint: check_piaf_flow
+      - checkpoint: check_satisfaction
       - slot_was_set:
-        - ask_piaf_1: true
+          - ask_piaf_1: true
+      - intent: satisfaction_deny
+      - slot_was_set:
         - ask_piaf_2: true
       - action: utter_ask_agent
       - checkpoint: check_ask_agent

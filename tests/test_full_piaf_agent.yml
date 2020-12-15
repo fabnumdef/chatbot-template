@@ -6,6 +6,7 @@ stories:
     intent: phrase_presentation
   - action: utter_deactivate_text
   - action: utter_get_started
+  - action: utter_get_started_2
   - action: action_send_tree
   - user: |
       /choose_theme{"theme":"N19806"}
@@ -35,7 +36,7 @@ stories:
   - user: |
       Poulet
     intent: nlu_fallback
-  - action: utter_activate_text
+  - action: utter_deactivate_text
   - action: action_ask_piaf
   - slot_was_set:
     - ask_piaf_2: true
@@ -57,6 +58,7 @@ stories:
     intent: phrase_presentation
   - action: utter_deactivate_text
   - action: utter_get_started
+  - action: utter_get_started_2
   - action: action_send_tree
   - user: |
       /choose_theme{"theme":"N19806"}

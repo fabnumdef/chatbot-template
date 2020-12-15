@@ -6,6 +6,7 @@ stories:
     intent: phrase_presentation
   - action: utter_deactivate_text
   - action: utter_get_started
+  - action: utter_get_started_2
   - action: action_send_tree
   - user: |
       /choose_theme{"theme":"N19806"}
@@ -22,9 +23,18 @@ stories:
     - ask_piaf_1_ok: true
   - action: utter_satisfaction
   - user: |
-      /satisfaction_deny
+      /satisfaction_deny{"ask_piaf_1_ok": false, "ask_piaf_2_ok": false}
     intent: satisfaction_deny
-  - action: utter_rephrase_piaf_2
+  - action: utter_rephrase_piaf_1
+  - action: action_send_tree
+  - user: |
+      /choose_sub_theme{"sub_theme":"Contrats et carrière"}
+    intent: choose_sub_theme
+  - action: action_ask_piaf
+  - action: action_send_tree
+  - user: |
+      /choose_directory{"directory":"N505"}
+    intent: choose_directory
   - action: utter_activate_text
   - user: |
       Poulet
@@ -34,14 +44,6 @@ stories:
   - slot_was_set:
     - ask_piaf_2: true
   - action: utter_rephrase_piaf_3
-  - action: action_send_tree
-  - user: |
-      /choose_sub_theme{"sub_theme":"Contrats et carrière"}
-    intent: choose_sub_theme
-  - action: action_send_tree
-  - user: |
-      /choose_directory{"directory":"N505"}
-    intent: choose_directory
   - action: action_send_tree
   - user: |
       /choose_sub_directory{"sub_directory":"Déroulement de carrière"}
@@ -64,6 +66,7 @@ stories:
     intent: phrase_presentation
   - action: utter_deactivate_text
   - action: utter_get_started
+  - action: utter_get_started_2
   - action: action_send_tree
   - user: |
       /choose_theme{"theme":"N19806"}
@@ -125,6 +128,7 @@ stories:
     intent: phrase_presentation
   - action: utter_deactivate_text
   - action: utter_get_started
+  - action: utter_get_started_2
   - action: action_send_tree
   - user: |
       /choose_theme{"theme":"N19806"}

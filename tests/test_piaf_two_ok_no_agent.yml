@@ -6,6 +6,7 @@ stories:
     intent: phrase_presentation
   - action: utter_deactivate_text
   - action: utter_get_started
+  - action: utter_get_started_2
   - action: action_send_tree
   - user: |
       /choose_theme{"theme":"N19806"}
