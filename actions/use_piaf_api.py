@@ -60,7 +60,7 @@ def ask_question_to_piaf(self,
         probability = 0
 
     # PIAF 1
-    if (not tracker.get_slot('ask_piaf_1') or not tracker.get_slot('ask_piaf_1_ok')):
+    if not tracker.get_slot('ask_piaf_1') or (not tracker.get_slot('ask_piaf_1_ok') and not theme and not sub_theme and not directory):
         if probability >= proba_score:
             return [SlotSet('ask_piaf_1', True), SlotSet('ask_piaf_1_ok', True), SlotSet('question', question)]
         elif probability < proba_score and not sub_theme:
@@ -78,6 +78,5 @@ def ask_question_to_piaf(self,
             return [SlotSet('ask_piaf_2', True), SlotSet('ask_piaf_2_ok', True), SlotSet('question', question)]
         else:
             return [SlotSet('ask_piaf_2', True), SlotSet('question', question)]
-
 
     return []

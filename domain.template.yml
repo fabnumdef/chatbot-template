@@ -77,7 +77,7 @@ responses:
         - title: "Oui"
           payload: "/satisfaction_affirm"
         - title: "Non"
-          payload: "/satisfaction_deny"
+          payload: "/satisfaction_deny{'ask_piaf_1_ok': False, 'ask_piaf_2_ok': False}"
   utter_other_question:
     - text: "Avez-vous une autre question ?"
       buttons:

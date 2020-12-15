@@ -168,13 +168,13 @@ stories:
       - intent: satisfaction_deny
       - checkpoint: check_piaf_flow
 
-  - story: Handle Satisfcation NOT OK only PIAF 1
+  - story: Handle Satisfcation NOT OK only PIAF 1 and sub theme and directory
     steps:
       - checkpoint: check_piaf_flow
       - slot_was_set:
         - ask_piaf_1: true
         - ask_piaf_2: false
-      - checkpoint: begin_piaf_2
+      - checkpoint: check_piaf_1
 
   - story: Handle Satisfcation NOT OK, PIAF 1 & PIAF 2
     steps:
