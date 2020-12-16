@@ -11,7 +11,7 @@ def return_tree(item_id, tree_id_selected: list):
     item = next((x for x in data if x['id'] == item_id), None)
     while True:
         print(item)
-        if 'name' in item:
+        if 'name' in item and item['name']:
             messages.append(generate_message(item, tree_id_selected))
 
         if 'choices' in item and messages:
