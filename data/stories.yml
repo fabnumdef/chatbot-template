@@ -1,16 +1,16 @@
 version: "2.0"
-stories:
-  - story: get_started
+rules:
+  - rule: get_started
     steps:
       - intent: phrase_presentation
       - action: action_send_tree
 
-  - story: send tree
+  - rule: send tree
     steps:
       - intent: send_tree
       - action: action_send_tree
 
-  - story: send full tree
+  - rule: send full tree
     steps:
       - intent: send_full_tree
       - action: action_send_full_tree
