@@ -1,292 +1,350 @@
 [
   {
     "type": "Text",
-    "id": "03240eb5-bc48-4c13-90e0-dcf79b442f08",
+    "id": "ad5ec647-5352-4414-b602-24a4293773d0",
     "actor": "",
-    "name": "Bonjour, je suis un chatbot.",
-    "next": "601e1f16-22dc-4665-b4bc-dbe6a7cb8d03"
+    "name": "Certaines personnes ont plus de risques de développer des symptômes graves de la Covid-19 mais les effets graves ou chroniques de la maladie peuvent survenir à tout âge et quelle que soit notre condition physique. Les formes graves de la maladie sont associées au <ahref: \"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7127800/\" >syndrome de détresse respiratoire aigüe</a> et à <ahref: \"https://www.nature.com/articles/s41569-020-0413-9\" >des séquelles cardiovasculaires</a> ou <ahref: \"https://www.nejm.org/doi/full/10.1056/NEJMc2008597\" >neurologiques telles que l'encéphalopathie</a> (une inflammation du cerveau). ",
+    "next": "2e458d1e-9de7-4d0f-8feb-171d0265efdc"
+  },
+  {
+    "type": "Choice",
+    "id": "226c89fd-26ca-46e6-bea2-9edc395b5284",
+    "title": "1#mini",
+    "name": "La Covid-19 est-elle vraiment dangereuse en général ?",
+    "next": "4a2a14cb-17fd-465a-9ca6-1f0a412756b1"
   },
   {
     "type": "Text",
-    "id": "601e1f16-22dc-4665-b4bc-dbe6a7cb8d03",
+    "id": "2e458d1e-9de7-4d0f-8feb-171d0265efdc",
     "actor": "",
-    "name": "Avez-vous des questions sur le futur vaccin pour la COVID-19 ?\n",
-    "next": "b940f6db-fec4-4be2-a3cd-af91b7500718"
+    "name": "Par ailleurs, un certain nombre de personnes qui n’ont pourtant pas développé une forme grave de la maladie ont des troubles chroniques, comme une fatigue persistante, des troubles respiratoires et une perte durable du goût et de l’odorat. ",
+    "next": "1f1b4666-15f4-4e3e-828c-8d74683f7fdb"
   },
   {
     "type": "Text",
-    "id": "b940f6db-fec4-4be2-a3cd-af91b7500718",
+    "id": "1f1b4666-15f4-4e3e-828c-8d74683f7fdb",
+    "actor": "",
+    "name": "De plus, la plupart des vaccins jouent aussi un rôle majeur pour stopper la propagation des virus. En se vaccinant, on se protège des maladies mais on protège aussi les autres parce qu’on bloque la circulation des virus. ",
+    "next": "882d5674-8510-42c1-960e-778d92026eee"
+  },
+  {
+    "type": "Text",
+    "id": "882d5674-8510-42c1-960e-778d92026eee",
+    "actor": "",
+    "name": "Dans le cas des vaccins Covid-19, les scientifiques travaillent encore pour savoir à quel point ces vaccins sont efficaces pour bloquer la transmission. Ce que l’on sait aujourd’hui, c’est que les vaccins contre la Covid-19 sont efficaces pour se protéger soi. Il faut attendre de nouvelles données pour savoir à quel point ces vaccins permettront aussi de bloquer la circulation du virus.",
+    "next": "811e8809-3bcf-481b-9b6a-312be4b35b58"
+  },
+  {
+    "type": "Text",
+    "id": "811e8809-3bcf-481b-9b6a-312be4b35b58",
+    "actor": "",
+    "name": "Enfin, l’enjeu est également de protéger le système de santé. En se protégeant des formes graves, chaque personne vaccinée participe à la protection du système de santé. ",
+    "next": "29ed5de5-3b6d-40ce-95b0-6bbedb772465"
+  },
+  {
+    "type": "Text",
+    "id": "29ed5de5-3b6d-40ce-95b0-6bbedb772465",
     "actor": "",
     "name": "",
     "choices": [
-      "53fe8e90-bacc-43a1-8147-10bbc7c061d9",
-      "546f0bce-643c-4ae7-afe9-e16d0c06aaa2"
+      "226c89fd-26ca-46e6-bea2-9edc395b5284",
+      "69edbb8f-7ee2-4fdd-8bb0-2b3b51459595",
+      "9d788efa-3c93-49f6-94ff-68776b0988d8"
     ]
   },
   {
     "type": "Choice",
-    "id": "53fe8e90-bacc-43a1-8147-10bbc7c061d9",
-    "title": "efficacy_main",
-    "name": "Sera-t-il efficace ?",
-    "next": "ef8cd45e-ee29-409f-af79-b28f045f4f74"
+    "id": "69edbb8f-7ee2-4fdd-8bb0-2b3b51459595",
+    "title": "2#mini",
+    "name": "La Covid-19 est-elle dangereuse pour moi ?",
+    "next": "88973cf8-3864-44a9-a9f2-f16f2c8c8b29"
   },
   {
     "type": "Choice",
-    "id": "546f0bce-643c-4ae7-afe9-e16d0c06aaa2",
-    "title": "production_main",
-    "name": "Peut-on faire confiance à ceux qui vont le produire?",
-    "next": "f72c44a7-1bac-413c-9bfd-c058cf87c9c7"
+    "id": "9d788efa-3c93-49f6-94ff-68776b0988d8",
+    "title": "3#mini",
+    "name": " D’autres modes de protection ne sont-ils pas préférables ?",
+    "next": "f0146e7a-e96e-41dc-b399-d9b8422bd8af"
   },
   {
     "type": "Text",
-    "id": "ef8cd45e-ee29-409f-af79-b28f045f4f74",
+    "id": "4a2a14cb-17fd-465a-9ca6-1f0a412756b1",
     "actor": "",
-    "name": "Les scientifiques du monde entier se mobilisent pour créer et tester un vaccin sûr et efficace contre le Sars-CoV-2. De nombreux vaccins sont à l’étude dans les laboratoires du monde entier, à différentes étapes de développement.",
-    "next": "d08b017c-ffe3-4f19-ad30-aff456b42b86"
+    "name": "Même pour les jeunes, la Covid-19 n’est pas toujours une maladie anodine. C'est la maladie infectieuse la plus meurtrière en Occident depuis des décennies. En moins d’un an, plus d’un million et demi de personnes sont mortes dans le monde à cause de la Covid-19. ",
+    "next": "5e2a43c4-6f83-4433-a25f-38a20857bdc5"
   },
   {
     "type": "Text",
-    "id": "d08b017c-ffe3-4f19-ad30-aff456b42b86",
+    "id": "5e2a43c4-6f83-4433-a25f-38a20857bdc5",
     "actor": "",
-    "name": "Les futurs vaccins seront testés de manière intensive avant leur mise sur le marché. Les essais chez l'homme se déroulent en 3 phases. La phase I consiste à tester l'absence de toxicité de la préparation chez un petit nombre de volontaires sains non exposés au virus.",
-    "next": "ab74ffcf-73c9-4e5b-af7a-28bec255bb89"
+    "name": "Le coronavirus a un taux de contamination très élevé et est <ahref: \"https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-disease-2019-vs-the-flu\" >10 fois</a> plus meurtrier que la <ahref: \"https://medium.com/microbial-instincts/clarifying-the-true-fatality-rate-of-covid-19-same-as-the-flu-8148e38b9ab5\" >grippe</a>. ",
+    "next": "fd5d3b4d-b271-40db-b14a-52e7415af0fc"
   },
   {
     "type": "Text",
-    "id": "ab74ffcf-73c9-4e5b-af7a-28bec255bb89",
+    "id": "fd5d3b4d-b271-40db-b14a-52e7415af0fc",
     "actor": "",
-    "name": "La phase III teste l'efficacité réelle de la vaccination chez plusieurs milliers de volontaires dont le mode de vie comporte des risques élevés de contamination. Une partie d'entre eux recevra un placebo, une autre le vaccin. L’efficacité du vaccin est mesurée en comparant le nombre de nouveaux cas d'infection apparus chez les vrais et les faux vaccinés.",
-    "next": "9b7f0bb6-ec20-4d5e-ab3d-285e107a9135"
+    "name": "Les symptômes les plus courants sont des troubles respiratoires, de la fièvre, une toux, un essoufflement et des difficultés respiratoires. La perte du goût et de l’odorat est fréquemment observée, et de nombreux patients présentent des problèmes pulmonaires et <ahref: \"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7351410/\" >cardiaques</a>. Dans les cas plus graves, l’infection peut entraîner une pneumonie, un syndrome respiratoire aigu sévère, une insuffisance rénale, et la mort. De plus, de nombreuses <ahref: \"https://www.vidal.fr/actualites/25119/covid_19_quelles_sequelles_a_long_terme_l_experience_du_sras_et_du_mers/\" >séquelles persistent à long-terme</a>. Certains patients rapportent par exemple des symptômes handicapants d’épuisement et d'essoufflement, des douleurs articulaires, ou encore des récidives de perte d’odorat et de goût. ",
+    "next": "d1d34bc6-69e5-4e49-b8db-6c700e5456db"
   },
   {
     "type": "Text",
-    "id": "9b7f0bb6-ec20-4d5e-ab3d-285e107a9135",
-    "actor": "",
-    "name": "Début octobre, la France a fait appel à 25.000 volontaires pour évaluer l’efficacité de ces vaccins à grande échelle. Les données sur la protection qu’ils procurent contre la COVID-19 seront accessibles par le public. ",
-    "next": "aa58fb5e-1bc6-49a1-8080-d4c26c70e604"
-  },
-  {
-    "type": "Text",
-    "id": "aa58fb5e-1bc6-49a1-8080-d4c26c70e604",
+    "id": "d1d34bc6-69e5-4e49-b8db-6c700e5456db",
     "actor": "",
     "name": "",
     "choices": [
-      "fbe55233-ff02-4514-8eb3-b5ba075db41e",
-      "745d66d3-4601-4516-b483-bf2df9b45e2c",
-      "68689d33-aedf-4e8c-8c4b-6b170096ea18",
-      "22294ea0-e49c-4c6d-95e6-95333dac41c1"
-    ]
-  },
-  {
-    "type": "Choice",
-    "id": "fbe55233-ff02-4514-8eb3-b5ba075db41e",
-    "title": "efficacy_1_general",
-    "name": "Comment ça marche un vaccin ? Les vaccins sont-ils efficaces en général ?",
-    "next": "9f0b8c62-ca8e-4617-bdd9-116856e0bb10"
-  },
-  {
-    "type": "Choice",
-    "id": "745d66d3-4601-4516-b483-bf2df9b45e2c",
-    "title": "efficacy_2_connaissance",
-    "name": "On ne connaît pas assez cette maladie pour élaborer un vaccin efficace\n",
-    "next": "c55caa85-0215-4132-9b9b-7d4d006a5eb9"
-  },
-  {
-    "type": "Choice",
-    "id": "22294ea0-e49c-4c6d-95e6-95333dac41c1",
-    "title": "efficacy_3_recul",
-    "name": "On n’aura pas assez de recul sur le vaccin",
-    "next": "413f9a1f-a401-44e3-aaaf-da396fe1b294"
-  },
-  {
-    "type": "Text",
-    "id": "9f0b8c62-ca8e-4617-bdd9-116856e0bb10",
-    "actor": "",
-    "name": "Lorsque nous rencontrons un microbe et tombons malade, notre système immunitaire se défend en fabricant des anticorps, destinés à neutraliser et éliminer ce microbe. La vaccination fonctionne de la même manière, tout en évitant les dangers liés à la maladie. \n",
-    "next": "d92fd049-7964-4c49-88f1-77dfb7b6d066"
-  },
-  {
-    "type": "Text",
-    "id": "d92fd049-7964-4c49-88f1-77dfb7b6d066",
-    "actor": "",
-    "name": "Lorsque nous recevons un vaccin, un microbe rendu inoffensif est introduit dans notre corps. Il ne nous rend pas malade, mais notre système immunitaire fabrique quand même des anticorps pour le neutraliser et l’éliminer. Si nous rencontrons un jour le vrai microbe, notre système immunitaire le reconnaîtra tout de suite et l’éliminera avant qu’il ne puisse nous rendre malade.",
-    "next": "13b1b69a-fd81-41a8-ae6b-169c9e81fe12"
-  },
-  {
-    "type": "Text",
-    "id": "13b1b69a-fd81-41a8-ae6b-169c9e81fe12",
-    "actor": "",
-    "name": "Lorsqu’une proportion suffisante de la population est vaccinée (pour le Sars-CoV-2, cette proportion devra être de XX% (source), les vaccins protègent efficacement la population. En France, l’efficacité des vaccins obligatoires comme la polio ou la rougeole dépasse 97%.\n",
-    "next": "d048143b-a6df-4a39-adc6-18b1556c6572"
-  },
-  {
-    "type": "Text",
-    "id": "d048143b-a6df-4a39-adc6-18b1556c6572",
-    "actor": "",
-    "name": "",
-    "choices": [
-      "850da3dc-2dd8-47ac-a3e5-a8d98f099674",
-      "7b1a18f7-1403-484d-abd8-82c12b1821bb",
-      "3f3bcf3a-cecd-4ee2-8f10-fcaef3f9c484",
-      "c437c35b-1215-4f3f-b8ea-380dfc9dd24b"
-    ]
-  },
-  {
-    "type": "Choice",
-    "id": "850da3dc-2dd8-47ac-a3e5-a8d98f099674",
-    "title": "efficacy_1_1_useless",
-    "name": "Les vaccins en général sont inutiles",
-    "next": "b4a45787-65b8-4cb6-b022-d1b07dcd9307"
-  },
-  {
-    "type": "Choice",
-    "id": "7b1a18f7-1403-484d-abd8-82c12b1821bb",
-    "title": "efficacy_1_2_placebo",
-    "name": "Les vaccins ne sont qu’un effet placébo\n",
-    "next": "e8fe294a-84d1-4ff1-befc-1dd2dcc155f2"
-  },
-  {
-    "type": "Choice",
-    "id": "c437c35b-1215-4f3f-b8ea-380dfc9dd24b",
-    "title": "efficacy_1_3_sanitation",
-    "name": "Ce ne sont pas les vaccins qui ont fait disparaître ces maladies, ce sont le progrès médical et l’hygiène",
-    "next": "6e1bb66a-4dba-4116-b944-208171c3e676"
-  },
-  {
-    "type": "Text",
-    "id": "b4a45787-65b8-4cb6-b022-d1b07dcd9307",
-    "actor": "",
-    "name": "Les vaccins ont été une grande source de progrès médical, et ont permis d’augmenter l’espérance de vie. Selon l’Organisation mondiale de la Santé, la vaccination sauve la vie de 2 millions de personnes chaque année dans le monde. De nombreuses études scientifiques ont prouvé l’efficacité des vaccins, en les comparant lors d’essais cliniques à des placebos.\n",
-    "next": "f0238fd3-d31d-4388-b10a-d6c6cbb0d9fc"
-  },
-  {
-    "type": "Text",
-    "id": "f0238fd3-d31d-4388-b10a-d6c6cbb0d9fc",
-    "actor": "",
-    "name": "La vaccination contre le virus de la rougeole a permis d’éviter 11 500 décès, 16 800 encéphalites, 5 000 séquelles neurologiques, 590 000 pneumonies et 1,4 million d’otites sur 35 ans.",
-    "next": "d048143b-a6df-4a39-adc6-18b1556c6572"
-  },
-  {
-    "type": "Text",
-    "id": "e8fe294a-84d1-4ff1-befc-1dd2dcc155f2",
-    "actor": "",
-    "name": "La vaccination consiste à administrer à un individu en bonne santé une forme atténuée ou inactivée d’un virus. Une réaction immunitaire se déclenche, qui entraîne la formation de cellules immunitaires capables de reconnaître l’agent pathogène s’il infecte une nouvelle fois l’individu. ",
-    "next": "7864cec0-12bf-42e4-beb0-30f8354ffc5c"
-  },
-  {
-    "type": "Text",
-    "id": "7864cec0-12bf-42e4-beb0-30f8354ffc5c",
-    "actor": "",
-    "name": "La vaccination est bénéfique sur le plan individuel, en protégeant chaque personne vaccinée, mais également au niveau collectif. Plus il y a de personnes vaccinées dans une population, plus le risque que la maladie ne se répande diminue. ",
-    "next": "bd2239c9-7fe4-4a90-8e94-306aacdf629b"
-  },
-  {
-    "type": "Text",
-    "id": "bd2239c9-7fe4-4a90-8e94-306aacdf629b",
-    "actor": "",
-    "name": "Lorsqu’une part suffisante  de la population est vaccinée, le pathogène cesse de circuler dans la population. Une telle protection de groupe bénéficie donc aux personnes vaccinées, mais aussi à celles qui n’ont pas pu se faire vacciner, par exemple les personnes ayant un système immunitaire trop faible pour pouvoir recevoir le vaccin. ",
-    "next": "d048143b-a6df-4a39-adc6-18b1556c6572"
-  },
-  {
-    "type": "Text",
-    "id": "6e1bb66a-4dba-4116-b944-208171c3e676",
-    "actor": "",
-    "name": "Juste après l’introduction de chaque vaccin, on a observé une diminution drastique du nombre de cas de la maladie infectieuse correspondante. Par exemple, après l’apparition du vaccin contre la poliomyélite, le virus a été éradiqué en moins de deux générations.",
-    "next": "4c9b11a7-fcb6-4bd6-a52b-d1bb0a735072"
-  },
-  {
-    "type": "Text",
-    "id": "4c9b11a7-fcb6-4bd6-a52b-d1bb0a735072",
-    "actor": "",
-    "name": "L'amélioration de l'assainissement, de la nutrition et le développement des antibiotiques ont beaucoup aidé à la réduction voire l’élimination des maladies infectieuses. Mais le rôle des vaccins ne peut pas être nié. Juste après l’introduction de chaque vaccin, on a observé une diminution drastique du nombre de cas de la maladie infectieuse correspondante. ",
-    "next": "d048143b-a6df-4a39-adc6-18b1556c6572"
-  },
-  {
-    "type": "Choice",
-    "id": "3f3bcf3a-cecd-4ee2-8f10-fcaef3f9c484",
-    "title": "retour",
-    "name": "Retourner à la liste d'arguments précédente.",
-    "next": "586d0fe0-bea4-47fc-9509-6b45f751c601"
-  },
-  {
-    "type": "Text",
-    "id": "586d0fe0-bea4-47fc-9509-6b45f751c601",
-    "actor": "",
-    "name": "D'accord.",
-    "next": "aa58fb5e-1bc6-49a1-8080-d4c26c70e604"
-  },
-  {
-    "type": "Text",
-    "id": "c55caa85-0215-4132-9b9b-7d4d006a5eb9",
-    "actor": "",
-    "name": "C'est faux ",
+      "fa8cac4d-0421-4b4c-8c15-0755839ce15b",
+      "eca255cc-c490-458e-be72-be2aa7066ce5",
+      "3e9d0500-d040-4954-a216-94692e4d0888"
+    ],
     "next": null
   },
   {
-    "type": "Text",
-    "id": "413f9a1f-a401-44e3-aaaf-da396fe1b294",
-    "actor": "",
-    "name": "Peut-être",
-    "next": "eb9d46da-67a4-4550-886f-9c4e0bf5e1e6"
+    "type": "Choice",
+    "id": "3e9d0500-d040-4954-a216-94692e4d0888",
+    "title": "",
+    "name": "Je veux en savoir plus sur les effets à moyen et long terme de la Covid-19",
+    "next": "68534869-7801-420d-84ef-ff57da11b06e"
+  },
+  {
+    "type": "Choice",
+    "id": "eca255cc-c490-458e-be72-be2aa7066ce5",
+    "title": "",
+    "name": "La Covid-19 est-elle plus dangereuse que la grippe ?\n",
+    "next": "a3961ae8-0943-4227-b5f8-f0507d0d8ae4"
+  },
+  {
+    "type": "Choice",
+    "id": "fa8cac4d-0421-4b4c-8c15-0755839ce15b",
+    "title": "",
+    "name": "Est-ce qu’une immunité de groupe est envisageable sans vaccination ?",
+    "next": "d9e4354a-f506-4113-a6ba-e66ec58bfc6c"
   },
   {
     "type": "Text",
-    "id": "eb9d46da-67a4-4550-886f-9c4e0bf5e1e6",
+    "id": "68534869-7801-420d-84ef-ff57da11b06e",
+    "actor": "",
+    "name": "Les effets à long terme de la Covid-19 sont de mieux en mieux connus <ahref: \"https://www.publichealthontario.ca/-/media/documents/ncov/covid-wwksf/2020/07/what-we-know-covid-19-long-term-sequelae.pdf?la=fr\" >aux plans cardiaque, neurologique, métabolique ou respiratoire</a>.",
+    "next": "f3e98e64-c4f5-4ace-b8ac-123a485b3e9b"
+  },
+  {
+    "type": "Text",
+    "id": "a3961ae8-0943-4227-b5f8-f0507d0d8ae4",
+    "actor": "",
+    "name": "Nous avons assez de recul maintenant pour savoir que la Covid-19 est beaucoup plus dangereuse que la grippe, et que l'infection peut entraîner des <ahref: \"https://jamanetwork.com/journals/jama/article-abstract/2768351\" >symptômes persistants</a>, y compris chez les personnes jeunes et en bonne santé. \n",
+    "next": "8b99c3d2-a4d7-4c55-a682-af03be1f7c3c"
+  },
+  {
+    "type": "Text",
+    "id": "d9e4354a-f506-4113-a6ba-e66ec58bfc6c",
+    "actor": "",
+    "name": "Il existe un <ahref: \"https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)32153-X/fulltext\" >consensus scientifique</a> sur le fait qu’on ne peut pas compter sur l’immunité naturelle de groupe pour lutter contre la Covid-19. C’est une idée dangereuse qui n'est <ahref: \"https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)32153-X/fulltext\" >pas étayée par des preuves scientifiques</a>. ",
+    "next": "bbed9fa3-3f9f-4168-bae5-f0b6255db2fb"
+  },
+  {
+    "type": "Text",
+    "id": "bbed9fa3-3f9f-4168-bae5-f0b6255db2fb",
+    "actor": "",
+    "name": "Les tests de détection des anticorps contre le virus responsable de la Covid-19 dans le sang indiquent que, dans la plupart des pays, <ahref: \"https://www.who.int/fr/news-room/q-a-detail/herd-immunity-lockdowns-and-covid-19\" >moins de 10%</a> de la ‎population a été infectée par le virus à l’origine de la Covid-19. Par exemple, en France, seulement <ahref: \"https://presse.inserm.fr/en/premiers-resultats-des-enquetes-de-sante-publique-de-linserm-sur-la-covid-19-facteurs-de-risque-individuels-et-sociaux/41032/\" >4,5 % de la population</a> avait été infectée à la fin de la « première vague » au printemps. Au mois de novembre, une modélisation de l’Institut Pasteur indique qu’environ <ahref: \"https://www.lemonde.fr/planete/article/2020/12/03/covid-19-dans-toutes-les-regions-il-y-a-un-risque-de-troisieme-vague-tres-importante_6062070_3244.html\" >10% de la population aurait été infectée depuis le début de la pandémie</a>. Il faudrait donc qu’encore 60 à 80% de la population mondiale soit infectée pour obtenir une immunité collective de manière “naturelle”.\n",
+    "next": "ad3d802e-0773-4c67-9a10-f5f3b8287fc3"
+  },
+  {
+    "type": "Text",
+    "id": "ad3d802e-0773-4c67-9a10-f5f3b8287fc3",
+    "actor": "",
+    "name": "Il est clair pour tous les experts qu’atteindre l’immunité de groupe sans vaccination représente beaucoup trop de malades pour que les structures hospitalières - en France ou ailleurs - puissent traiter le nombre de complications de la maladie. En essayant d’atteindre l’immunité collective en contaminant une grande partie de la population, les malades submergeraient les hôpitaux et de nombreuses personnes perdraient la vie, ainsi que des patients souffrant d’autres maladies qui ne pourraient pas être traitées. ",
+    "next": "29ed5de5-3b6d-40ce-95b0-6bbedb772465"
+  },
+  {
+    "type": "Text",
+    "id": "8b99c3d2-a4d7-4c55-a682-af03be1f7c3c",
+    "actor": "",
+    "name": "La pandémie a déjà fait plus d’un million et demi de morts à l’échelle mondiale en moins d’un an. La probabilité que quelqu’un meure s’il contracte la Covid-19 (taux de mortalité) est <ahref: \"https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-disease-2019-vs-the-flu\" >10 fois</a> plus élevée que s’il contracte la <ahref: \"https://medium.com/microbial-instincts/clarifying-the-true-fatality-rate-of-covid-19-same-as-the-flu-8148e38b9ab5\" >grippe</a>.",
+    "next": "29ed5de5-3b6d-40ce-95b0-6bbedb772465"
+  },
+  {
+    "type": "Text",
+    "id": "f3e98e64-c4f5-4ace-b8ac-123a485b3e9b",
+    "actor": "",
+    "name": "Depuis plusieurs semaines, des personnes ayant guéri de la Covid-19 et leurs médecins généralistes signalent des cas de persistance ou de récidive de symptômes bien au-delà des deux à trois semaines de convalescence habituellement évoquées pour cette maladie.",
+    "next": "33dc36ea-703d-4b4f-a836-cbf372b062be"
+  },
+  {
+    "type": "Text",
+    "id": "33dc36ea-703d-4b4f-a836-cbf372b062be",
+    "actor": "",
+    "name": "Les symptômes peuvent être une fatigue persistante, une tachycardie au moindre effort, des récidives de perte de goût ou d’odorat, des douleurs articulaires ou musculaires, ou des capacités physiques diminuées.\n",
+    "next": "7934fe30-a352-4477-ae6c-a1210a6ed474"
+  },
+  {
+    "type": "Text",
+    "id": "7934fe30-a352-4477-ae6c-a1210a6ed474",
+    "actor": "",
+    "name": "En juin 2020, un <ahref: \"https://www.lejdd.fr/Societe/Sante/tribune-malades-au-long-cours-covid-19-il-est-urgent-de-coordonner-les-actions-pour-nous-soigner-3973276\" >collectif de plus d’un millier de personnes</a> ayant souffert de la Covid-19 s’est formé pour demander des actions de la part des autorités de santé afin de prendre en compte leur souffrance et leurs besoins. Ces personnes présentent des séquelles importantes de la Covid-19, en particulier une fatigue persistante et invalidante.",
+    "next": "29ed5de5-3b6d-40ce-95b0-6bbedb772465"
+  },
+  {
+    "type": "Text",
+    "id": "88973cf8-3864-44a9-a9f2-f16f2c8c8b29",
+    "actor": "",
+    "name": "L’analyse des données épidémiologiques montre que le sexe (les hommes étant plus vulnérables), et surtout l’âge (les plus âgés étant plus vulnérables) favorisent le développement d’une forme grave de la maladie. Les personnes souffrant de certaines pathologies (pathologies cardiovasculaires, diabète, pathologies chroniques respiratoires ou obésité) ont également plus de risques de développer une forme grave de la Covid-19 que les autres. ",
+    "next": "6f6b3e6e-f701-4e04-9046-3b42be4fe219"
+  },
+  {
+    "type": "Text",
+    "id": "6f6b3e6e-f701-4e04-9046-3b42be4fe219",
+    "actor": "",
+    "name": "Mais même chez les personnes qui ne sont pas particulièrement à risque, la Covid-19 peut entraîner des symptômes handicapants (essoufflements, perte du goût et de l’odorat) ou des séquelles graves (<ahref: \"https://jamanetwork.com/journals/jama/article-abstract/2768351\" >fatigue, gêne respiratoire, douleurs articulaires ou thoraciques</a>), voire la mort. Par exemple, <ahref: \"https://www.inserm.fr/information-en-sante/dossiers-information/coronavirus-sars-cov-et-mers-cov\" >un quart des admissions en réanimation</a> sont des personnes âgées de moins de 65 ans.",
+    "next": "c1d18578-a858-44a5-9e79-909b1c947de5"
+  },
+  {
+    "type": "Text",
+    "id": "c1d18578-a858-44a5-9e79-909b1c947de5",
     "actor": "",
     "name": "",
     "choices": [
-      "d6de7c9e-59a2-4328-97ad-b0bd7623c96d",
-      "38df353f-06c0-4463-8114-a2553fe813b6",
-      "e79d6f7d-b955-4198-ac7f-876dbe2f5552"
+      "1d237c85-ab43-409c-b524-dbdd60b3ae2c",
+      "52227050-5ae0-4adf-b332-bb9916656d44"
+    ],
+    "next": "29ed5de5-3b6d-40ce-95b0-6bbedb772465"
+  },
+  {
+    "type": "Choice",
+    "id": "1d237c85-ab43-409c-b524-dbdd60b3ae2c",
+    "title": "",
+    "name": "Je suis jeune, en bonne santé, suis-je concerné ? ",
+    "next": "a3534727-8d95-448f-968e-c5d5f95617ce"
+  },
+  {
+    "type": "Choice",
+    "id": "52227050-5ae0-4adf-b332-bb9916656d44",
+    "title": "",
+    "name": "Je pense avoir déjà eu la Covid-19, suis-je concerné ?",
+    "next": "8b9d8716-82dc-4856-8b5d-25bac43e4de2"
+  },
+  {
+    "type": "Text",
+    "id": "a3534727-8d95-448f-968e-c5d5f95617ce",
+    "actor": "",
+    "name": "Il est vrai que les jeunes sont moins susceptibles de présenter des manifestations graves de la Covid-19, mais ils peuvent néanmoins tomber sévèrement malades, avoir des symptômes handicapants ou des <ahref: \"https://jamanetwork.com/journals/jama/article-abstract/2768351\" >séquelles</a> à long terme—voire décéder de la Covid-19 dans de rares cas. ",
+    "next": "2f0b0d87-729e-415f-9a4d-9903e17ba2f4"
+  },
+  {
+    "type": "Text",
+    "id": "8b9d8716-82dc-4856-8b5d-25bac43e4de2",
+    "actor": "",
+    "name": "<ahref: \"https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30764-7/fulltext?utm_source=Nature+Briefing&utm_campaign=6b3b78efc9-briefing-dy-20201013&utm_medium=email&utm_term=0_c9dfd39373-6b3b78efc9-44278933#seccestitle120\" >Plusieurs cas</a> de personnes ayant été infectées plusieurs fois par le coronavirus ont été documentés. Il est possible que l’infection par le coronavirus ne procure pas d’immunité permanente et que l'immunité acquise naturellement doive être renforcée par la vaccination. Les injections du vaccin pourraient permettre de conserver son immunité <ahref: \"https://www.nature.com/articles/s41577-020-00451-5\" >de manière plus sûre</a> que d’éventuelles réinfections par le virus lui-même.",
+    "next": "29ed5de5-3b6d-40ce-95b0-6bbedb772465"
+  },
+  {
+    "type": "Text",
+    "id": "2f0b0d87-729e-415f-9a4d-9903e17ba2f4",
+    "actor": "",
+    "name": "Parmi les personnes décédées de la Covid-19, une personne sur dix avait moins de 65 ans.",
+    "next": "55fd58e2-8d1e-4ef3-88a8-918c3cf05d8b"
+  },
+  {
+    "type": "Text",
+    "id": "55fd58e2-8d1e-4ef3-88a8-918c3cf05d8b",
+    "actor": "",
+    "name": "Les personnes infectées de toutes les tranches d’âge – y compris les jeunes – peuvent transmettre le virus même si elles ne se sentent pas malades. C’est probablement de cette manière que la seconde vague a démarré cet automne. ",
+    "next": "e4154ed2-9fff-4ee6-a2c2-4479b8377343"
+  },
+  {
+    "type": "Text",
+    "id": "e4154ed2-9fff-4ee6-a2c2-4479b8377343",
+    "actor": "",
+    "name": "Les personnes plus jeunes peuvent transmettre la Covid-19 à des personnes à risque, qui sont plus susceptibles de tomber gravement malades ou de mourir. Par ailleurs, les personnes à risque peuvent aussi être celles qui ne peuvent pas se faire vacciner, et qui doivent donc compter sur les autres pour les protéger.",
+    "next": "68d6352d-9640-488c-9a4e-53ce81e19b58"
+  },
+  {
+    "type": "Text",
+    "id": "68d6352d-9640-488c-9a4e-53ce81e19b58",
+    "actor": "",
+    "name": "Par ailleurs, les conséquences de l’épidémie (isolement, retard de soin, chômage et perte de revenus, etc.) concernent toutes les tranches d’âges. Un effort collectif, et pas seulement des personnes les plus vulnérables, est donc crucial.\n",
+    "next": "29ed5de5-3b6d-40ce-95b0-6bbedb772465"
+  },
+  {
+    "type": "Text",
+    "id": "f0146e7a-e96e-41dc-b399-d9b8422bd8af",
+    "actor": "",
+    "name": "D’autres modes de protection que la vaccination existent, tels que la distanciation sociale, l'isolement des patients, le port du masque et l’aération des pièces. Ces différents modes de protection contre la Covid-19 ne sont pas mutuellement exclusifs. Au contraire, tant que l’immense majorité de la population n’est pas vaccinée, ce n’est qu’en combinant ces mesures que l’on pourra contrôler la circulation du virus, éviter que les services de santé ne soient débordés, et revenir plus rapidement à une vie normale. ",
+    "next": "a80691ec-a8d5-4148-9d85-8c1c8504b694"
+  },
+  {
+    "type": "Text",
+    "id": "a80691ec-a8d5-4148-9d85-8c1c8504b694",
+    "actor": "",
+    "name": "Cependant, en l'absence de traitement médicamenteux efficace contre la Covid-19, ces mesures se sont jusqu’à présent révélées insuffisantes pour contrôler la diffusion du virus. La vaccination va donc jouer un rôle clé dans le contrôle de la Covid-19.\n",
+    "next": "07997c4d-cc2f-45db-83d8-0d1ca91be253"
+  },
+  {
+    "type": "Text",
+    "id": "07997c4d-cc2f-45db-83d8-0d1ca91be253",
+    "actor": "",
+    "name": "",
+    "choices": [
+      "1f5a9ca0-7b20-4f9f-9eaa-732354b45922",
+      "54eacf4a-2a09-4a54-b31e-602fec47110d"
+    ],
+    "next": "29ed5de5-3b6d-40ce-95b0-6bbedb772465"
+  },
+  {
+    "type": "Choice",
+    "id": "1f5a9ca0-7b20-4f9f-9eaa-732354b45922",
+    "title": "",
+    "name": "Les gestes barrières ne suffisent-ils pas ?",
+    "next": "79b1fcab-8684-4ed7-9ebf-04e8c81be207"
+  },
+  {
+    "type": "Choice",
+    "id": "54eacf4a-2a09-4a54-b31e-602fec47110d",
+    "title": "",
+    "name": "Des traitements comme l’hydroxychloroquine ne suffiraient-ils pas?\n",
+    "next": "8213aafe-c4a4-4635-81d5-9519c060ea64"
+  },
+  {
+    "type": "Text",
+    "id": "79b1fcab-8684-4ed7-9ebf-04e8c81be207",
+    "actor": "",
+    "name": "Malheureusement les gestes barrières ne peuvent pas être maintenus en permanence. Par exemple, le port du masque n’est pas possible dans les bars et restaurants, ou lors des repas en famille. De plus, les mesures de confinement pèsent lourdement sur l’économie, ce qui entraîne d’autres difficultés telles que l’augmentation du chômage.",
+    "next": "587d9696-ce7b-400a-9008-66d784f2bdf4"
+  },
+  {
+    "type": "Text",
+    "id": "587d9696-ce7b-400a-9008-66d784f2bdf4",
+    "actor": "",
+    "name": "Pour contrôler la pandémie et revenir à une vie normale, sans port du masque généralisé, couvre-feu, ou confinement périodique, un vaccin est indispensable.\n\n\n",
+    "next": "29ed5de5-3b6d-40ce-95b0-6bbedb772465"
+  },
+  {
+    "type": "Text",
+    "id": "8213aafe-c4a4-4635-81d5-9519c060ea64",
+    "actor": "",
+    "name": "Aujourd’hui l’efficacité d’aucun médicament n’a été démontrée dans la lutte contre la Covid-19 (<ahref: \"https://www.who.int/fr/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters\" >OMS</a>), en dehors des corticoïdes pour les formes sévères.",
+    "next": "49be8cff-cfb8-4353-a59d-3b8a75001924"
+  },
+  {
+    "type": "Text",
+    "id": "49be8cff-cfb8-4353-a59d-3b8a75001924",
+    "actor": "",
+    "name": "Un grand nombre <ahref: \"https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=hydrochloroxine+covid-19&btnG=\" >d’études</a> a montré que l’hydroxychloroquine ne réduit pas le nombre de décès chez les malades de la Covid-19 hospitalisés, et qu’elle n’apporte aucun bénéfice pour les personnes atteintes d’une forme modérée de la maladie (<ahref: \"https://www.who.int/fr/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters\" >OMS</a>). De plus, son utilisation en l’absence de suivi médical peut entraîner de graves effets secondaires.\n",
+    "next": "29ed5de5-3b6d-40ce-95b0-6bbedb772465"
+  },
+  {
+    "type": "Text",
+    "id": "0b51f392-8efc-4938-996a-60df60c47332",
+    "actor": "",
+    "name": "Salut !!",
+    "choices": [
+      "3a4cc61c-8e78-42cb-899a-3f0df9be49dd"
     ]
   },
   {
     "type": "Choice",
-    "id": "e79d6f7d-b955-4198-ac7f-876dbe2f5552",
-    "title": "",
-    "name": "Ca veut dire quoi peut-être ?",
-    "next": "23c47a28-76ae-4dc6-b495-a39b90c91f3a"
-  },
-  {
-    "type": "Choice",
-    "id": "38df353f-06c0-4463-8114-a2553fe813b6",
-    "title": "",
-    "name": "Je suis pas satisfait par cette réponse.",
-    "next": "13eb68d5-db6f-4672-9f35-762676dbea87"
-  },
-  {
-    "type": "Text",
-    "id": "13eb68d5-db6f-4672-9f35-762676dbea87",
-    "actor": "",
-    "name": "Tant pis.",
-    "next": "eb9d46da-67a4-4550-886f-9c4e0bf5e1e6"
-  },
-  {
-    "type": "Text",
-    "id": "23c47a28-76ae-4dc6-b495-a39b90c91f3a",
-    "actor": "",
-    "name": "ça veut dire peut-être.",
-    "next": "eb9d46da-67a4-4550-886f-9c4e0bf5e1e6"
-  },
-  {
-    "type": "Choice",
-    "id": "d6de7c9e-59a2-4328-97ad-b0bd7623c96d",
-    "title": "retour",
-    "name": "Retourner à la liste d'arguments précédente.",
-    "next": "aa58fb5e-1bc6-49a1-8080-d4c26c70e604"
-  },
-  {
-    "type": "Choice",
-    "id": "68689d33-aedf-4e8c-8c4b-6b170096ea18",
-    "title": "retour",
-    "name": "Retourner à la liste d'arguments précédente.",
-    "next": "b940f6db-fec4-4be2-a3cd-af91b7500718"
-  },
-  {
-    "type": "Text",
-    "id": "f72c44a7-1bac-413c-9bfd-c058cf87c9c7",
-    "actor": "",
+    "id": "3a4cc61c-8e78-42cb-899a-3f0df9be49dd",
+    "title": "5#menu",
     "name": "",
-    "next": "b940f6db-fec4-4be2-a3cd-af91b7500718"
+    "next": "ad5ec647-5352-4414-b602-24a4293773d0"
   }
 ]
