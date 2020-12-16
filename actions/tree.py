@@ -28,7 +28,7 @@ def return_full_tree(id, messages, choices_proceeded):
     print('return full tree')
     messages = messages + return_tree(id, [])
     choices_proceeded.append(id)
-    for m in messages:
+    for m in reversed(messages):
         if 'buttons' in m and m['buttons']:
             for b in m['buttons']:
                 if 'id' in b and b['id'] and b['id'] not in choices_proceeded:
