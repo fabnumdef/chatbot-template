@@ -49,7 +49,8 @@
     "choices": [
       "226c89fd-26ca-46e6-bea2-9edc395b5284",
       "69edbb8f-7ee2-4fdd-8bb0-2b3b51459595",
-      "9d788efa-3c93-49f6-94ff-68776b0988d8"
+      "9d788efa-3c93-49f6-94ff-68776b0988d8",
+      "5fb4ebb4-fe6a-4e53-bb17-95cfd0eac5e0"
     ]
   },
   {
@@ -188,13 +189,13 @@
     "id": "88973cf8-3864-44a9-a9f2-f16f2c8c8b29",
     "actor": "",
     "name": "L’analyse des données épidémiologiques montre que le sexe (les hommes étant plus vulnérables), et surtout l’âge (les plus âgés étant plus vulnérables) favorisent le développement d’une forme grave de la maladie. Les personnes souffrant de certaines pathologies (pathologies cardiovasculaires, diabète, pathologies chroniques respiratoires ou obésité) ont également plus de risques de développer une forme grave de la Covid-19 que les autres. ",
-    "next": "6f6b3e6e-f701-4e04-9046-3b42be4fe219"
+    "next": "c556b5ab-94ec-48e2-9746-947405957219"
   },
   {
     "type": "Text",
     "id": "6f6b3e6e-f701-4e04-9046-3b42be4fe219",
     "actor": "",
-    "name": "Mais même chez les personnes qui ne sont pas particulièrement à risque, la Covid-19 peut entraîner des symptômes handicapants (essoufflements, perte du goût et de l’odorat) ou des séquelles graves (<ahref: \"https://jamanetwork.com/journals/jama/article-abstract/2768351\" >fatigue, gêne respiratoire, douleurs articulaires ou thoraciques</a>), voire la mort. Par exemple, <ahref: \"https://www.inserm.fr/information-en-sante/dossiers-information/coronavirus-sars-cov-et-mers-cov\" >un quart des admissions en réanimation</a> sont des personnes âgées de moins de 65 ans.",
+    "name": "Même chez les personnes qui ne sont pas particulièrement à risque, la Covid-19 peut entraîner des symptômes handicapants (essoufflements, perte du goût et de l’odorat) ou des séquelles graves (<ahref: \"https://jamanetwork.com/journals/jama/article-abstract/2768351\" >fatigue, gêne respiratoire, douleurs articulaires ou thoraciques</a>), voire la mort. Par exemple, <ahref: \"https://www.inserm.fr/information-en-sante/dossiers-information/coronavirus-sars-cov-et-mers-cov\" >un quart des admissions en réanimation</a> sont des personnes âgées de moins de 65 ans.",
     "next": "c1d18578-a858-44a5-9e79-909b1c947de5"
   },
   {
@@ -334,17 +335,1476 @@
   {
     "type": "Text",
     "id": "0b51f392-8efc-4938-996a-60df60c47332",
-    "actor": "",
-    "name": "Salut !!",
-    "choices": [
-      "3a4cc61c-8e78-42cb-899a-3f0df9be49dd"
-    ]
+    "actor": "Start",
+    "name": "Bonjour, je suis un petit robot conversationnel. ",
+    "next": "75a6be2a-1e1c-45ea-aa7b-795bd1e811e8"
+  },
+  {
+    "type": "Choice",
+    "id": "b5a86b01-92c4-4b8e-a0b6-712122d9f776",
+    "title": "6#menu",
+    "name": "Pourquoi devrais-je vous faire confiance ? ",
+    "next": "a91eba53-c1d4-4f54-a9d1-0088d6a82531"
   },
   {
     "type": "Choice",
     "id": "3a4cc61c-8e78-42cb-899a-3f0df9be49dd",
     "title": "5#menu",
-    "name": "",
+    "name": "Est-ce que j'ai besoin de me faire vacciner ?",
     "next": "ad5ec647-5352-4414-b602-24a4293773d0"
+  },
+  {
+    "type": "Text",
+    "id": "75a6be2a-1e1c-45ea-aa7b-795bd1e811e8",
+    "actor": "",
+    "name": "Avez-vous des questions sur le vaccin contre la Covid-19 ?",
+    "next": "f23e9a62-b7ee-47c5-b524-cce6f78c8d2a"
+  },
+  {
+    "type": "Text",
+    "id": "f23e9a62-b7ee-47c5-b524-cce6f78c8d2a",
+    "actor": "",
+    "name": "",
+    "choices": [
+      "3a4cc61c-8e78-42cb-899a-3f0df9be49dd",
+      "b5a86b01-92c4-4b8e-a0b6-712122d9f776",
+      "49af38d2-b0ea-4d65-ab18-d56cbb5356fa",
+      "13888dd6-de13-43e6-9619-cf42a54a867a",
+      "ae8e61a1-fcc1-4db0-ab7e-fcd37cb2dc16",
+      "a402454e-1c83-4d16-95d1-1d9a2eaf139c"
+    ]
+  },
+  {
+    "type": "Text",
+    "id": "a91eba53-c1d4-4f54-a9d1-0088d6a82531",
+    "actor": "",
+    "name": "Ce projet a été financé par la recherche publique. Nous sommes des chercheurs indépendants sans aucun lien avec l'industrie pharmaceutique. Nous avons décidé de créer ce chatbot pour permettre à chacun d’y voir plus clair. Nous nous sommes appuyés sur des articles scientifiques et des rapports d'agences scientifiques représentatifs des 30 dernières années de recherche sur les vaccins, ainsi que sur les études les plus récentes portant sur la Covid-19. Nous avons fait relire l’intégralité du texte de ce chatbot par des experts en immunologie et infectiologie.",
+    "next": "f23e9a62-b7ee-47c5-b524-cce6f78c8d2a"
+  },
+  {
+    "type": "Text",
+    "id": "c556b5ab-94ec-48e2-9746-947405957219",
+    "actor": "",
+    "name": "La probabilité de développer une forme grave de la Covid-19 ou même de décéder de cette maladie quand on est jeune et en bonne santé est faible. Cependant, dans le cadre d’une épidémie touchant des millions de personnes, même les événements ayant une probabilité faible de survenir touchent un grand nombre de personnes.",
+    "next": "6f6b3e6e-f701-4e04-9046-3b42be4fe219"
+  },
+  {
+    "type": "Choice",
+    "id": "49af38d2-b0ea-4d65-ab18-d56cbb5356fa",
+    "title": "1#menu",
+    "name": "Les vaccins contre la Covid-19 sont-ils sûrs ?",
+    "next": "68a4e67f-9e6e-42c2-8b07-3c56b69bd120"
+  },
+  {
+    "type": "Choice",
+    "id": "13888dd6-de13-43e6-9619-cf42a54a867a",
+    "title": "2#menu",
+    "name": "Sera-t-il efficace ? ",
+    "next": "d8d361a8-4a9a-4278-bbaa-32482772ad5f"
+  },
+  {
+    "type": "Choice",
+    "id": "a402454e-1c83-4d16-95d1-1d9a2eaf139c",
+    "title": "4#menu",
+    "name": "Peut-on faire confiance à ceux qui vont produire et disséminer le vaccin ? ",
+    "next": "b0a5d131-d0ea-488a-8131-722dff862b1f"
+  },
+  {
+    "type": "Choice",
+    "id": "ae8e61a1-fcc1-4db0-ab7e-fcd37cb2dc16",
+    "title": "3#menu",
+    "name": "Est-ce qu'on a assez de recul sur les vaccins contre la Covid-19 ?",
+    "next": "3cd1da4e-3287-4864-bbcf-5ac5020a32b1"
+  },
+  {
+    "type": "Text",
+    "id": "68a4e67f-9e6e-42c2-8b07-3c56b69bd120",
+    "actor": "",
+    "name": "C'est la première question que se posent les autorités sanitaires françaises et européennes avant de déclarer qu'un vaccin est prêt à être mis sur le marché. Tous les vaccins doivent passer par un processus très strict de tests démontrant leur sûreté et leur efficacité. ",
+    "next": "57a7ae42-aa52-44ef-8b9a-7deb64a8a6f7"
+  },
+  {
+    "type": "Text",
+    "id": "57a7ae42-aa52-44ef-8b9a-7deb64a8a6f7",
+    "actor": "",
+    "name": "Les différentes phases des essais cliniques sont respectées rigoureusement pour le développement de tout vaccin. Elles permettent de s’assurer de l’efficacité des vaccins en cours d'évaluation tout en garantissant la sécurité des milliers de volontaires, qui sont suivis de près pour mesurer et contrôler tout effet indésirable.\n",
+    "next": "37658615-b2f3-41a6-8173-db8907baffd5"
+  },
+  {
+    "type": "Text",
+    "id": "37658615-b2f3-41a6-8173-db8907baffd5",
+    "actor": "",
+    "name": "Comme tout médicament, les vaccins ont parfois des effets secondaires. Mais ces effets secondaires sont presque toujours anodins, et beaucoup moins importants que les symptômes communs de la maladie ou ses formes graves.",
+    "next": "538ba689-9239-4e1d-a1cd-5f2c6dc33360"
+  },
+  {
+    "type": "Text",
+    "id": "538ba689-9239-4e1d-a1cd-5f2c6dc33360",
+    "actor": "",
+    "name": "Dans le cas de la Covid-19, la maladie peut entraîner un <ahref: \"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7127800/\" >syndrome de détresse respiratoire aigüe</a>, <ahref: \"https://www.nature.com/articles/s41569-020-0413-9\" >des séquelles cardiovasculaires</a> ou <ahref: \"https://www.nejm.org/doi/full/10.1056/NEJMc2008597\" >neurologiques telles que l'encéphalopathie</a>, une maladie inflammatoire du cerveau, et d’autres effets négatifs à long terme. Ainsi la balance coût-bénéfice penche largement en faveur de la vaccination.",
+    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
+  },
+  {
+    "type": "Text",
+    "id": "20d6780d-d83a-4e96-992c-8bfc71c94af1",
+    "actor": "",
+    "name": "",
+    "choices": [
+      "96de85db-a4bf-4a0c-acdb-5bc08818a40c",
+      "0ff53911-d1a7-437e-8d5f-49d03082955e",
+      "b337a448-a226-4612-a0cf-922955ef337b",
+      "d737d905-f82b-4661-9967-6b170bd776b7",
+      "02d5a922-d5de-44b5-a61c-72ac97ca45b1",
+      "3cb1f7da-2a47-404f-a4a8-446de583bcd2"
+    ]
+  },
+  {
+    "type": "Choice",
+    "id": "96de85db-a4bf-4a0c-acdb-5bc08818a40c",
+    "title": "1#mini",
+    "name": "Peut-on élaborer un vaccin sûr dans l’urgence ? ",
+    "next": "c84f3442-aff1-4843-bb90-c5d171d21419"
+  },
+  {
+    "type": "Choice",
+    "id": "0ff53911-d1a7-437e-8d5f-49d03082955e",
+    "title": "2#mini",
+    "name": "En général, les vaccins sont-ils dangereux ?",
+    "next": "5b08eda9-4138-4461-ac49-ae3165adc825"
+  },
+  {
+    "type": "Choice",
+    "id": "b337a448-a226-4612-a0cf-922955ef337b",
+    "title": "3#mini",
+    "name": "Qu’est-ce qu’un vaccin à ARN messagers ?",
+    "next": "871798e5-1f27-4c22-8b07-dcc15026925a"
+  },
+  {
+    "type": "Text",
+    "id": "c84f3442-aff1-4843-bb90-c5d171d21419",
+    "actor": "",
+    "name": "Le vaccin a été élaboré à une vitesse record. Mais toutes les contraintes réglementaires qui encadrent la mise sur le marché des vaccins ont été respectées, et continueront à l’être.",
+    "next": "a0cba3aa-52eb-4182-ac8e-9213fa4d2df8"
+  },
+  {
+    "type": "Text",
+    "id": "a0cba3aa-52eb-4182-ac8e-9213fa4d2df8",
+    "actor": "",
+    "name": "La rapidité avec laquelle les vaccins contre la Covid-19 ont été développés s’explique principalement par les moyens importants - au niveau financier, humain et logistique - qui ont été mis en place, le nombre très élevé de personnes  qui se sont portées volontaires pour tester les vaccins dans les essais cliniques, et la mobilisation sans précédent des scientifiques et industriels du monde entier.",
+    "next": "a5ef7496-e04c-4f8d-899a-f088f14b7ab6"
+  },
+  {
+    "type": "Text",
+    "id": "a5ef7496-e04c-4f8d-899a-f088f14b7ab6",
+    "actor": "",
+    "name": "Pour recevoir l’autorisation des autorités sanitaires, les futurs vaccins ont dû, comme tout autre vaccin, respecter quatre étapes incontournables testant l’efficacité et la sûreté du vaccin. \n",
+    "next": "34592d64-5b71-43b9-b9fe-9c99a8c203ae"
+  },
+  {
+    "type": "Text",
+    "id": "34592d64-5b71-43b9-b9fe-9c99a8c203ae",
+    "actor": "",
+    "name": "",
+    "choices": [
+      "3de22e4a-2d96-4243-afd4-350c38747ddd",
+      "b21bbc3f-f3ca-433d-b40b-0bccf60c2555"
+    ],
+    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
+  },
+  {
+    "type": "Choice",
+    "id": "3de22e4a-2d96-4243-afd4-350c38747ddd",
+    "title": "3#mini",
+    "name": " Pouvez-vous m’en dire plus sur ces étapes ?",
+    "next": "44bff286-2d66-4f72-944c-f785815d4b93"
+  },
+  {
+    "type": "Choice",
+    "id": "b21bbc3f-f3ca-433d-b40b-0bccf60c2555",
+    "title": "4#mini",
+    "name": "Les essais des vaccins Covid-19 sont-ils différents des essais pour d’autres vaccins ?",
+    "next": "48dff85f-895c-4aa3-a3f5-51aa8a7190e3"
+  },
+  {
+    "type": "Text",
+    "id": "44bff286-2d66-4f72-944c-f785815d4b93",
+    "actor": "",
+    "name": "Après avoir séquencé le génome du virus responsable de la Covid-19 (le SARS-CoV-2), les scientifiques développent des vaccins qu’ils testent sur des modèles cellulaires et animaux. Grâce à cela, ils peuvent établir que les vaccins ne sont pas toxiques et qu’ils déclenchent une réponse immunitaire. <ahref: \"https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html\" >Aujourd’hui</a>, près de cent vaccins potentiels en sont à cette étape préliminaire mais indispensable.",
+    "next": "edf39bb0-eec7-473f-bb0b-915b13d9c27e"
+  },
+  {
+    "type": "Text",
+    "id": "edf39bb0-eec7-473f-bb0b-915b13d9c27e",
+    "actor": "",
+    "name": "Après cette étape, les trois phases principales des essais cliniques débutent. Lors de la phase 1, le vaccin en cours d’évaluation est administré à un petit nombre de personnes pour tester sa sécurité, tout en vérifiant qu’il stimule bien le système immunitaire. <ahref: \"https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html\" >Aujourd’hui</a>, des dizaines de candidats-vaccins en sont à cette étape. ",
+    "next": "bbcac81a-2871-4aee-86d5-b2b0b18222a6"
+  },
+  {
+    "type": "Text",
+    "id": "bbcac81a-2871-4aee-86d5-b2b0b18222a6",
+    "actor": "",
+    "name": "Lors de la phase 2, le vaccin est administré à des centaines de volontaires divisés en groupes d’âge, de sexe, etc., afin de s’assurer que le vaccin est sûr et efficace dans tous ces groupes variés et de choisir la meilleure dose et le meilleur calendrier de vaccination. <ahref: \"https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html\" >Aujourd’hui</a>, une vingtaine de vaccins en cours d’évaluation en sont à cette étape.",
+    "next": "b89b7f59-3258-4f12-8997-d87306384684"
+  },
+  {
+    "type": "Text",
+    "id": "b89b7f59-3258-4f12-8997-d87306384684",
+    "actor": "",
+    "name": "Enfin, lors de la phase 3, le vaccin en cours d’évaluation est testé sur des dizaines de milliers de volontaires et son efficacité est mesurée en comparant le nombre d’infections dans le groupe vacciné au nombre d’infections dans le groupe ayant reçu un placebo ou, lorsque des vaccins existent déjà, un autre vaccin.  ",
+    "next": "5da28060-83ad-4f93-8910-40d355691db6"
+  },
+  {
+    "type": "Text",
+    "id": "5da28060-83ad-4f93-8910-40d355691db6",
+    "actor": "",
+    "name": "Dans le cas des vaccins contre la Covid-19, les différentes phases de validation ont pu être menées en parallèle. La sécurité du vaccin est d’abord étudiée chez un petit nombre de patients. Ensuite, si aucun danger n’est détecté, de nouveaux volontaires sont inclus pour continuer à étudier la sécurité, la réponse immunitaire et l’efficacité du vaccin. ",
+    "next": "c708a44c-b3f9-41d0-9c67-04f9926ee35a"
+  },
+  {
+    "type": "Text",
+    "id": "c708a44c-b3f9-41d0-9c67-04f9926ee35a",
+    "actor": "",
+    "name": "Etant donné qu’il y a de nombreux cas de Covid-19 dans la population, la probabilité que certains volontaires soient infectés est suffisamment grande pour que les effets du vaccin soient facilement détectés. ",
+    "next": "d8626187-45d6-4f99-9a3b-49d2105e0714"
+  },
+  {
+    "type": "Text",
+    "id": "d8626187-45d6-4f99-9a3b-49d2105e0714",
+    "actor": "",
+    "name": "Pour les maladies plus rares que la Covid-19, il faut plus de temps pour mesurer l’efficacité des vaccins. La fréquence de la Covid-19 contribue à expliquer la rapidité à laquelle ces essais cliniques ont pu être menés.",
+    "next": "83a75355-c541-4d41-b758-0c4313a62026"
+  },
+  {
+    "type": "Text",
+    "id": "83a75355-c541-4d41-b758-0c4313a62026",
+    "actor": "",
+    "name": "Le grand nombre de volontaires permet également de s’assurer que le vaccin ne cause pas, même rarement, des effets secondaires graves. Des effets secondaires graves, ou des effets secondaires très fréquents, déclencheraient l'arrêt immédiat de l’étude et la non-mise en circulation du vaccin.",
+    "next": "ddb81383-c7f8-469c-a660-e66def727154"
+  },
+  {
+    "type": "Text",
+    "id": "ddb81383-c7f8-469c-a660-e66def727154",
+    "actor": "",
+    "name": "<ahref: \"https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html\" >Aujourd’hui</a>, une dizaine de candidats-vaccins en sont à cette dernière étape, la phase 3. ",
+    "next": "80f74d29-1c93-4a25-948b-341bbcd6491e"
+  },
+  {
+    "type": "Text",
+    "id": "80f74d29-1c93-4a25-948b-341bbcd6491e",
+    "actor": "",
+    "name": "Pour entrer sur le marché français, tout vaccin doit passer ces étapes avec succès. ",
+    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
+  },
+  {
+    "type": "Text",
+    "id": "48dff85f-895c-4aa3-a3f5-51aa8a7190e3",
+    "actor": "",
+    "name": "Les essais de phase 3 sont généralement menés sur environ 10 000 personnes. Les deux vaccins Covid-19 actuellement en cours d'homologation ont recruté entre 30 000 et 44 000 volontaires. Les essais ont été menés sur un très grand nombre de personnes afin de pouvoir détecter très rapidement d’éventuels effets rares. ",
+    "next": "fe31a225-dbab-4f6c-868b-ac8c33f2a39e"
+  },
+  {
+    "type": "Text",
+    "id": "fe31a225-dbab-4f6c-868b-ac8c33f2a39e",
+    "actor": "",
+    "name": "En quelques mois, des résultats sur l’efficacité des vaccins ont pu être connus, ce qui prend normalement plusieurs années. Cela est dû d’une part au fait que les volontaires étaient très nombreux et d’autre part au fait que le virus circule activement. Comme les infections sont fréquentes, et comme il y a de nombreux volontaires, on peut facilement détecter les effets des vaccins. \n",
+    "next": "33bd46fe-3688-439f-942c-90b9c357f465"
+  },
+  {
+    "type": "Text",
+    "id": "33bd46fe-3688-439f-942c-90b9c357f465",
+    "actor": "",
+    "name": "Par ailleurs, d’importants moyens financiers, humains et logistiques ont été mobilisés, ce qui a permis de surmonter rapidement les lourdes contraintes techniques qui ralentissent habituellement les essais cliniques.",
+    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
+  },
+  {
+    "type": "Text",
+    "id": "5b08eda9-4138-4461-ac49-ae3165adc825",
+    "actor": "",
+    "name": "Les vaccins mis sur le marché ne sont pas dangereux pour la santé. Il existe un <ahref: \"https://fmsq.org/fr/dossiers-sante/vaccination-halte-la-desinformation\" >consensus scientifique</a> sur cette question : l’immense majorité des scientifiques s’accordent sur le fait que les vaccins sont sûrs et efficaces, et près de <ahref: \"https://app.dimensions.ai/discover/publication?search_mode=content&search_text=vaccine&search_type=kws&search_field=text_search\" >400 000 études scientifiques</a> ont été publiées sur les vaccins.",
+    "next": "415acbd8-a371-40f2-ae15-60da605d025c"
+  },
+  {
+    "type": "Text",
+    "id": "415acbd8-a371-40f2-ae15-60da605d025c",
+    "actor": "",
+    "name": "La plupart des réactions vaccinales sont <ahref: \"https://vaccination-info-service.fr/Questions-frequentes/Questions-generales/Effets-indesirables-et-securite\" >mineures et passagères</a>, et les éventuels effets indésirables des vaccins sont très surveillés. Les effets des vaccins sont très bien connus puisque chaque année, plusieurs millions de personnes sont vaccinées en France (et des centaines de millions dans le monde). ",
+    "next": "d1170f3c-e1b3-481a-a51b-8b2d9c926d05"
+  },
+  {
+    "type": "Text",
+    "id": "d1170f3c-e1b3-481a-a51b-8b2d9c926d05",
+    "actor": "",
+    "name": "Le risque de développer une maladie grave en ne se vaccinant pas est beaucoup plus important que celui de voir apparaître un effet indésirable lié à la vaccination. Le consensus scientifique est donc que les avantages de la vaccination dépassent de loin les risques des éventuels effets secondaires. ",
+    "next": "79e662bc-11a1-4c3d-8bce-7a8f8617639b"
+  },
+  {
+    "type": "Text",
+    "id": "79e662bc-11a1-4c3d-8bce-7a8f8617639b",
+    "actor": "",
+    "name": "Grâce à la vaccination, les conséquences catastrophiques de nombreuses maladies ont quasiment disparu. On en vient presque à oublier les risques de ces maladies ! Pourtant, sans vaccin, ces maladies reviendraient et feraient les mêmes dégâts que dans le passé. ",
+    "next": "170df416-2e78-4f85-bb79-16cc6a0ec141"
+  },
+  {
+    "type": "Text",
+    "id": "170df416-2e78-4f85-bb79-16cc6a0ec141",
+    "actor": "",
+    "name": "",
+    "choices": [
+      "77527a17-02da-4bde-a143-c27d4a64ea13",
+      "02ddc625-0b0b-467e-9444-27e50ac6d4d0"
+    ],
+    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
+  },
+  {
+    "type": "Choice",
+    "id": "77527a17-02da-4bde-a143-c27d4a64ea13",
+    "title": "5#mini",
+    "name": "Les vaccins contiennent-ils des adjuvants dangereux ?",
+    "next": "66fb7cb7-33df-44f0-aa7c-24204b2d4ceb"
+  },
+  {
+    "type": "Choice",
+    "id": "02ddc625-0b0b-467e-9444-27e50ac6d4d0",
+    "title": "6#mini",
+    "name": "N’y a-t-il pas d’effets secondaires graves ?",
+    "next": "b04bd920-2d72-4a64-a189-0231b7613dea"
+  },
+  {
+    "type": "Text",
+    "id": "66fb7cb7-33df-44f0-aa7c-24204b2d4ceb",
+    "actor": "",
+    "name": "Pour stimuler la réponse immunitaire de certains vaccins, des substances que l'on appelle adjuvants sont parfois ajoutées aux vaccins. Les adjuvants sont parfois indispensables pour garantir l’efficacité des vaccins. La quantité d’adjuvants présents dans les vaccins est si faible qu’ils n’ont, dans l'immense majorité des cas, aucun effet néfaste. \n",
+    "next": "071c7218-456c-4cba-8df9-4aad8f86b7e3"
+  },
+  {
+    "type": "Text",
+    "id": "071c7218-456c-4cba-8df9-4aad8f86b7e3",
+    "actor": "",
+    "name": "Les premiers vaccins disponibles contre la Covid-19, les vaccins à ARN messager de Pfizer et Moderna, ne contiennent pas d’adjuvants. \n",
+    "next": "cc51f7ac-89e2-47c5-b272-ec7352e773a4"
+  },
+  {
+    "type": "Text",
+    "id": "cc51f7ac-89e2-47c5-b272-ec7352e773a4",
+    "actor": "",
+    "name": "D’autres vaccins contre la Covid-19 contiendront des adjuvants. Les adjuvants permettent d’augmenter la réponse immunitaire, et donc de réduire la quantité d’antigène qui doit être utilisée dans chaque dose de vaccin. Les adjuvants contribuent donc à ce qu’une grande quantité de doses puisse être produite rapidement. Dans un contexte de pandémie, ils jouent un rôle très important pour protéger rapidement un plus grand nombre de personnes. Les vaccins qui contiennent des adjuvants sont soumis à des protocoles rigoureux pour tester leur sécurité et efficacité. ",
+    "next": "6f914e7e-5b3c-49bc-a941-8baab5aee899"
+  },
+  {
+    "type": "Text",
+    "id": "6f914e7e-5b3c-49bc-a941-8baab5aee899",
+    "actor": "",
+    "name": "",
+    "choices": [
+      "ce4f7011-800d-4656-92c6-405708012cad"
+    ],
+    "next": "170df416-2e78-4f85-bb79-16cc6a0ec141"
+  },
+  {
+    "type": "Choice",
+    "id": "ce4f7011-800d-4656-92c6-405708012cad",
+    "title": "1#mini",
+    "name": "Est-ce que les vaccins contiennent des sels d’aluminium ?",
+    "next": "d6919f3c-bfed-447b-b2cb-db70c1195238"
+  },
+  {
+    "type": "Text",
+    "id": "d6919f3c-bfed-447b-b2cb-db70c1195238",
+    "actor": "",
+    "name": "Aucun des vaccins contre la Covid-19 pré-achetés par la France ne contient de sels d’aluminium. ",
+    "next": "7704f6ff-5b2d-4700-beb4-741125c1ba04"
+  },
+  {
+    "type": "Text",
+    "id": "7704f6ff-5b2d-4700-beb4-741125c1ba04",
+    "actor": "",
+    "name": "Les sels d'aluminium sont les adjuvants les plus utilisés à ce jour. Avec un recul d’utilisation de <ahref: \"https://www.inserm.fr/sites/default/files/2017-12/Inserm_MiseAuPoint_Vaccins_2017.pdf\" >90 ans</a> et des <ahref: \"https://www.inserm.fr/sites/default/files/2017-12/Inserm_MiseAuPoint_Vaccins_2017.pdf\" >centaines de millions de doses</a> injectées, les chercheurs ont pu montrer que la très petite quantité de sels d’aluminium contenue dans les vaccins n’a aucun effet mesurable sur la santé. \n",
+    "next": "5cff71af-88ef-4eca-9f30-a5d4fc78b523"
+  },
+  {
+    "type": "Text",
+    "id": "5cff71af-88ef-4eca-9f30-a5d4fc78b523",
+    "actor": "",
+    "name": "Par ailleurs, nous sommes exposés aux sels d’aluminium en dehors de la vaccination, ce qui fournit d’autres informations sur leurs effets. Par exemple, les adultes ingèrent environ <ahref: \"https://www.infovac.ch/fr/faq/l-aluminium-dans-les-vaccins\" >7 à 9 milligrammes</a> d'aluminium par jour dans leur alimentation (légumes, céréales, crustacés, chocolat). Cette dose quotidienne est 100 fois supérieure à la quantité contenue dans une seule dose des vaccins sur le marché (0,125 et 0,85 milligrammes d’aluminium par dose). L'aluminium qui pénètre dans notre circulation sanguine est rapidement traité et éliminé avec l'urine par les reins. \n",
+    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
+  },
+  {
+    "type": "Text",
+    "id": "b04bd920-2d72-4a64-a189-0231b7613dea",
+    "actor": "",
+    "name": "Comme tout médicament efficace, les vaccins peuvent provoquer chez certaines personnes des <ahref: \"https://vaccination-info-service.fr/Questions-frequentes/Questions-generales/Effets-indesirables-et-securite\" >effets secondaires qui sont dans la majorité des cas bénins et passagers</a>, tels que de la fatigue ou une faible fièvre. Ces symptômes sont liés à la réaction immunitaire qui prépare notre organisme à une prochaine attaque du virus. ",
+    "next": "edfe4753-89bd-455e-a501-2ff722657b3a"
+  },
+  {
+    "type": "Text",
+    "id": "edfe4753-89bd-455e-a501-2ff722657b3a",
+    "actor": "",
+    "name": "Dans le cas des vaccins contre la Covid-19, les résultats des essais cliniques n’ont pas montré d’effets secondaires plus graves que de la fièvre, des maux de tête, ou des douleurs musculaires. Ces effets secondaires durent quelques jours au plus. ",
+    "next": "ee4fe9b8-1f3d-4753-a02b-66a1acff90d1"
+  },
+  {
+    "type": "Text",
+    "id": "ee4fe9b8-1f3d-4753-a02b-66a1acff90d1",
+    "actor": "",
+    "name": "Lors du lancement de la campagne de vaccination contre la Covid-19 au Royaume-Uni, <ahref: \"https://www.reuters.com/article/us-health-coronavirus-pfizer-allergy-idUSKBN28J37E\" >trois personnes ont fait une réaction allergique</a> à un composant du vaccin. Les autorités sanitaires ont recommandé aux personnes ayant déjà fait de fortes réactions allergiques par le passé et aux personnes allergiques à un des composants du vaccin de ne pas se faire vacciner à ce stade. Les vaccins peuvent, comme tout médicament, entraîner une réaction allergique. Les médecins sont équipés pour prendre les patients en charge très rapidement.",
+    "next": "f90374d1-8a71-40e5-90d2-ae8176a200ea"
+  },
+  {
+    "type": "Text",
+    "id": "f90374d1-8a71-40e5-90d2-ae8176a200ea",
+    "actor": "",
+    "name": "Les vaccins peuvent exceptionnellement causer des effets indésirables graves, mais ceux-ci surviennent quasiment toujours au cours du <ahref: \"https://www.deplatformdisease.com/blog/long-term-effects-of-covid-19-vaccines-should-you-be-worried\" >premier mois</a> suivant l'administration du vaccin. Les essais ayant commencé il y a plusieurs mois, nous avons désormais un bon recul. ",
+    "next": "b76de144-c559-4068-aa3c-2b587c950375"
+  },
+  {
+    "type": "Text",
+    "id": "b76de144-c559-4068-aa3c-2b587c950375",
+    "actor": "",
+    "name": "Grâce au grand nombre de volontaires, un effet secondaire grave qui affecterait plus d’une personne sur <ahref: \"https://coronavirus.medium.com/are-the-covid-19-vaccines-safe-3a399a9bd8a0\" >1 000 aurait probablement déjà été détecté</a> et aurait conduit à l’arrêt de l’essai. Les procédures habituelles de suivi des vaccins seront suivies pour surveiller l’évolution des effets secondaires sur le long terme. ",
+    "next": "b3265e9d-4c7b-4f84-869e-727c5eedb840"
+  },
+  {
+    "type": "Text",
+    "id": "b3265e9d-4c7b-4f84-869e-727c5eedb840",
+    "actor": "",
+    "name": "",
+    "choices": [
+      "95049102-944b-44ba-aa80-a194b6c6a4da",
+      "33ebe64a-b07e-46b4-b110-bffa29c21f84",
+      "9ca84d5d-6dbf-48ec-bc50-6a6935c76420"
+    ]
+  },
+  {
+    "type": "Choice",
+    "id": "95049102-944b-44ba-aa80-a194b6c6a4da",
+    "title": "6#mini",
+    "name": "Qu’en est-il de l'interruption des essais AstraZeneca ?",
+    "next": "ba2aeb6f-af44-40d5-ade4-2adfd21634aa"
+  },
+  {
+    "type": "Choice",
+    "id": "33ebe64a-b07e-46b4-b110-bffa29c21f84",
+    "title": "7#mini",
+    "name": "Mais pourtant il y a bien eu des cas d’effets secondaires graves liés à certains vaccins ?",
+    "next": "bddf0d1a-2597-46cd-a9bc-9d9e5c0124fb"
+  },
+  {
+    "type": "Choice",
+    "id": "9ca84d5d-6dbf-48ec-bc50-6a6935c76420",
+    "title": "8#mini",
+    "name": "Comment peut-on détecter des effets secondaires très rares ?",
+    "next": "2b2e0b8a-c817-4359-92ae-15c25c3428d1"
+  },
+  {
+    "type": "Text",
+    "id": "ba2aeb6f-af44-40d5-ade4-2adfd21634aa",
+    "actor": "",
+    "name": "L’essai du vaccin d’AstraZeneca a été <ahref: \"https://www.nature.com/articles/d41586-020-02706-6\" >interrompu momentanément</a> à cause de la survenue de symptômes d’une maladie inflammatoire rare appelée myélite transverse chez deux volontaires de l’essai. La société AstraZeneca et l'université d'Oxford n'ont pas encore communiqué si ces deux participants avaient reçu le vaccin ou un placebo. ",
+    "next": "afa682ad-0c1f-4355-b0a8-da894f1d80bd"
+  },
+  {
+    "type": "Text",
+    "id": "afa682ad-0c1f-4355-b0a8-da894f1d80bd",
+    "actor": "",
+    "name": "Il est fréquent que les essais cliniques soient interrompus. Le processus de vérification standard a été déclenché et un comité indépendant a pu procéder à l'examen des données de sécurité. Le lien entre cette maladie et la vaccination n’ayant pas été établi, ces essais ont depuis repris.",
+    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
+  },
+  {
+    "type": "Text",
+    "id": "bddf0d1a-2597-46cd-a9bc-9d9e5c0124fb",
+    "actor": "",
+    "name": "Dans la plupart des controverses, telles que le lien présumé entre le vaccin contre l’Hépatite B et la sclérose en plaques, ou entre le vaccin ROR avec l’autisme, aucun lien de causalité n’a pu être identifié malgré les nombreuses études indépendantes faites par les scientifiques. ",
+    "next": "79fda69b-8c3b-4195-8787-3681172e6765"
+  },
+  {
+    "type": "Text",
+    "id": "79fda69b-8c3b-4195-8787-3681172e6765",
+    "actor": "",
+    "name": "Par exemple, concernant le lien (sans fondement) qui avait été suggéré entre la vaccination contre l'hépatite B et la survenue d'une sclérose en plaques (SEP), les données ont été examinées par des <ahref: \"https://www.who.int/vaccine_safety/committee/topics/hepatitisb/multiple_sclerosis/sep_04/fr/\" >comités d’experts indépendants</a> qui ont conclu qu’il n’y avait pas d’éléments convaincants en faveur de l'hypothèse que le vaccin contre l'hépatite B était associé à un risque plus grand de développer une sclérose en plaques.",
+    "next": "f7c354ca-bf32-47c2-849b-1ed78aac7d6e"
+  },
+  {
+    "type": "Text",
+    "id": "f7c354ca-bf32-47c2-849b-1ed78aac7d6e",
+    "actor": "",
+    "name": "Il existe des cas exceptionnels dans lesquels des vaccins ont été associés à des effets secondaires rares. Par exemple, en 2010, plusieurs cas de narcolepsie (un trouble du sommeil qui se caractérise par une somnolence excessive au cours de la journée) ont été signalés en France, en Finlande et en Suède, chez des personnes ayant été vaccinées contre la grippe A (H1N1). Cependant, étant donné le très faible nombre de cas recensés, aucun lien de <ahref: \"https://ansm.sante.fr/S-informer/Points-d-information-Points-d-information/Vaccins-pandemiques-grippe-A-H1N1-et-narcolepsie-Mise-a-jour-de-l-information-sur-les-dernieres-donnees-scientifiques-Point-d-information\" >causalité n’a été démontré</a>.",
+    "next": "6c0b80d9-5fe0-4f34-b0c6-90af64503f98"
+  },
+  {
+    "type": "Text",
+    "id": "6c0b80d9-5fe0-4f34-b0c6-90af64503f98",
+    "actor": "",
+    "name": "Comme pour tout médicament, il faut comparer les effets indésirables possibles avec les bénéfices que procurent les vaccins. Les vaccins protègent des maladies, de leurs symptômes graves (qui vont parfois jusqu’à la mort). Si l’on prend en compte les risques et les bénéfices, on peut aujourd’hui affirmer que le risque de développer une maladie grave en ne se vaccinant pas est beaucoup plus important que le risque lié aux effets secondaires graves des vaccins, qui sont très rares ou inexistants. \n",
+    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
+  },
+  {
+    "type": "Text",
+    "id": "2b2e0b8a-c817-4359-92ae-15c25c3428d1",
+    "actor": "",
+    "name": "Les effets secondaires les plus rares (par exemple ceux qui apparaissent chez une personne sur un million) sont pratiquement impossibles à détecter au cours des essais, car cela nécessiterait d’inclure dans les essais des dizaines de millions de personnes. ",
+    "next": "d8e5fb50-8189-416a-8143-991f596a3b25"
+  },
+  {
+    "type": "Text",
+    "id": "d8e5fb50-8189-416a-8143-991f596a3b25",
+    "actor": "",
+    "name": "Cependant, il existe un mécanisme permettant de détecter ce type d’effets secondaires rarissimes, dans ce que l’on appelle essai de phase 4. Il s'agit d'un contrôle qui évalue la sécurité des vaccins dans la population une fois qu'ils ont déjà été homologués pour s'assurer que rien de préoccupant n’a été négligé.",
+    "next": "3fb83766-9094-4890-bfe9-76953002d4fe"
+  },
+  {
+    "type": "Text",
+    "id": "3fb83766-9094-4890-bfe9-76953002d4fe",
+    "actor": "",
+    "name": "Les autorités de santé surveillent l’évolution des effets secondaires sur le long terme, après l’autorisation de mise sur le marché de tout vaccin ou de tout médicament. Lorsque des symptômes apparaissent lors de la prise d’un vaccin, ils sont déclarés à l’ANSM (Agence nationale de sécurité du médicament). Ensuite, les experts scientifiques de l’ANSM effectuent des recherches approfondies et évaluent la sûreté du vaccin à partir de ces nouvelles données. Ce processus est en place pour tous les médicaments qui sont actuellement sur le marché.\n",
+    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
+  },
+  {
+    "type": "Choice",
+    "id": "02d5a922-d5de-44b5-a61c-72ac97ca45b1",
+    "title": "4#mini",
+    "name": "La nouvelle technologie de vaccins à ARN messagers, utilisée par Pfizer et Moderna, est-elle sûre ?",
+    "next": "c80bbe72-12d2-46af-bbe6-0e12dd03e7e3"
+  },
+  {
+    "type": "Text",
+    "id": "871798e5-1f27-4c22-8b07-dcc15026925a",
+    "actor": "",
+    "name": "Un ARN messager est comme un mode d'emploi microscopique. Grâce au vaccin, ce mode d'emploi est envoyé aux cellules de l'organisme pour qu'elles produisent une des protéines du coronavirus. A elle seule, cette protéine est complètement inoffensive. Quand le système immunitaire repère cette protéine dans l’organisme, il fabrique des anticorps contre le coronavirus, ce qui nous permet de nous défendre par la suite contre le virus.\n",
+    "next": "ffa92180-4092-47b1-9f69-667483de06a0"
+  },
+  {
+    "type": "Text",
+    "id": "ffa92180-4092-47b1-9f69-667483de06a0",
+    "actor": "",
+    "name": "Dans le cas des vaccins à ARN messager, l’ARN ne pénètre pas dans les noyaux des cellules, là où se trouve notre ADN. Il n’y a donc <ahref: \"https://fr.wikipedia.org/wiki/Vaccin_%C3%A0_ARN\" >pas de risque</a> que leur code génétique soit incorporé dans notre ADN, ou qu’ils puissent modifier notre ADN.",
+    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
+  },
+  {
+    "type": "Choice",
+    "id": "d737d905-f82b-4661-9967-6b170bd776b7",
+    "title": "5#mini",
+    "name": "Faut-il craindre les nanoparticules dans les vaccins ARNm?\n",
+    "next": "e2d6ebd2-e201-471f-a190-f5f552b27d18"
+  },
+  {
+    "type": "Text",
+    "id": "c80bbe72-12d2-46af-bbe6-0e12dd03e7e3",
+    "actor": "",
+    "name": "Il est normal d’être inquiet face aux avancées technologiques rapides, y compris dans le domaine de la médecine. Cependant, cette technologie est en développement depuis plus de <ahref: \"https://www.sciencedirect.com/science/article/abs/pii/S1748013219301483?via%3Dihub\" >30 ans</a>. D'autres vaccins à ARN sont en phase d'essai clinique, et visent à lutter contre des <ahref: \"https://journals.lww.com/immunotherapy-journal/Abstract/2008/02000/Results_of_the_First_Phase_I_II_Clinical.7.aspx\" >cancers</a>, contre la <ahref: \"https://www.mdpi.com/2076-393X/6/2/20\" >grippe</a> et contre la <ahref: \"https://www.mdpi.com/2076-393X/7/4/132\" >rage</a>. La production des différents composants d'un vaccin ARN est un processus <ahref: \"https://www.mesvaccins.net/web/news/16696-l-arn-est-il-l-avenir-des-vaccins\" >rapide et bien maîtrisé</a>. ",
+    "next": "a155f68a-59c7-48a7-af8d-4a81cbbf7cc4"
+  },
+  {
+    "type": "Text",
+    "id": "a155f68a-59c7-48a7-af8d-4a81cbbf7cc4",
+    "actor": "",
+    "name": "Les essais de phase 1, 2 et 3 commencés au début de l'année ont concerné à ce jour des dizaines de milliers de volontaires, et n’ont pas révélé d’effet indésirable nouveau ou grave avec les vaccins <ahref: \"https://www.mesvaccins.net/web/news/16696-l-arn-est-il-l-avenir-des-vaccins\" >ARN de Pfizer et de Moderna</a>. Les événements indésirables observés lors de ces essais étaient locaux (rougeur, douleur au point d'injection) ou généraux (malaise, fièvre), plus fréquents avec le vaccin qu'avec le placebo, mais comparables à ceux observés avec des vaccins bien connus. ",
+    "next": "516017e4-977f-4e15-8296-bc93935a4373"
+  },
+  {
+    "type": "Text",
+    "id": "516017e4-977f-4e15-8296-bc93935a4373",
+    "actor": "",
+    "name": "Comme tout vaccin, les vaccins à ARN peuvent déclencher chez certaines personnes une réaction allergique. Ces rares réactions sont surveillées et les patients sont pris en charge immédiatement.\n",
+    "next": "e214d721-4dfa-4f68-af34-b728fe6eb78f"
+  },
+  {
+    "type": "Text",
+    "id": "e214d721-4dfa-4f68-af34-b728fe6eb78f",
+    "actor": "",
+    "name": "Le principal risque (théorique) des vaccins à ARN est celui du déclenchement d'une <ahref: \"https://www.nature.com/articles/nrd.2017.243\" >forte réponse immunitaire</a>. Par conséquent, les personnes sujettes aux maladies auto-immunes sont potentiellement à risque pour ces vaccins. Les essais s'appuyant sur d'autres techniques vaccinales continuent pour trouver le vaccin le plus approprié pour chaque personne et situation.\n",
+    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
+  },
+  {
+    "type": "Text",
+    "id": "e2d6ebd2-e201-471f-a190-f5f552b27d18",
+    "actor": "",
+    "name": "L’ARNm des vaccins est entouré d’une couche de <ahref: \"https://www.lemonde.fr/les-decodeurs/article/2020/12/11/nanoparticules-et-vaccins-contre-le-covid-19-cinq-questions-pour-demeler-le-vrai-du-faux_6063083_4355770.html\" >nanoparticules</a> de lipides (de la graisse) qui sert à le protéger et se dégrade ensuite naturellement. Ces molécules de lipides sont tout à fait naturelles : nos cellules elles-mêmes sont entourées de lipides !",
+    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
+  },
+  {
+    "type": "Text",
+    "id": "d8d361a8-4a9a-4278-bbaa-32482772ad5f",
+    "actor": "",
+    "name": "Les scientifiques du monde entier se mobilisent pour créer et tester un vaccin sûr et efficace contre la Covid-19. De nombreux vaccins sont à l’étude, à <ahref: \"https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html\" >différentes étapes de développement</a>. Les connaissances disponibles aujourd’hui nous laissent penser que oui, certains vaccins sont efficaces, et d’autres vaccins, qui sont encore en cours d’évaluation, le seront également.",
+    "next": "479bfa16-d585-40d2-8e97-9917bda23268"
+  },
+  {
+    "type": "Text",
+    "id": "479bfa16-d585-40d2-8e97-9917bda23268",
+    "actor": "",
+    "name": "Les données d’efficacité disponibles indiquent que le <ahref: \"https://www.nytimes.com/2020/11/18/health/pfizer-covid-vaccine.html\" >premier vaccin à être testé</a> (Pfizer) a une efficacité proche de 95%. On mesure l’efficacité en comparant le nombre de personnes infectées chez les volontaires qui ont été vaccinés et chez ceux qui ont reçu le placebo. Un vaccin est efficace à 95% si 95% des personnes infectées appartiennent au groupe qui a reçu le placebo.\n",
+    "next": "342717fb-c7b0-489e-b5f8-5f36b7b706ff"
+  },
+  {
+    "type": "Text",
+    "id": "342717fb-c7b0-489e-b5f8-5f36b7b706ff",
+    "actor": "",
+    "name": "Concrètement, parmi les 40 000 personnes testées, seules 8 ayant reçu le vaccin ont été infectées par le virus contre 162 dans le groupe contrôle ayant reçu un placebo. Le vaccin développé par <ahref: \"https://www.lemonde.fr/planete/article/2020/11/16/covid-19-moderna-annonce-que-son-candidat-vaccin-est-efficace-a-94-5_6059931_3244.html\" >Moderna</a> aurait lui aussi une efficacité qui avoisine les 95%. Sur les 30 000 personnes testées, seules 5 ayant reçu le vaccin ont été infectées par le virus contre 90 dans le groupe contrôle ayant reçu un placebo. Les résultats d’autres vaccins sont également prometteurs, en particulier le vaccin d’Oxford-AstraZeneca, même s’ils semblent rester en dessous des <ahref: \"https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)32661-1/fulltext\" >70% d’efficacité</a>.",
+    "next": "270cd515-03e6-46ae-b207-70a005361609"
+  },
+  {
+    "type": "Text",
+    "id": "270cd515-03e6-46ae-b207-70a005361609",
+    "actor": "",
+    "name": "",
+    "choices": [
+      "82b8c70a-b936-4536-8776-4ce79ae14538",
+      "7ae65a2a-1fc8-4712-abab-ce39f87717ff",
+      "5577ebc5-9f09-473f-989e-8a085b4517f9",
+      "7a2f2a06-3292-4a5e-b37c-f879f38e5d21",
+      "2db8638c-ba9c-4394-a76d-c2da4f3eb8d2"
+    ]
+  },
+  {
+    "type": "Choice",
+    "id": "82b8c70a-b936-4536-8776-4ce79ae14538",
+    "title": "3#mini",
+    "name": "Comment fonctionnent les essais cliniques qui permettent de tester les vaccins ?",
+    "next": "1c7c41a2-b791-4465-aa3b-9954a61cba41"
+  },
+  {
+    "type": "Choice",
+    "id": "7ae65a2a-1fc8-4712-abab-ce39f87717ff",
+    "title": "4#mini",
+    "name": "Comment fonctionnent les vaccins ?",
+    "next": "353759a3-3b10-4a31-b3b1-988efdf0e175"
+  },
+  {
+    "type": "Choice",
+    "id": "5577ebc5-9f09-473f-989e-8a085b4517f9",
+    "title": "5#mini",
+    "name": "En général, les vaccins sont-ils efficaces ?",
+    "next": "61901472-a56e-4777-83b3-155207bb0e17"
+  },
+  {
+    "type": "Text",
+    "id": "1c7c41a2-b791-4465-aa3b-9954a61cba41",
+    "actor": "",
+    "name": "Les vaccins en cours d’évaluation sont testés de manière intensive avant leur mise sur le marché. Les essais chez l'Homme se déroulent en trois phases. La phase 1 consiste à tester l'absence de toxicité de la préparation chez un petit nombre de volontaires sains non exposés au virus. La phase 2 consiste à étudier chez un plus grand nombre de volontaires (50-200), la façon dont le vaccin devra être administré (doses, nombre d'injections) pour induire une immunité maximale. Dans cette phase, on mesure l’immunité à partir des anticorps présents dans le sang.",
+    "next": "fac0157b-f8b5-4436-9d27-20045f97d4b0"
+  },
+  {
+    "type": "Text",
+    "id": "fac0157b-f8b5-4436-9d27-20045f97d4b0",
+    "actor": "",
+    "name": "La phase 3 teste l'efficacité réelle de la vaccination chez plusieurs milliers de volontaires. Une partie des volontaires recevra le vaccin, d’autres volontaires recevront un placebo, c'est-à-dire une piqûre de sérum physiologique (eau salée). A terme, d’autres volontaires pourront recevoir un autre vaccin déjà validé, pour comparer l’efficacité du vaccin en cours d’évaluation à celle d’un vaccin existant. \n",
+    "next": "f504ac75-a927-40ed-80a5-0e11a3c64b10"
+  },
+  {
+    "type": "Text",
+    "id": "f504ac75-a927-40ed-80a5-0e11a3c64b10",
+    "actor": "",
+    "name": "L’efficacité du vaccin est mesurée en comparant le nombre de nouveaux cas d'infections parmi les personnes qui ont reçu le vaccin, au nombre de cas d’infections parmi les personnes qui ont reçu le placebo. Dans le cas de la comparaison avec un vaccin précédent, c’est la force de la réaction immunitaire qui est mesurée. ",
+    "next": "270cd515-03e6-46ae-b207-70a005361609"
+  },
+  {
+    "type": "Text",
+    "id": "353759a3-3b10-4a31-b3b1-988efdf0e175",
+    "actor": "",
+    "name": "Lorsque nous rencontrons un microbe (bactérie, virus), notre système immunitaire se défend en fabricant des anticorps, destinés à neutraliser et éliminer le microbe. La vaccination provoque la fabrication de ces mêmes anticorps, mais en évitant les dangers liés à la maladie. ",
+    "next": "63b790e1-f94b-40c5-8d9c-75d11df3cbe9"
+  },
+  {
+    "type": "Text",
+    "id": "63b790e1-f94b-40c5-8d9c-75d11df3cbe9",
+    "actor": "",
+    "name": "Prenons l’exemple de la Covid-19. Le but du vaccin est de faire croire à notre système immunitaire qu’il est infecté par le virus du Covid-19, en présentant la “carte d’identité” du virus, aussi appelé antigène, pour provoquer une réponse immunitaire. Il existe de nombreuses méthodes pour présenter cette “carte d’identité” du virus : par exemple, injecter des protéines appartenant au virus, ou utiliser l’ARN messager comme intermédiaire. \n",
+    "next": "f9804752-7563-46e1-8c2e-c16d97cad150"
+  },
+  {
+    "type": "Text",
+    "id": "f9804752-7563-46e1-8c2e-c16d97cad150",
+    "actor": "",
+    "name": "Quand on déclenche une réponse immunitaire avec un vaccin, on permet au système immunitaire de se familiariser avec le virus. Ainsi, la prochaine fois qu’il rencontrera le vrai virus (et pas seulement sa “carte d’identité”), notre système immunitaire le reconnaîtra rapidement et l’éliminera avant que nous ne développions des symptômes, en particulier des symptômes sévères.",
+    "next": "fb89e070-63c9-4a0f-8b2b-45a7bf2138f1"
+  },
+  {
+    "type": "Text",
+    "id": "fb89e070-63c9-4a0f-8b2b-45a7bf2138f1",
+    "actor": "",
+    "name": "Pour en savoir plus sur les différentes méthodes de vaccination, nous vous encourageons à consulter cette <ahref: \"https://www.lemonde.fr/les-decodeurs/article/2020/12/04/comment-fonctionnent-les-futurs-vaccins-contre-le-covid-19_6062151_4355770.html\" >excellente infographie</a>.",
+    "next": "270cd515-03e6-46ae-b207-70a005361609"
+  },
+  {
+    "type": "Text",
+    "id": "61901472-a56e-4777-83b3-155207bb0e17",
+    "actor": "",
+    "name": "Depuis sa création, la vaccination s’est montrée incroyablement efficace. Les scientifiques estiment que la vaccination permet de sauver la vie de <ahref: \"https://www.inserm.fr/information-en-sante/dossiers-information/vaccins-et-vaccinations\" >2 millions de personnes</a> chaque année dans le monde.",
+    "next": "fad69716-8ea5-4f5e-8adc-23bd2c1dbab3"
+  },
+  {
+    "type": "Text",
+    "id": "fad69716-8ea5-4f5e-8adc-23bd2c1dbab3",
+    "actor": "",
+    "name": "Les vaccins sont une grande source de progrès médical, et ont permis d’augmenter l’espérance de vie. De <ahref: \"https://pediatrics.aappublications.org/content/137/3/e20153741\" >nombreuses études scientifiques</a> ont prouvé l’efficacité des vaccins, en les comparant à des placebos lors d’essais cliniques.",
+    "next": "4dd215ec-6a6b-4646-9982-6638144a7866"
+  },
+  {
+    "type": "Text",
+    "id": "4dd215ec-6a6b-4646-9982-6638144a7866",
+    "actor": "",
+    "name": "Par exemple, la <ahref: \"https://www.caducee.net/Communiques/22102004/2210200409oreillons03.asp\" >vaccination contre le virus de la rougeole</a> a permis d’éviter, en France sur une période de 35 ans, les effets parfois graves de la rougeole : 11 500 décès, 16 800 encéphalites (inflammation aiguë du cerveau), 5 000 séquelles neurologiques, 590 000 pneumonies et 1,4 million d’otites.",
+    "next": "ea8c8c1a-95da-4fcc-8bdc-10f659523adf"
+  },
+  {
+    "type": "Text",
+    "id": "ea8c8c1a-95da-4fcc-8bdc-10f659523adf",
+    "actor": "",
+    "name": "La vaccination est bénéfique sur le plan individuel, en protégeant la personne vaccinée, mais peut également l’être au niveau collectif. Lorsqu’une part suffisante de la population est vaccinée, le pathogène cesse de circuler. ",
+    "next": "f2136883-629b-48e8-b6ec-58b64a5e8686"
+  },
+  {
+    "type": "Text",
+    "id": "f2136883-629b-48e8-b6ec-58b64a5e8686",
+    "actor": "",
+    "name": "Une telle protection de groupe bénéficie aux personnes vaccinées, mais aussi à celles qui n’ont pas pu se faire vacciner. Cela peut concerner les personnes qui ont un système immunitaire trop faible comme les malades du SIDA, les personnes ayant reçu une greffe, les personnes en cours de traitement pour un cancer ou encore les personnes très âgées ou les très jeunes bébés.",
+    "next": "1d950310-5fde-4999-92d3-6e5ad2587c1e"
+  },
+  {
+    "type": "Text",
+    "id": "1d950310-5fde-4999-92d3-6e5ad2587c1e",
+    "actor": "",
+    "name": "",
+    "choices": [
+      "3a6b4e89-3eeb-4387-acba-9059b54bae28",
+      "cd0f9a0d-729c-41ad-8676-1c78275c3454",
+      "0a551654-128b-480f-bc63-55d3b427c4e8"
+    ],
+    "next": "270cd515-03e6-46ae-b207-70a005361609"
+  },
+  {
+    "type": "Choice",
+    "id": "3a6b4e89-3eeb-4387-acba-9059b54bae28",
+    "title": "6#mini",
+    "name": "Pourquoi est-ce que les vaccins permettent de protéger les autres ?",
+    "next": "c9df2657-e75e-46e7-8402-5c205101c842"
+  },
+  {
+    "type": "Choice",
+    "id": "cd0f9a0d-729c-41ad-8676-1c78275c3454",
+    "title": "7#mini",
+    "name": "Les vaccins n’ont-ils qu’un effet placebo ?",
+    "next": "248f34a9-c7c2-42f2-9ea5-622e28693c79"
+  },
+  {
+    "type": "Text",
+    "id": "c9df2657-e75e-46e7-8402-5c205101c842",
+    "actor": "",
+    "name": "Lorsqu’une proportion suffisante de la population est vaccinée (pour la Covid-19, cette proportion pourrait être de <ahref: \"https://www.numerama.com/sciences/664678-coronavirus-combien-de-personnes-devraient-idealement-se-faire-vacciner.html\" >70 à 90%</a>, suivant l’efficacité du vaccin pour bloquer la transmission du virus), les vaccins protègent efficacement la population. \n",
+    "next": "c7c4536c-c133-4ee1-8dad-68664b330efd"
+  },
+  {
+    "type": "Text",
+    "id": "c7c4536c-c133-4ee1-8dad-68664b330efd",
+    "actor": "",
+    "name": "La propagation d’une maladie contagieuse est directement liée à la proportion de personnes qui peuvent attraper la maladie : plus le nombre de personnes vaccinées augmente, plus la propagation est freinée. ",
+    "next": "dd48d877-4b89-48fb-a640-78e00289a2a3"
+  },
+  {
+    "type": "Text",
+    "id": "dd48d877-4b89-48fb-a640-78e00289a2a3",
+    "actor": "",
+    "name": "Lorsque le nombre de personnes vaccinées devient très important, les personnes immunisées font barrage entre les individus contagieux et les individus non immunisés. Le microbe arrête alors de circuler d’une personne à l’autre, et la maladie peut être éradiquée. Une telle protection de groupe protège donc les sujets vaccinés, mais aussi les non vaccinés. ",
+    "next": "a20d40a7-8040-42f5-9aca-f9a18e0e1e29"
+  },
+  {
+    "type": "Text",
+    "id": "a20d40a7-8040-42f5-9aca-f9a18e0e1e29",
+    "actor": "",
+    "name": "Pour qu’une telle protection de groupe soit atteinte, les vaccins doivent rendre la personne vaccinée non-contagieuse. Dans l’état actuel des connaissances, les vaccins anti Covid-19 semblent induire une forte immunité individuelle, mais nous manquons encore de données pour savoir à quel point ils bloquent la transmission. Des recherches en cours vont permettre de répondre à cette question. ",
+    "next": "270cd515-03e6-46ae-b207-70a005361609"
+  },
+  {
+    "type": "Choice",
+    "id": "0a551654-128b-480f-bc63-55d3b427c4e8",
+    "title": "8#mini",
+    "name": "Les vaccins ont-ils, à eux seuls, fait disparaître les principales maladies infectieuses ?",
+    "next": "87fee5a2-e3cf-4c2d-91f4-7f171aa9969c"
+  },
+  {
+    "type": "Text",
+    "id": "248f34a9-c7c2-42f2-9ea5-622e28693c79",
+    "actor": "",
+    "name": "Lorsqu’un vaccin est dit efficace, c’est toujours en comparaison à un placebo, ou à un vaccin de référence s’il existe un autre vaccin dont l’efficacité est avérée. Ainsi, quand les scientifiques disent qu’un vaccin est efficace, il faut comprendre “le vaccin est plus efficace qu’un placebo”. L’effet d’un vaccin ne peut donc pas être un simple effet placebo. \n",
+    "next": "ab237221-1abb-481e-9b28-9d5fb361cbc7"
+  },
+  {
+    "type": "Text",
+    "id": "87fee5a2-e3cf-4c2d-91f4-7f171aa9969c",
+    "actor": "",
+    "name": "Le progrès médical, l’hygiène et la nutrition, ont beaucoup aidé à combattre les maladies infectieuses, mais la vaccination est elle aussi très importante.",
+    "next": "1d0937a9-d512-42d8-a0e3-f9ed220086ff"
+  },
+  {
+    "type": "Text",
+    "id": "1d0937a9-d512-42d8-a0e3-f9ed220086ff",
+    "actor": "",
+    "name": "Après l’introduction de chaque vaccin, une forte diminution du nombre de cas de la maladie infectieuse correspondante a été observée. Par exemple, après l’apparition du vaccin contre la poliomyélite, le virus a été <ahref: \"https://www.who.int/features/factfiles/polio/fr/\" >éliminé dans de nombreux pays</a> en moins d’une génération.",
+    "next": "d6a8bd28-6503-4e93-81b7-ee451e249fb5"
+  },
+  {
+    "type": "Text",
+    "id": "d6a8bd28-6503-4e93-81b7-ee451e249fb5",
+    "actor": "",
+    "name": "En France, la vaccination contre la rougeole est entrée au <ahref: \"https://solidarites-sante.gouv.fr/IMG/pdf/plan_elimination_rougeole.pdf\" >calendrier vaccinal en 1983</a>. Le taux d'infection par la rougeole a chuté brusquement après l'introduction du vaccin, <ahref: \"https://fr.wikipedia.org/wiki/Rougeole#France\" >de près de 400 000 cas en 1987 à 44 000 cas en 1993</a>. Pourtant, les habitudes d'hygiène et d'assainissement n'ont pas beaucoup changé entre 1983 et 1993. A l’inverse, la diminution du taux de vaccination contre la rougeole ces dernières années a entraîné une <ahref: \"https://www.who.int/fr/news/item/12-11-2020-worldwide-measles-deaths-climb-50-from-2016-to-2019-claiming-over-207-500-lives-in-2019\" >augmentation du nombre de décès</a> suite à des formes graves de rougeole.",
+    "next": "5e965ad4-28e6-4ac6-adc1-f7ad47865d70"
+  },
+  {
+    "type": "Text",
+    "id": "5e965ad4-28e6-4ac6-adc1-f7ad47865d70",
+    "actor": "",
+    "name": "Malgré l’amélioration des conditions sanitaires, certaines maladies contre lesquelles aucun vaccin n’existe continuent de tuer des <ahref: \"https://www.who.int/fr/news-room/fact-sheets/detail/malaria\" >centaines de milliers de personnes chaque année</a> (par exemple le paludisme). En l’absence de vaccination, des maladies devenues rares, comme la coqueluche, pourraient réapparaître rapidement. ",
+    "next": "270cd515-03e6-46ae-b207-70a005361609"
+  },
+  {
+    "type": "Text",
+    "id": "ab237221-1abb-481e-9b28-9d5fb361cbc7",
+    "actor": "",
+    "name": "Par exemple, on dit que le vaccin développé par Pfizer et BioNTech contre la Covid-19 est efficace parce que moins de personnes ont été infectées par le virus <ahref: \"https://www.leparisien.fr/societe/lutte-contre-le-covid-19-le-vaccin-pfizer-biontech-est-efficace-a-95-selon-des-resultats-complets-18-11-2020-8409027.php\" >au sein des vaccinés (8 sur 20 000) qu’au sein du groupe contrôle ayant reçu un placebo (162 sur 20 000)</a>. Il en va de même pour le <ahref: \"https://www.sciencemag.org/news/2020/11/absolutely-remarkable-no-one-who-got-modernas-vaccine-trial-developed-severe-covid-19\" >vaccin Moderna</a>.",
+    "next": "5669abfc-5a9c-46d7-878e-38478d84d03a"
+  },
+  {
+    "type": "Text",
+    "id": "5669abfc-5a9c-46d7-878e-38478d84d03a",
+    "actor": "",
+    "name": "Les vaccins peuvent également permettre d'empêcher l'apparition de formes graves de la maladie et ceci est pris en compte dans l'évaluation de l'efficacité d’un vaccin. Dans l’essai du vaccin Moderna, <ahref: \"https://www.sciencemag.org/news/2020/11/absolutely-remarkable-no-one-who-got-modernas-vaccine-trial-developed-severe-covid-19\" >aucun</a> des participants du groupe ayant reçu le vaccin n’a développé une forme sévère de la Covid-19.",
+    "next": "270cd515-03e6-46ae-b207-70a005361609"
+  },
+  {
+    "type": "Choice",
+    "id": "7a2f2a06-3292-4a5e-b37c-f879f38e5d21",
+    "title": "6#mini",
+    "name": "Connaît-on assez cette maladie pour élaborer un vaccin efficace ?",
+    "next": "edf9dee1-8123-4289-a56c-08a5bc361c09"
+  },
+  {
+    "type": "Text",
+    "id": "edf9dee1-8123-4289-a56c-08a5bc361c09",
+    "actor": "",
+    "name": "Le virus qui cause la Covid-19 est apparu très récemment, mais les scientifiques le connaissent déjà très bien. Des centaines d’équipes de chercheurs à travers le monde travaillent sur cette maladie de manière intensive depuis le début de l’épidémie. Plus de <ahref: \"https://app.dimensions.ai/discover/publication?search_mode=content&search_text=covid-19&search_type=kws&search_field=full_search\" >150 000 articles</a> scientifiques ont été publiés sur la Covid-19 par des chercheurs et des médecins. ",
+    "next": "c5532775-0fba-43a7-a7f1-6e8daa1186b0"
+  },
+  {
+    "type": "Text",
+    "id": "c5532775-0fba-43a7-a7f1-6e8daa1186b0",
+    "actor": "",
+    "name": "Le génome du virus SARS-CoV-2, qui cause la Covid-19, est maintenant bien connu, car il a été séquencé en entier en un temps record par la Chine, puis par des chercheurs du monde entier (y compris en France) qui le séquencent très régulièrement pour détecter d'éventuelles mutations. De plus, l’expérience des coronavirus précédents (SRAS et MERS) a permis d’identifier très rapidement les fragments de virus choisis pour en tirer un vaccin.",
+    "next": "d1568ad6-1d95-4b21-8879-364c8deebc9f"
+  },
+  {
+    "type": "Text",
+    "id": "d1568ad6-1d95-4b21-8879-364c8deebc9f",
+    "actor": "",
+    "name": "Grâce à cette extraordinaire mobilisation de la communauté scientifique mondiale, pas moins de 200 projets de vaccins sont à l'étude selon l’OMS. Actuellement, plusieurs dizaines de <ahref: \"https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html\" >vaccins</a> sont au stade de l'évaluation clinique chez l'Homme. ",
+    "next": "ad0362f8-a1a4-4cd7-b3f5-57f2ab9c8270"
+  },
+  {
+    "type": "Text",
+    "id": "ad0362f8-a1a4-4cd7-b3f5-57f2ab9c8270",
+    "actor": "",
+    "name": "",
+    "choices": [
+      "5ef35f19-a6ac-40ca-8eba-2f228cd9bbb2"
+    ],
+    "next": "270cd515-03e6-46ae-b207-70a005361609"
+  },
+  {
+    "type": "Choice",
+    "id": "5ef35f19-a6ac-40ca-8eba-2f228cd9bbb2",
+    "title": "",
+    "name": "Le virus pourrait-il muter, atténuant l’efficacité du vaccin ?",
+    "next": "12aaf78a-ba55-4e32-a682-d181704b8b80"
+  },
+  {
+    "type": "Text",
+    "id": "12aaf78a-ba55-4e32-a682-d181704b8b80",
+    "actor": "",
+    "name": "Ce risque est pris au sérieux par les autorités sanitaires. Par exemple, elles ont ordonné <ahref: \"https://www.francebleu.fr/infos/sante-sciences/covid-19-des-visons-contamines-dans-un-elevage-d-eure-et-loir-1-000-ont-ete-abattus-1606052573\" >l'abattage de milliers de visons</a> dont on craignait qu’ils soient affectés par un virus muté (cette mutation s’est par la suite révélée inoffensive). ",
+    "next": "6dcec810-0ef5-417f-b544-2e1cc0745cf4"
+  },
+  {
+    "type": "Text",
+    "id": "6dcec810-0ef5-417f-b544-2e1cc0745cf4",
+    "actor": "",
+    "name": "Les mutations sont rares car les coronavirus disposent d’un mécanisme de correction des erreurs de mutation qui leur procure une grande <ahref: \"https://www.revmed.ch/RMS/2020/RMS-N-701/Mutation-dans-la-proteine-Spike-de-SARS-CoV-2\" >stabilité génétique</a> (contrairement, par exemple, aux virus de la grippe). ",
+    "next": "2b164c83-6083-4fb1-b95e-2f336c7f5966"
+  },
+  {
+    "type": "Text",
+    "id": "2b164c83-6083-4fb1-b95e-2f336c7f5966",
+    "actor": "",
+    "name": "De plus, la plupart des mutations n’ont <ahref: \"https://www.lci.fr/sante/coronavirus-les-mutations-du-covid-19-rendent-elles-inefficaces-les-futurs-vaccins-2169855.html\" >pas d’effet</a> sur l’efficacité des vaccins. Étant donné que la structure d’un virus muté n’est généralement pas suffisamment modifiée, les premiers vaccins mis en circulation pourraient également protéger d’éventuelles versions mutées du virus. ",
+    "next": "f3c9103c-6839-423d-bc7a-175cfe2c1301"
+  },
+  {
+    "type": "Text",
+    "id": "f3c9103c-6839-423d-bc7a-175cfe2c1301",
+    "actor": "",
+    "name": "Même si, à terme, une mutation importante survenait, un nouveau vaccin serait mis en circulation. Le développement et la production de ce nouveau vaccin seraient plus rapides parce que les scientifiques pourraient s’appuyer sur l’expérience des premiers vaccins. Ainsi, chaque hiver, un vaccin contre la grippe est développé en quelques mois, car la structure de base du virus reste la même. ",
+    "next": "270cd515-03e6-46ae-b207-70a005361609"
+  },
+  {
+    "type": "Choice",
+    "id": "14d90f9a-fa35-4988-a400-a1a48a88f3e2",
+    "title": "1#mini",
+    "name": " Je veux en savoir plus sur le recul que l’on a sur les vaccins contre la COVID-19. ",
+    "next": "eab40f5b-3b13-42b0-878c-fe42e2452462"
+  },
+  {
+    "type": "Text",
+    "id": "3cd1da4e-3287-4864-bbcf-5ac5020a32b1",
+    "actor": "",
+    "name": "Par rapport aux vaccins précédents, la mise en circulation de certains vaccins contre la Covid-19 est très rapide. Nous devons cette rapidité à la mobilisation de centaines d’équipes de recherche et de volontaires du monde entier. ",
+    "next": "05f34a92-6354-4737-a209-0694d30debf5"
+  },
+  {
+    "type": "Text",
+    "id": "05f34a92-6354-4737-a209-0694d30debf5",
+    "actor": "",
+    "name": "Cependant, tous les vaccins, y compris les vaccins contre la Covid-19, passent par les mêmes procédures avant d’être distribués. ",
+    "next": "f90e6c8e-ba6b-42c9-97ac-29e1925095c7"
+  },
+  {
+    "type": "Text",
+    "id": "f90e6c8e-ba6b-42c9-97ac-29e1925095c7",
+    "actor": "",
+    "name": "Les essais ayant commencé il y a plusieurs mois, nous avons désormais un bon recul. En effet, les effets indésirables des vaccins surviennent quasiment toujours au cours du <ahref: \"https://www.deplatformdisease.com/blog/long-term-effects-of-covid-19-vaccines-should-you-be-worried\" >premier mois</a> suivant l'administration du vaccin. ",
+    "next": "bd78c0da-6519-43e5-af5f-cdf37bd4246b"
+  },
+  {
+    "type": "Text",
+    "id": "bd78c0da-6519-43e5-af5f-cdf37bd4246b",
+    "actor": "",
+    "name": "",
+    "choices": [
+      "14d90f9a-fa35-4988-a400-a1a48a88f3e2",
+      "cad75c0f-1d17-4062-8c06-23c08b51aa4b",
+      "da159e4e-5a5d-407a-8648-06aa3f912f92",
+      "50be894e-09b3-4763-a145-14b95a22936d",
+      "a771c17a-ad5a-4f1f-b0e4-60fad05be848",
+      "17a36ddb-4769-4335-b11f-606c5242a993",
+      "43707d47-6d0a-4278-bb76-ec0e6cc64f27",
+      "52cd3b93-e160-4cda-b159-901ff4dcf03a"
+    ]
+  },
+  {
+    "type": "Text",
+    "id": "eab40f5b-3b13-42b0-878c-fe42e2452462",
+    "actor": "",
+    "name": "Tout vaccin est testé de manière intensive avant sa mise sur le marché. Pour avoir une première mesure de l’efficacité des vaccins développés par Moderna et Pfizer, les autorités sanitaires ont imposé un délai minimal de deux mois entre la dernière injection durant les essais cliniques et l’analyse des premiers résultats. Les dizaines de milliers de volontaires qui ont participé aux essais cliniques seront ensuite suivis pendant près de deux ans pour détecter l’apparition d’éventuels effets secondaires très rares. ",
+    "next": "43910ce0-66b2-4f41-9514-bce868d3be6d"
+  },
+  {
+    "type": "Text",
+    "id": "43910ce0-66b2-4f41-9514-bce868d3be6d",
+    "actor": "",
+    "name": "Début octobre, la France a fait appel à 25 000 volontaires pour tester de potentiels vaccins contre la Covid-19 et évaluer leur sûreté et leur efficacité à grande échelle. Dans l’essai de Pfizer, 44 000 volontaires ont participé. ",
+    "next": "52580f05-92cd-429e-9a0d-6320eafa3f8e"
+  },
+  {
+    "type": "Text",
+    "id": "52580f05-92cd-429e-9a0d-6320eafa3f8e",
+    "actor": "",
+    "name": "Ces chiffres sont largement supérieurs aux essais de phase 3 pour <ahref: \"https://vaccination-info-service.fr/Generalites-sur-les-vaccinations/Qualite-securite-et-efficacite-des-vaccins/Securite-et-qualite-des-vaccins/Recherche-et-essais-cliniques-sur-les-vaccins\" >d’autres vaccins</a> en circulation. Grâce à ces nombreux volontaires, un plus grand volume de données a pu être recueilli, ce qui permet de détecter plus facilement et plus rapidement les effets secondaires, même rares. ",
+    "next": "22f8a140-ebce-4346-8ba8-eda34ae45a4b"
+  },
+  {
+    "type": "Text",
+    "id": "22f8a140-ebce-4346-8ba8-eda34ae45a4b",
+    "actor": "",
+    "name": "Grâce au grand nombre de volontaires, un effet secondaire grave qui affecterait plus d’une personne sur <ahref: \"https://coronavirus.medium.com/are-the-covid-19-vaccines-safe-3a399a9bd8a0\" >1 000 aurait probablement déjà été détecté</a> et aurait conduit à l’arrêt de l’essai. Les procédures habituelles de suivi des vaccins seront suivies pour surveiller l’évolution d’éventuels effets secondaires sur le long terme. ",
+    "next": "bd78c0da-6519-43e5-af5f-cdf37bd4246b"
+  },
+  {
+    "type": "Choice",
+    "id": "cad75c0f-1d17-4062-8c06-23c08b51aa4b",
+    "title": "2#mini",
+    "name": "Est-ce que les vaccins sont développés de manière trop précipitée ?",
+    "next": "ef9b6321-8740-4f1f-9cd2-b39d0b58e190"
+  },
+  {
+    "type": "Text",
+    "id": "ef9b6321-8740-4f1f-9cd2-b39d0b58e190",
+    "actor": "",
+    "name": "Les essais cliniques pour tester l’efficacité des vaccins n’ont pas été précipités. Les vaccins contre la Covid-19 sont soumis aux mêmes protocoles rigoureux de vérification et d’évaluation que les autres vaccins. \n",
+    "next": "cb6c07e2-7033-4a28-bd98-ab2a5652d103"
+  },
+  {
+    "type": "Text",
+    "id": "cb6c07e2-7033-4a28-bd98-ab2a5652d103",
+    "actor": "",
+    "name": "Les vaccins contre la Covid-19 ont été conçus plus rapidement que d’autres vaccins. Cette vitesse de développement exceptionnelle est due à des progrès scientifiques importants ces dernières années, et à la mobilisation, elle aussi exceptionnelle, des scientifiques du monde entier. \n",
+    "next": "80da80b1-7328-420b-bd51-f6224dec1547"
+  },
+  {
+    "type": "Text",
+    "id": "80da80b1-7328-420b-bd51-f6224dec1547",
+    "actor": "",
+    "name": "Les obstacles habituels que rencontrent les scientifiques en termes de financement, de recrutement de volontaires, et de mobilisation de personnels qualifiés ont été réduits par la mobilisation de tous pour trouver un vaccin rapidement.",
+    "next": "061c1e60-fc90-41f5-b426-dbba194448a5"
+  },
+  {
+    "type": "Text",
+    "id": "061c1e60-fc90-41f5-b426-dbba194448a5",
+    "actor": "",
+    "name": "",
+    "choices": [
+      "f792554c-07f0-48bf-ac01-288cf479c198"
+    ],
+    "next": "bd78c0da-6519-43e5-af5f-cdf37bd4246b"
+  },
+  {
+    "type": "Choice",
+    "id": "f792554c-07f0-48bf-ac01-288cf479c198",
+    "title": "",
+    "name": "Je veux en savoir plus sur la différence entre le développement du vaccin contre la Covid-19 et le développement des autres vaccins.",
+    "next": "6f8f8fd7-a0a2-43d7-afeb-ea162987fff3"
+  },
+  {
+    "type": "Text",
+    "id": "6f8f8fd7-a0a2-43d7-afeb-ea162987fff3",
+    "actor": "",
+    "name": "Les recherches portant sur le vaccin contre la Covid-19 ont commencé très tôt grâce à un séquençage du génome du virus précoce (janvier 2020), et les nouvelles technologies comme les vaccins à ARN ont permis d’accélérer le développement de nouveaux vaccins.",
+    "next": "e21b6387-752b-4475-b402-30fe745d2e14"
+  },
+  {
+    "type": "Text",
+    "id": "e21b6387-752b-4475-b402-30fe745d2e14",
+    "actor": "",
+    "name": "Le développement d’un nouveau vaccin peut prendre des années. Cette lenteur est notamment dûe au fait qu’il faut du temps pour obtenir des financements de recherche, des mois d’efforts pour recruter suffisamment de personnes pour les essais de phase 1 et 2, des années pour assurer un financement durable pour la recherche plus coûteuse de phase 3, et encore des années pour recruter assez de personnes pour les essais de phase 3.\n",
+    "next": "a68b17a7-c40f-4e47-9767-f834d01618a9"
+  },
+  {
+    "type": "Text",
+    "id": "a68b17a7-c40f-4e47-9767-f834d01618a9",
+    "actor": "",
+    "name": "Par exemple, pour un <ahref: \"https://academic.oup.com/jid/article/191/5/654/1234535\" >essai de vaccin contre le VIH</a>, il a fallu attendre 18 mois pour atteindre l'objectif de recrutement de 5 000 personnes et 18 mois de plus pour avoir suffisamment d'infections au VIH pour effectuer une comparaison statistique entre le groupe ayant reçu le vaccin et le groupe ne l’ayant pas reçu. ",
+    "next": "de6b8125-4725-48df-80f7-ecbf8da10426"
+  },
+  {
+    "type": "Text",
+    "id": "de6b8125-4725-48df-80f7-ecbf8da10426",
+    "actor": "",
+    "name": "Ces procédures administratives ont été considérablement accélérées dans le cas du vaccin contre la Covid-19. Par exemple, pour le test du vaccin Moderna, 30 000 personnes se sont portées volontaires en l'espace de deux mois, le protocole d’essai a été monté dans le même temps et les financements ont été importants et rapides.",
+    "next": "d8437154-e623-4e2e-abe8-3240d65627d8"
+  },
+  {
+    "type": "Text",
+    "id": "d8437154-e623-4e2e-abe8-3240d65627d8",
+    "actor": "",
+    "name": "Par ailleurs, étant donné que le virus circule activement et que la fréquence de la maladie est élevée, quelques semaines ont suffi pour que l’on puisse observer des cas d’infection par la Covid-19 parmi les volontaires dans les essais. Très rapidement, il a été possible de comparer le nombre d’infections dans le groupe de volontaires qui avaient reçu le vaccin et dans le groupe de volontaires qui avaient reçu le placebo.",
+    "next": "bd78c0da-6519-43e5-af5f-cdf37bd4246b"
+  },
+  {
+    "type": "Choice",
+    "id": "50be894e-09b3-4763-a145-14b95a22936d",
+    "title": "3#mini",
+    "name": " Les nouvelles technologies (dites à “ARN messagers”) utilisées dans les premiers vaccins contre la Covid-19 sont-elles sûres ?\n",
+    "next": "e242e561-9365-4ec7-814e-20d92fecc001"
+  },
+  {
+    "type": "Text",
+    "id": "e242e561-9365-4ec7-814e-20d92fecc001",
+    "actor": "",
+    "name": "Il est normal d’être inquiet face aux avancées technologiques rapides, y compris dans le domaine de la médecine. Cependant, cette technologie est en développement depuis plus de <ahref: \"https://www.sciencedirect.com/science/article/abs/pii/S1748013219301483?via%3Dihub\" >30 ans</a>. D'autres vaccins à ARN sont en phase d'essai clinique, et visent à lutter contre des <ahref: \"https://journals.lww.com/immunotherapy-journal/Abstract/2008/02000/Results_of_the_First_Phase_I_II_Clinical.7.aspx\" >cancers</a>, contre la <ahref: \"https://www.mdpi.com/2076-393X/6/2/20\" >grippe</a> et contre la <ahref: \"https://www.mdpi.com/2076-393X/7/4/132\" >rage</a>. La production des différents composants d'un vaccin ARN est un processus <ahref: \"https://www.mesvaccins.net/web/news/16696-l-arn-est-il-l-avenir-des-vaccins\" >rapide et bien maîtrisé</a>. \n",
+    "next": "772ce089-84c5-4dee-8b33-a1880a5c2599"
+  },
+  {
+    "type": "Text",
+    "id": "772ce089-84c5-4dee-8b33-a1880a5c2599",
+    "actor": "",
+    "name": "Les essais de phase 1, 2 et 3 commencés au début de l'année ont concerné à ce jour des dizaines de milliers de volontaires, et n’ont pas révélé d’effet indésirable nouveau ou grave avec les vaccins <ahref: \"https://www.mesvaccins.net/web/news/16696-l-arn-est-il-l-avenir-des-vaccins\" >ARN de Pfizer et de Moderna</a>. Les événements indésirables observés lors de ces essais étaient locaux (rougeur, douleur au point d'injection) ou généraux (malaise, fièvre), plus fréquents avec le vaccin qu'avec le placebo, mais comparables à ceux observés avec des vaccins bien connus. \n",
+    "next": "75c2fd7b-aba9-4f0c-993b-bb6ed9e37732"
+  },
+  {
+    "type": "Text",
+    "id": "75c2fd7b-aba9-4f0c-993b-bb6ed9e37732",
+    "actor": "",
+    "name": "Comme tout vaccin, les vaccins à ARN peuvent déclencher chez certaines personnes une réaction allergique. Ces rares réactions sont surveillées et les patients sont pris en charge immédiatement.",
+    "next": "cfb4f104-131e-46ea-803a-b8ad85f1c7a8"
+  },
+  {
+    "type": "Text",
+    "id": "cfb4f104-131e-46ea-803a-b8ad85f1c7a8",
+    "actor": "",
+    "name": "Le principal risque (théorique) des vaccins à ARN est celui du déclenchement d'une <ahref: \"https://www.nature.com/articles/nrd.2017.243\" >forte réponse immunitaire</a>. Par conséquent, les personnes sujettes aux maladies auto-immunes sont potentiellement à risque pour ces vaccins. Les essais s'appuyant sur d'autres techniques vaccinales continuent pour trouver le vaccin le plus approprié pour chaque personne et situation.",
+    "next": "bd78c0da-6519-43e5-af5f-cdf37bd4246b"
+  },
+  {
+    "type": "Choice",
+    "id": "da159e4e-5a5d-407a-8648-06aa3f912f92",
+    "title": "4#mini",
+    "name": "Connaît-on assez cette maladie pour élaborer un vaccin sûr ?",
+    "next": "8f714c63-1b71-48c3-bb7b-4851f64992ad"
+  },
+  {
+    "type": "Text",
+    "id": "8f714c63-1b71-48c3-bb7b-4851f64992ad",
+    "actor": "",
+    "name": "Le virus qui cause la Covid-19 est apparu très récemment, mais les scientifiques le connaissent déjà très bien. Des centaines d’équipes de chercheurs à travers le monde travaillent sur cette maladie de manière intensive depuis le début de l’épidémie. Plus de <ahref: \"https://app.dimensions.ai/discover/publication?search_mode=content&search_text=covid-19&search_type=kws&search_field=full_search\" >150 000 articles</a> scientifiques ont été publiés sur la Covid-19 par des chercheurs et des médecins. \n",
+    "next": "4866839a-392a-44c4-be25-7639bc15360e"
+  },
+  {
+    "type": "Text",
+    "id": "4866839a-392a-44c4-be25-7639bc15360e",
+    "actor": "",
+    "name": "Le génome du virus SARS-CoV-2, qui cause la Covid-19, est maintenant bien connu, car il a été séquencé en entier en un temps record par la Chine, puis par des chercheurs du monde entier (y compris en France) qui le séquencent très régulièrement pour détecter d'éventuelles mutations. De plus, l’expérience des coronavirus précédents (SRAS et MERS) a permis d’identifier très rapidement les fragments de virus choisis pour en tirer un vaccin.",
+    "next": "fd612333-1a96-4012-9a47-a937cf90efdd"
+  },
+  {
+    "type": "Text",
+    "id": "fd612333-1a96-4012-9a47-a937cf90efdd",
+    "actor": "",
+    "name": "Grâce à cette extraordinaire mobilisation de la communauté scientifique mondiale, pas moins de 200 projets de vaccins sont à l'étude selon l’OMS. Actuellement, plusieurs dizaines de <ahref: \"https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html\" >vaccins</a> sont au stade de l'évaluation clinique chez l'Homme. \n",
+    "next": "5a8ca69e-adc7-4f7e-9885-260077cd592d"
+  },
+  {
+    "type": "Text",
+    "id": "5a8ca69e-adc7-4f7e-9885-260077cd592d",
+    "actor": "",
+    "name": "",
+    "choices": [
+      "4743754a-59b4-4a8f-aeb3-d68c059df525"
+    ],
+    "next": "bd78c0da-6519-43e5-af5f-cdf37bd4246b"
+  },
+  {
+    "type": "Choice",
+    "id": "4743754a-59b4-4a8f-aeb3-d68c059df525",
+    "title": "",
+    "name": "Le virus pourrait-il muter, atténuant l’efficacité du vaccin ?",
+    "next": "914905bf-0507-4457-aeb7-65c29461d541"
+  },
+  {
+    "type": "Text",
+    "id": "914905bf-0507-4457-aeb7-65c29461d541",
+    "actor": "",
+    "name": "Ce risque est pris au sérieux par les autorités sanitaires. Par exemple, elles ont ordonné <ahref: \"https://www.francebleu.fr/infos/sante-sciences/covid-19-des-visons-contamines-dans-un-elevage-d-eure-et-loir-1-000-ont-ete-abattus-1606052573\" >l'abattage de milliers de visons</a> dont on craignait qu’ils soient affectés par un virus muté (cette mutation s’est par la suite révélée inoffensive). \n",
+    "next": "e5b12542-208b-4243-ae8f-fff99756409a"
+  },
+  {
+    "type": "Text",
+    "id": "e5b12542-208b-4243-ae8f-fff99756409a",
+    "actor": "",
+    "name": "Les mutations sont rares car les coronavirus disposent d’un mécanisme de correction des erreurs de mutation qui leur procure une grande <ahref: \"https://www.revmed.ch/RMS/2020/RMS-N-701/Mutation-dans-la-proteine-Spike-de-SARS-CoV-2\" >stabilité génétique</a> (contrairement, par exemple, aux virus de la grippe).",
+    "next": "f8d76df9-1e41-4cbe-b6d5-985d672f58af"
+  },
+  {
+    "type": "Text",
+    "id": "f8d76df9-1e41-4cbe-b6d5-985d672f58af",
+    "actor": "",
+    "name": "De plus, la plupart des mutations n’ont <ahref: \"https://www.lci.fr/sante/coronavirus-les-mutations-du-covid-19-rendent-elles-inefficaces-les-futurs-vaccins-2169855.html\" >pas d’effet</a> sur l’efficacité des vaccins. Étant donné que la structure d’un virus muté n’est généralement pas suffisamment modifiée, les premiers vaccins mis en circulation pourraient également protéger d’éventuelles versions mutées du virus. ",
+    "next": "198210f0-fd72-4378-8bac-9c712656e521"
+  },
+  {
+    "type": "Text",
+    "id": "198210f0-fd72-4378-8bac-9c712656e521",
+    "actor": "",
+    "name": "Même si, à terme, une mutation importante survenait, un nouveau vaccin serait mis en circulation. Le développement et la production de ce nouveau vaccin seraient plus rapides parce que les scientifiques pourraient s’appuyer sur l’expérience des premiers vaccins. Ainsi, chaque hiver, un vaccin contre la grippe est développé en quelques mois, car la structure de base du virus reste la même. ",
+    "next": "bd78c0da-6519-43e5-af5f-cdf37bd4246b"
+  },
+  {
+    "type": "Text",
+    "id": "a043680e-6ac3-496f-8f8a-0629e248c9db",
+    "actor": "",
+    "name": "Les effets secondaires les plus rares (par exemple ceux qui apparaissent chez une personne sur un million) sont pratiquement impossibles à détecter au cours des essais, car cela nécessiterait d’inclure dans les essais des dizaines de millions de personnes. ",
+    "next": "173ea4a2-ad0b-4d5c-894a-83d4fdaf8f82"
+  },
+  {
+    "type": "Choice",
+    "id": "a771c17a-ad5a-4f1f-b0e4-60fad05be848",
+    "title": "5#mini",
+    "name": "Comment peut-on détecter des effets secondaires très rares ?",
+    "next": "a043680e-6ac3-496f-8f8a-0629e248c9db"
+  },
+  {
+    "type": "Choice",
+    "id": "17a36ddb-4769-4335-b11f-606c5242a993",
+    "title": "6#mini",
+    "name": "Ne devrais-je pas attendre un vaccin plus efficace ?",
+    "next": "eb434047-3523-409a-b894-150640b63fdb"
+  },
+  {
+    "type": "Choice",
+    "id": "43707d47-6d0a-4278-bb76-ec0e6cc64f27",
+    "title": "7#mini",
+    "name": "Est-ce que le vaccin sera efficace à long terme, ou est-ce que l’immunité peut disparaître ?",
+    "next": "58041139-e431-4a02-acca-bedd68065826"
+  },
+  {
+    "type": "Text",
+    "id": "58041139-e431-4a02-acca-bedd68065826",
+    "actor": "",
+    "name": "La recherche a permis de bien comprendre les mécanismes de la réponse immunitaire au SARS-CoV-2, le virus qui cause la Covid-19. Cependant, la durée de l’immunité après une infection par le virus n’est pas encore parfaitement connue. De même, la durée de l’immunité procurée par le vaccin n’est pas connue. Par définition, il faudra du temps pour connaître la réponse à cette question. Les recherches vont donc se poursuivre dans les prochains mois.",
+    "next": "78ffcb26-85fe-45eb-93a1-3765c479754a"
+  },
+  {
+    "type": "Text",
+    "id": "eb434047-3523-409a-b894-150640b63fdb",
+    "actor": "",
+    "name": "Tout laisse penser que les premiers vaccins disponibles sont extrêmement efficaces (environ 95% d’efficacité pour Pfizer et Moderna). \n",
+    "next": "1274eca6-135d-40df-87bc-0ba1a8f23045"
+  },
+  {
+    "type": "Text",
+    "id": "173ea4a2-ad0b-4d5c-894a-83d4fdaf8f82",
+    "actor": "",
+    "name": "Cependant, il existe un mécanisme permettant de détecter ce type d’effets secondaires rarissimes, dans ce que l’on appelle essai de phase 4. Il s'agit d'un contrôle qui évalue la sécurité des vaccins dans la population une fois qu'ils ont déjà été homologués pour s'assurer que rien de préoccupant n’a été négligé.",
+    "next": "1da5a098-add5-4ad2-83b7-4d5c35f0b9dd"
+  },
+  {
+    "type": "Text",
+    "id": "1274eca6-135d-40df-87bc-0ba1a8f23045",
+    "actor": "",
+    "name": "Même lorsque qu’un vaccin n’est pas efficace à 100 %, il est tout de même très utile. Des études portant sur la vaccination contre un autre virus respiratoire bien connu – le virus de la grippe – suggèrent que la vaccination contribue à sauver des vies, même lorsque son efficacité est modérée. Par exemple, entre 2018 et 2019, <ahref: \"https://www.cdc.gov/flu/vaccines-work/vaccineeffect.htm\" >la vaccination contre la grippe a évité</a> environ 4,4 millions de cas de grippe, 2,3 millions de visites médicales, 58 000 hospitalisations et 3 500 décès.\n",
+    "next": "bd78c0da-6519-43e5-af5f-cdf37bd4246b"
+  },
+  {
+    "type": "Text",
+    "id": "78ffcb26-85fe-45eb-93a1-3765c479754a",
+    "actor": "",
+    "name": "Les anticorps, des protéines complexes permettant de détecter et détruire des agents pathogènes dans l'organisme (tels que des virus), peuvent disparaître après l’infection. Cependant, l'immunité ne repose pas uniquement sur les anticorps, mais aussi sur la <ahref: \"https://www.inserm.fr/actualites-et-evenements/actualites/comprendre-reponse-immunitaire-memoire-apres-covid-19\" >réponse cellulaire</a>. ",
+    "next": "596af66b-d0da-4cd6-8b0c-93b5b86fda2f"
+  },
+  {
+    "type": "Text",
+    "id": "596af66b-d0da-4cd6-8b0c-93b5b86fda2f",
+    "actor": "",
+    "name": "Après avoir été malade, ou vacciné, un groupe de lymphocytes B, dit mémoires, reste dans l’organisme. Les lymphocytes B sont les cellules du système immunitaire qui produisent les anticorps. En cas de nouvelle infection, ces lymphocytes mémoires seront réactivés et pourront relancer une réponse immunitaire spécifique, rapide et efficace. \n",
+    "next": "e4be47cd-0f6a-402e-9225-ed58af8dd0fd"
+  },
+  {
+    "type": "Text",
+    "id": "e4be47cd-0f6a-402e-9225-ed58af8dd0fd",
+    "actor": "",
+    "name": "Même si l’efficacité à long terme des vaccins contre la Covid-19 n’a bien sûr pas encore pu être établie, celle-ci devrait durer au moins une saison. En effet,sur 53 millions de cas de covid 19 recensés, on n'a pu confirmer seulement une <ahref: \"https://www.mesvaccins.net/web/news/16790-covid-19-et-immunite-la-haute-autorite-de-sante-fait-le-point-des-connaissances\" >dizaine de cas de réinfection</a>. Grâce aux vaccins, cette immunité pourra être renforcée par des rappels si nécessaire.",
+    "next": "bd78c0da-6519-43e5-af5f-cdf37bd4246b"
+  },
+  {
+    "type": "Text",
+    "id": "1da5a098-add5-4ad2-83b7-4d5c35f0b9dd",
+    "actor": "",
+    "name": "Les autorités de santé surveillent l’évolution des effets secondaires sur le long terme, après l’autorisation de mise sur le marché de tout vaccin ou de tout médicament. Lorsque des symptômes apparaissent lors de la prise d’un vaccin, ils sont déclarés à l’ANSM (Agence nationale de sécurité du médicament). Ensuite, les experts scientifiques de l’ANSM effectuent des recherches approfondies et évaluent la sûreté du vaccin à partir de ces nouvelles données. Ce processus est en place pour tous les médicaments qui sont actuellement sur le marché.",
+    "next": "bd78c0da-6519-43e5-af5f-cdf37bd4246b"
+  },
+  {
+    "type": "Text",
+    "id": "b0a5d131-d0ea-488a-8131-722dff862b1f",
+    "actor": "",
+    "name": "Comme pour tout vaccin, des <ahref: \"https://vaccination-info-service.fr/Generalites-sur-les-vaccinations/Qualite-securite-et-efficacite-des-vaccins/Securite-et-qualite-des-vaccins\" >règles très strictes</a> sont mises en place pour s’assurer que des intérêts particuliers n’influencent pas la production et la distribution du futur vaccin. Avant d’être mis sur le marché, un vaccin est contrôlé par le fabricant, et aussi par une agence officielle indépendante : l’agence européenne du médicament. \n",
+    "next": "c2d682ce-db23-4a24-aed9-ea6143c0f1fe"
+  },
+  {
+    "type": "Choice",
+    "id": "880c9824-1ec8-42bf-b4a5-ae771bb59868",
+    "title": "1#mini",
+    "name": "L’industrie pharmaceutique s’enrichit-elle avec les vaccins ?\n",
+    "next": "405eb783-cd2b-4fc8-8e1b-b50bfddd0418"
+  },
+  {
+    "type": "Text",
+    "id": "c2d682ce-db23-4a24-aed9-ea6143c0f1fe",
+    "actor": "",
+    "name": "De plus, d’autres acteurs publics indépendants des laboratoires pharmaceutiques jouent des rôles cruciaux tout au long de l’évaluation des vaccins. Par exemple, les hôpitaux et centres de recherche clinique où sont administrés les vaccins afin de mesurer leur efficacité lors de la phase 3 des essais cliniques sont indépendants des laboratoires qui développent les vaccins. Ces acteurs publics n’ont pas d’intérêt financier commun avec les laboratoires pharmaceutiques. ",
+    "next": "cc93dabd-0380-4934-9676-132a33354f95"
+  },
+  {
+    "type": "Text",
+    "id": "cc93dabd-0380-4934-9676-132a33354f95",
+    "actor": "",
+    "name": "",
+    "choices": [
+      "880c9824-1ec8-42bf-b4a5-ae771bb59868",
+      "4c46f272-e979-4586-a9a5-3531a689da62",
+      "1d506df4-b807-4b1a-9143-791ba3e2e2e4",
+      "e3af2b2e-40c0-40e1-b924-df880df4c923",
+      "63fd7ae7-128f-4ae7-a834-7222b14b3cf0",
+      "8c7aaee3-65dd-4599-ae0a-929cfa02d8d4"
+    ]
+  },
+  {
+    "type": "Text",
+    "id": "405eb783-cd2b-4fc8-8e1b-b50bfddd0418",
+    "actor": "",
+    "name": "De façon générale, les vaccins sont moins rentables pour l’industrie pharmaceutique que les autres médicaments. En 2017, les vaccins représentaient moins de 3% du marché pharmaceutique mondial.",
+    "next": "235fa0cc-07af-46ac-bd32-f1910313375b"
+  },
+  {
+    "type": "Text",
+    "id": "235fa0cc-07af-46ac-bd32-f1910313375b",
+    "actor": "",
+    "name": "Dans le cas du vaccin Covid-19, les groupes pharmaceutiques AstraZeneca et Jonhson & Jonhson ont annoncé que leur vaccin serait mis à disposition à prix coûtant, et qu’ils ne feraient donc pas de bénéfices grâce à leurs vaccins avant la fin de la pandémie.",
+    "next": "000c1c55-3292-4665-91f6-93221484dc68"
+  },
+  {
+    "type": "Text",
+    "id": "000c1c55-3292-4665-91f6-93221484dc68",
+    "actor": "",
+    "name": "Les entreprises de biotechnologies qui développent certains vaccins (comme BioNTech ou Moderna) ont vu leur cours de bourse s’envoler ces derniers mois. Cela ne reflète pas seulement les bénéfices que ces sociétés pourraient dégager sur le vaccin contre la Covid-19, mais aussi le caractère extrêmement prometteur des technologies développées par ces sociétés. Les technologies utilisées dans les vaccins Covid-19 pourraient en effet trouver des applications dans de nombreux domaines.",
+    "next": "4a28c1c6-fee5-4089-bb9f-435fb91f119d"
+  },
+  {
+    "type": "Text",
+    "id": "59954019-7bc7-4ae5-be10-b9663ca63067",
+    "actor": "",
+    "name": "En effet, chaque laboratoire tente de développer un vaccin rapidement mais la coopération internationale entre les laboratoires n’a jamais été aussi forte. Par exemple, la Chine a très rapidement séquencé le génome du virus et partagé ce séquençage avec les scientifiques du monde entier, facilitant et accélérant la recherche d’un vaccin.",
+    "next": "b330962b-607a-4f7f-8354-330217e1ae79"
+  },
+  {
+    "type": "Text",
+    "id": "b330962b-607a-4f7f-8354-330217e1ae79",
+    "actor": "",
+    "name": "Cette “course au vaccin” pousse les laboratoires à développer le vaccin le plus efficace et le plus sûr possible parce qu’ils savent que leur vaccin sera soumis à des tests cliniques rigoureux, et comparé aux vaccins des laboratoires concurrents. En un sens, la compétition entre les laboratoires stimule la recherche, et augmente la probabilité qu’un vaccin sûr et efficace soit rapidement disponible. ",
+    "next": "d8fb1b49-a333-477d-9961-731a7c932005"
+  },
+  {
+    "type": "Text",
+    "id": "d8fb1b49-a333-477d-9961-731a7c932005",
+    "actor": "",
+    "name": "Des industriels ont par ailleurs résisté à certaines pressions politiques en septembre en signant une <ahref: \"https://www.nytimes.com/2020/09/08/health/9-drug-companies-pledge-coronavirus-vaccine.html\" >tribune</a> disant qu’ils ne soumettraient un vaccin à autorisation que quand ils auraient les données permettant de le faire.",
+    "next": "cc93dabd-0380-4934-9676-132a33354f95"
+  },
+  {
+    "type": "Choice",
+    "id": "4c46f272-e979-4586-a9a5-3531a689da62",
+    "title": "2#mini",
+    "name": "Les laboratoires n’ont-ils pas intérêt à tricher pour développer le vaccin en premier ?\n",
+    "next": "59954019-7bc7-4ae5-be10-b9663ca63067"
+  },
+  {
+    "type": "Choice",
+    "id": "1d506df4-b807-4b1a-9143-791ba3e2e2e4",
+    "title": "3#mini",
+    "name": "Peut-on faire confiance aux vaccins venant de tous les pays ?",
+    "next": "66e84dc3-f87f-4ce5-b02a-c6b02fdd107e"
+  },
+  {
+    "type": "Choice",
+    "id": "e3af2b2e-40c0-40e1-b924-df880df4c923",
+    "title": "4#mini",
+    "name": "Ne serait-il pas préférable d’investir dans le système de santé en général ?",
+    "next": "0565a780-253c-4708-8610-c9e675d3ff4c"
+  },
+  {
+    "type": "Choice",
+    "id": "63fd7ae7-128f-4ae7-a834-7222b14b3cf0",
+    "title": "5#mini",
+    "name": "",
+    "next": "acf9d29d-de8e-4d76-9309-91ce16720093"
+  },
+  {
+    "type": "Text",
+    "id": "4a28c1c6-fee5-4089-bb9f-435fb91f119d",
+    "actor": "",
+    "name": "",
+    "choices": [
+      "30865683-7789-46d8-83d4-2eaafdbe7072"
+    ],
+    "next": "cc93dabd-0380-4934-9676-132a33354f95"
+  },
+  {
+    "type": "Choice",
+    "id": "30865683-7789-46d8-83d4-2eaafdbe7072",
+    "title": "",
+    "name": "Je veux en savoir plus sur le financement des futurs vaccins.",
+    "next": "15cc2db6-f1ab-4caa-b307-9ed27267d4a4"
+  },
+  {
+    "type": "Text",
+    "id": "15cc2db6-f1ab-4caa-b307-9ed27267d4a4",
+    "actor": "",
+    "name": "Compte tenu des enjeux de santé publique et du coût économique de la pandémie, les Etats-Unis et l’Europe notamment ont engagé des sommes considérables ces derniers mois pour accélérer le développement et la disponibilité des vaccins. ",
+    "next": "39d00414-721d-405f-a83f-f1bf210602a8"
+  },
+  {
+    "type": "Text",
+    "id": "39d00414-721d-405f-a83f-f1bf210602a8",
+    "actor": "",
+    "name": "En Europe, le financement a pris la forme de pré-achats. La Commission européenne a engagé 2,7 milliards d’euros de son aide d’urgence pour financer les laboratoires les plus avancés dans leurs recherches. Ces investissements permettent également de précommander des doses qui seront partagées entre les Etats membres de l’Union Européenne. \n",
+    "next": "198caad4-952a-40ef-b5a7-d612c0c0a70d"
+  },
+  {
+    "type": "Text",
+    "id": "198caad4-952a-40ef-b5a7-d612c0c0a70d",
+    "actor": "",
+    "name": "Sans le financement des différents pays, les industriels n’auraient pas pu préparer la phase 3 sans attendre les résultats définitifs des phases 1 et 2, ou renforcer leurs capacités de production sans attendre les résultats de la phase 3. \n",
+    "next": "cc93dabd-0380-4934-9676-132a33354f95"
+  },
+  {
+    "type": "Text",
+    "id": "66e84dc3-f87f-4ce5-b02a-c6b02fdd107e",
+    "actor": "",
+    "name": "En France, la question de l’efficacité du vaccin appartient au domaine scientifique et non au domaine politique. Cela n’est pas le cas partout. Par exemple, la Russie a dit avoir développé un vaccin sans en apporter de preuves scientifiques, il ne peut donc pas être mis sur le marché en France ou en Europe.  \n",
+    "next": "6f702c49-a3a5-4d84-89b3-ae7cc219d02b"
+  },
+  {
+    "type": "Text",
+    "id": "6f702c49-a3a5-4d84-89b3-ae7cc219d02b",
+    "actor": "",
+    "name": "De plus, les fabricants ont fait preuve d'une transparence inédite sur leurs protocoles et leur méthodologie. Les <ahref: \"https://www.bmj.com/content/371/bmj.m4058\" >protocoles d'une demi-douzaine d'essais de vaccins</a> ont été mis en ligne, ce qui n’est pas le cas normalement. Habituellement, ces protocoles sont considérés comme des secrets commerciaux par les entreprises parce qu’ils exigent une planification et des efforts énormes. Pour les vaccins contre la Covid-19, les entreprises ont rendu tous leurs protocoles publics, ce qui signifie que tout ce qu’elles disent avoir fait dans les communiqués de presse peut être vérifié.",
+    "next": "4123099c-79e3-4af6-a7f2-9680b55152fd"
+  },
+  {
+    "type": "Text",
+    "id": "4123099c-79e3-4af6-a7f2-9680b55152fd",
+    "actor": "",
+    "name": "La question de l’efficacité du vaccin sera traitée par des scientifiques et experts indépendants au sein de la Haute autorité de santé et de l’Agence nationale de sécurité du médicament et des produits de santé qui évalueront minutieusement les preuves disponibles, quelle que soit l’origine du vaccin. Les autorisations de mise sur le marché seront délivrées par l'Agence européenne des médicaments.\n",
+    "next": "cc93dabd-0380-4934-9676-132a33354f95"
+  },
+  {
+    "type": "Text",
+    "id": "0565a780-253c-4708-8610-c9e675d3ff4c",
+    "actor": "",
+    "name": "Renforcer les systèmes de santé permet de lutter contre la Covid-19 et d’atténuer les répercussions sur d'autres maladies. Néanmoins, même avec un système de santé aussi performant que possible, le virus continuera de se propager et de tuer en l’absence de vaccin. Seul un vaccin efficace pourra éradiquer le virus et stopper l’épidémie.",
+    "next": "3ae87f81-ea40-4671-ae6a-54cf61be1618"
+  },
+  {
+    "type": "Text",
+    "id": "3ae87f81-ea40-4671-ae6a-54cf61be1618",
+    "actor": "",
+    "name": "Le développement d’un vaccin est la meilleure manière de préserver le système de santé, car le vaccin permet d’éviter que les gens ne tombent malades. De plus, investir dans la vaccination ne veut pas dire qu’il ne faut pas investir dans le système de santé. Les deux peuvent aller de paire ! ",
+    "next": "cc93dabd-0380-4934-9676-132a33354f95"
+  },
+  {
+    "type": "Text",
+    "id": "acf9d29d-de8e-4d76-9309-91ce16720093",
+    "actor": "",
+    "name": "Dans la situation actuelle, le vaccin sera fourni gratuitement à la population française.",
+    "next": "cc93dabd-0380-4934-9676-132a33354f95"
+  },
+  {
+    "type": "Choice",
+    "id": "8c7aaee3-65dd-4599-ae0a-929cfa02d8d4",
+    "title": "50#redirect",
+    "name": "Je veux retourner au début de la discussion. ",
+    "next": "f23e9a62-b7ee-47c5-b524-cce6f78c8d2a"
+  },
+  {
+    "type": "Choice",
+    "id": "52cd3b93-e160-4cda-b159-901ff4dcf03a",
+    "title": "50#redirect",
+    "name": "Je veux retourner au début de la discussion. ",
+    "next": "f23e9a62-b7ee-47c5-b524-cce6f78c8d2a"
+  },
+  {
+    "type": "Choice",
+    "id": "5fb4ebb4-fe6a-4e53-bb17-95cfd0eac5e0",
+    "title": "50#redirect",
+    "name": "Je veux retourner au début de la discussion. ",
+    "next": "f23e9a62-b7ee-47c5-b524-cce6f78c8d2a"
+  },
+  {
+    "type": "Choice",
+    "id": "3cb1f7da-2a47-404f-a4a8-446de583bcd2",
+    "title": "50#redirect",
+    "name": "Je veux retourner au début de la discussion. ",
+    "next": "f23e9a62-b7ee-47c5-b524-cce6f78c8d2a"
+  },
+  {
+    "type": "Choice",
+    "id": "2db8638c-ba9c-4394-a76d-c2da4f3eb8d2",
+    "title": "50#redirect",
+    "name": "",
+    "next": "f23e9a62-b7ee-47c5-b524-cce6f78c8d2a"
   }
 ]
