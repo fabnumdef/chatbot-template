@@ -15,7 +15,10 @@ def return_tree(item_id, tree_id_selected: list):
             messages.append(generate_message(item, tree_id_selected))
 
         if 'choices' in item and messages:
-            messages[-1]['buttons'] = generate_message(item, tree_id_selected)['buttons']
+            if 'buttons' in messages[-1] and messages[-1]['buttons']:
+                messages[-1]['buttons'] = messages[-1]['buttons'] + generate_message(item, tree_id_selected)['buttons']
+            else :
+                messages[-1]['buttons'] = generate_message(item, tree_id_selected)['buttons']
 
         if 'next' in item and item['next']:
             item = next((x for x in data if x['id'] == item['next']), None)
@@ -44,7 +47,7 @@ def generate_message(item, tree_id_selected):
         message['buttons'] = generate_buttons(item, tree_id_selected)
 
     if item['type'] == 'Text':
-        message['text'] = item['name']
+        message['text'] = item['name'].replace('<ahref: ', '<a target="_blank" href=')
     return message
 
 def generate_buttons(item, tree_id_selected: list):
