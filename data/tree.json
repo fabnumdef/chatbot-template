@@ -342,7 +342,7 @@
   {
     "type": "Choice",
     "id": "b5a86b01-92c4-4b8e-a0b6-712122d9f776",
-    "title": "6#menu",
+    "title": "7#menu",
     "name": "Pourquoi devrais-je vous faire confiance ? ",
     "next": "a91eba53-c1d4-4f54-a9d1-0088d6a82531"
   },
@@ -399,13 +399,13 @@
     "type": "Choice",
     "id": "13888dd6-de13-43e6-9619-cf42a54a867a",
     "title": "2#menu",
-    "name": "Sera-t-il efficace ? ",
+    "name": "Les vaccins contre la Covid-19 sont-ils efficaces ? ",
     "next": "d8d361a8-4a9a-4278-bbaa-32482772ad5f"
   },
   {
     "type": "Choice",
     "id": "a402454e-1c83-4d16-95d1-1d9a2eaf139c",
-    "title": "4#menu",
+    "title": "9#menu",
     "name": "Peut-on faire confiance à ceux qui vont produire et disséminer le vaccin ? ",
     "next": "b0a5d131-d0ea-488a-8131-722dff862b1f"
   },
@@ -1689,7 +1689,7 @@
     "type": "Choice",
     "id": "63fd7ae7-128f-4ae7-a834-7222b14b3cf0",
     "title": "5#mini",
-    "name": "",
+    "name": "Est-ce que le vaccin sera trop cher ?",
     "next": "acf9d29d-de8e-4d76-9309-91ce16720093"
   },
   {
@@ -1777,34 +1777,34 @@
     "id": "8c7aaee3-65dd-4599-ae0a-929cfa02d8d4",
     "title": "50#redirect",
     "name": "Je veux retourner au début de la discussion. ",
-    "next": "75a6be2a-1e1c-45ea-aa7b-795bd1e811e8"
+    "next": "f23e9a62-b7ee-47c5-b524-cce6f78c8d2a"
   },
   {
     "type": "Choice",
     "id": "52cd3b93-e160-4cda-b159-901ff4dcf03a",
     "title": "50#redirect",
     "name": "Je veux retourner au début de la discussion. ",
-    "next": "75a6be2a-1e1c-45ea-aa7b-795bd1e811e8"
+    "next": "f23e9a62-b7ee-47c5-b524-cce6f78c8d2a"
   },
   {
     "type": "Choice",
     "id": "5fb4ebb4-fe6a-4e53-bb17-95cfd0eac5e0",
     "title": "50#redirect",
     "name": "Je veux retourner au début de la discussion. ",
-    "next": "75a6be2a-1e1c-45ea-aa7b-795bd1e811e8"
+    "next": "f23e9a62-b7ee-47c5-b524-cce6f78c8d2a"
   },
   {
     "type": "Choice",
     "id": "3cb1f7da-2a47-404f-a4a8-446de583bcd2",
     "title": "50#redirect",
     "name": "Je veux retourner au début de la discussion. ",
-    "next": "75a6be2a-1e1c-45ea-aa7b-795bd1e811e8"
+    "next": "f23e9a62-b7ee-47c5-b524-cce6f78c8d2a"
   },
   {
     "type": "Choice",
     "id": "2db8638c-ba9c-4394-a76d-c2da4f3eb8d2",
     "title": "50#redirect",
-    "name": "",
-    "next": "75a6be2a-1e1c-45ea-aa7b-795bd1e811e8"
+    "name": "Je veux retourner au début de la discussion.",
+    "next": "f23e9a62-b7ee-47c5-b524-cce6f78c8d2a"
   }
 ]
