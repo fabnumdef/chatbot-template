@@ -2,7 +2,7 @@ import json
 
 with open('data/tree.json') as json_file:
     data = json.load(json_file)
-    excluded_ids = [x for x in data if 'title' in x and 'redirect' in x['title']]
+    excluded_ids = [x for x in data if 'title' in x and ('redirect' in x['title'] or 'menu' in x['title'])]
     excluded_ids = [x['id'] for x in excluded_ids]
 
 def return_tree(item_id, tree_id_selected: list):
