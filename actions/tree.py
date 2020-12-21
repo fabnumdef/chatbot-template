@@ -53,7 +53,7 @@ def generate_message(item, tree_id_selected):
 
 def generate_buttons(item, tree_id_selected: list):
     buttons = []
-    excluded_ids = [x for x in data if 'redirect' in x['title']]
+    excluded_ids = [x for x in data if 'title' in x and 'redirect' in x['title']]
     excluded_ids = [x['title'] for x in excluded_ids]
     for choice in item['choices']:
         sub_item = next((x for x in data if x['id'] == choice), None)
