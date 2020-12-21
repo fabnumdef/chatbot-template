@@ -2,6 +2,8 @@ import json
 
 with open('data/tree.json') as json_file:
     data = json.load(json_file)
+    excluded_ids = [x for x in data if 'title' in x and 'redirect' in x['title']]
+    excluded_ids = [x['id'] for x in excluded_ids]
 
 def return_tree(item_id, tree_id_selected: list):
     print(item_id, tree_id_selected)
@@ -51,10 +53,12 @@ def generate_message(item, tree_id_selected):
 
 def generate_buttons(item, tree_id_selected: list):
     buttons = []
-    excluded_ids = [x for x in data if 'title' in x and 'redirect' in x['title']]
-    excluded_ids = [x['id'] for x in excluded_ids]
+    print(excluded_ids)
     for choice in item['choices']:
         sub_item = next((x for x in data if x['id'] == choice), None)
+        print(sub_item['next'])
+        print(sub_item['next'] in tree_id_selected)
+        print(sub_item['next'] not in excluded_ids)
         if sub_item['next'] in tree_id_selected and sub_item['next'] not in excluded_ids:
             buttons.append({'payload': None, 'title': sub_item['name']})
         else:
