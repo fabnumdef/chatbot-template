@@ -342,7 +342,7 @@
   {
     "type": "Choice",
     "id": "b5a86b01-92c4-4b8e-a0b6-712122d9f776",
-    "title": "7#menu",
+    "title": "6#menu",
     "name": "Pourquoi devrais-je vous faire confiance ? ",
     "next": "a91eba53-c1d4-4f54-a9d1-0088d6a82531"
   },
@@ -366,12 +366,12 @@
     "actor": "",
     "name": "",
     "choices": [
-      "3a4cc61c-8e78-42cb-899a-3f0df9be49dd",
-      "b5a86b01-92c4-4b8e-a0b6-712122d9f776",
       "49af38d2-b0ea-4d65-ab18-d56cbb5356fa",
       "13888dd6-de13-43e6-9619-cf42a54a867a",
       "ae8e61a1-fcc1-4db0-ab7e-fcd37cb2dc16",
-      "a402454e-1c83-4d16-95d1-1d9a2eaf139c"
+      "a402454e-1c83-4d16-95d1-1d9a2eaf139c",
+      "3a4cc61c-8e78-42cb-899a-3f0df9be49dd",
+      "b5a86b01-92c4-4b8e-a0b6-712122d9f776"
     ]
   },
   {
@@ -405,7 +405,7 @@
   {
     "type": "Choice",
     "id": "a402454e-1c83-4d16-95d1-1d9a2eaf139c",
-    "title": "9#menu",
+    "title": "4#menu",
     "name": "Peut-on faire confiance à ceux qui vont produire et disséminer le vaccin ? ",
     "next": "b0a5d131-d0ea-488a-8131-722dff862b1f"
   },
@@ -1226,21 +1226,21 @@
     "type": "Text",
     "id": "6dcec810-0ef5-417f-b544-2e1cc0745cf4",
     "actor": "",
-    "name": "Les mutations sont rares car les coronavirus disposent d’un mécanisme de correction des erreurs de mutation qui leur procure une grande <ahref: \"https://www.revmed.ch/RMS/2020/RMS-N-701/Mutation-dans-la-proteine-Spike-de-SARS-CoV-2\" >stabilité génétique</a> (contrairement, par exemple, aux virus de la grippe). ",
+    "name": "Les mutations sont relativement rares car les coronavirus disposent d’un mécanisme de correction des erreurs de mutation qui leur procure une plus grande <ahref: \"https://www.revmed.ch/RMS/2020/RMS-N-701/Mutation-dans-la-proteine-Spike-de-SARS-CoV-2\" >stabilité génétique</a> (contrairement, par exemple, aux virus de la grippe). ",
     "next": "2b164c83-6083-4fb1-b95e-2f336c7f5966"
   },
   {
     "type": "Text",
     "id": "2b164c83-6083-4fb1-b95e-2f336c7f5966",
     "actor": "",
-    "name": "De plus, la plupart des mutations n’ont <ahref: \"https://www.lci.fr/sante/coronavirus-les-mutations-du-covid-19-rendent-elles-inefficaces-les-futurs-vaccins-2169855.html\" >pas d’effet</a> sur l’efficacité des vaccins. Étant donné que la structure d’un virus muté n’est généralement pas suffisamment modifiée, les premiers vaccins mis en circulation pourraient également protéger d’éventuelles versions mutées du virus. ",
+    "name": "De plus, la plupart des mutations n’ont <ahref: \"https://www.lci.fr/sante/coronavirus-les-mutations-du-covid-19-rendent-elles-inefficaces-les-futurs-vaccins-2169855.html\" >pas d’effet</a> sur l’efficacité des vaccins. Étant donné que la structure d’un virus muté n’est généralement pas suffisamment modifiée, les premiers vaccins mis en circulation pourraient également protéger d’éventuelles versions mutées du virus. Tout laisse penser que c’est par exemple le cas de la version du virus ayant muté et s’étant répandue en Angleterre.\n ",
     "next": "f3c9103c-6839-423d-bc7a-175cfe2c1301"
   },
   {
     "type": "Text",
     "id": "f3c9103c-6839-423d-bc7a-175cfe2c1301",
     "actor": "",
-    "name": "Même si, à terme, une mutation importante survenait, un nouveau vaccin serait mis en circulation. Le développement et la production de ce nouveau vaccin seraient plus rapides parce que les scientifiques pourraient s’appuyer sur l’expérience des premiers vaccins. Ainsi, chaque hiver, un vaccin contre la grippe est développé en quelques mois, car la structure de base du virus reste la même. ",
+    "name": "Même si une mutation très importante survenait, un nouveau vaccin pourrait être mis en circulation. Le développement et la production de ce nouveau vaccin seraient plus rapides parce que les scientifiques pourraient s’appuyer sur l’expérience des premiers vaccins. Ainsi, chaque hiver, un vaccin contre la grippe est développé en quelques mois, car la structure de base du virus reste la même. ",
     "next": "270cd515-03e6-46ae-b207-70a005361609"
   },
   {
@@ -1486,21 +1486,21 @@
     "type": "Text",
     "id": "e5b12542-208b-4243-ae8f-fff99756409a",
     "actor": "",
-    "name": "Les mutations sont rares car les coronavirus disposent d’un mécanisme de correction des erreurs de mutation qui leur procure une grande <ahref: \"https://www.revmed.ch/RMS/2020/RMS-N-701/Mutation-dans-la-proteine-Spike-de-SARS-CoV-2\" >stabilité génétique</a> (contrairement, par exemple, aux virus de la grippe).",
+    "name": "Les mutations sont relativement rares car les coronavirus disposent d’un mécanisme de correction des erreurs de mutation qui leur procure une plus grande <ahref: \"https://www.revmed.ch/RMS/2020/RMS-N-701/Mutation-dans-la-proteine-Spike-de-SARS-CoV-2\" >stabilité génétique</a> (contrairement, par exemple, aux virus de la grippe). ",
     "next": "f8d76df9-1e41-4cbe-b6d5-985d672f58af"
   },
   {
     "type": "Text",
     "id": "f8d76df9-1e41-4cbe-b6d5-985d672f58af",
     "actor": "",
-    "name": "De plus, la plupart des mutations n’ont <ahref: \"https://www.lci.fr/sante/coronavirus-les-mutations-du-covid-19-rendent-elles-inefficaces-les-futurs-vaccins-2169855.html\" >pas d’effet</a> sur l’efficacité des vaccins. Étant donné que la structure d’un virus muté n’est généralement pas suffisamment modifiée, les premiers vaccins mis en circulation pourraient également protéger d’éventuelles versions mutées du virus. ",
+    "name": "De plus, la plupart des mutations n’ont <ahref: \"https://www.lci.fr/sante/coronavirus-les-mutations-du-covid-19-rendent-elles-inefficaces-les-futurs-vaccins-2169855.html\" >pas d’effet</a> sur l’efficacité des vaccins. Étant donné que la structure d’un virus muté n’est généralement pas suffisamment modifiée, les premiers vaccins mis en circulation pourraient également protéger d’éventuelles versions mutées du virus. Tout laisse penser que c’est par exemple le cas de la version du virus ayant muté et s’étant répandue en Angleterre.\n",
     "next": "198210f0-fd72-4378-8bac-9c712656e521"
   },
   {
     "type": "Text",
     "id": "198210f0-fd72-4378-8bac-9c712656e521",
     "actor": "",
-    "name": "Même si, à terme, une mutation importante survenait, un nouveau vaccin serait mis en circulation. Le développement et la production de ce nouveau vaccin seraient plus rapides parce que les scientifiques pourraient s’appuyer sur l’expérience des premiers vaccins. Ainsi, chaque hiver, un vaccin contre la grippe est développé en quelques mois, car la structure de base du virus reste la même. ",
+    "name": "Même si une mutation très importante survenait, un nouveau vaccin pourrait être mis en circulation. Le développement et la production de ce nouveau vaccin seraient plus rapides parce que les scientifiques pourraient s’appuyer sur l’expérience des premiers vaccins. Ainsi, chaque hiver, un vaccin contre la grippe est développé en quelques mois, car la structure de base du virus reste la même. ",
     "next": "bd78c0da-6519-43e5-af5f-cdf37bd4246b"
   },
   {

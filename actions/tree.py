@@ -38,6 +38,7 @@ def return_full_tree(id, messages, choices_proceeded):
                     messages.append({'text': b['title'], 'from': 'sent'})
                     messages = return_full_tree(b['id'], messages, choices_proceeded)
             m.pop('buttons', None)
+    messages[-1]['buttons'] = [{'payload': '/send_tree', 'title': 'Relancer le chatbot'}]
     return messages
 
 def generate_message(item, tree_id_selected):
@@ -52,9 +53,11 @@ def generate_message(item, tree_id_selected):
 
 def generate_buttons(item, tree_id_selected: list):
     buttons = []
+    excluded_ids = [x for x in data if 'redirect' in x['title']]
+    excluded_ids = [x['title'] for x in excluded_ids]
     for choice in item['choices']:
         sub_item = next((x for x in data if x['id'] == choice), None)
-        if sub_item['next'] in tree_id_selected:
+        if sub_item['next'] in tree_id_selected and sub_item['next'] not in excluded_ids:
             buttons.append({'payload': None, 'title': sub_item['name']})
         else:
             buttons.append({'payload': '/send_tree{"tree_id":"' + sub_item['next'] + '"}', 'title': sub_item['name'], 'id': sub_item['next']})
