@@ -38,7 +38,7 @@ def return_full_tree(id, messages, choices_proceeded):
                     messages.append({'text': b['title'], 'from': 'sent'})
                     messages = return_full_tree(b['id'], messages, choices_proceeded)
             m.pop('buttons', None)
-    messages[-1]['buttons'] = [{'payload': '/send_tree', 'title': 'Relancer le chatbot'}]
+    messages[-1]['quick_replies'] = [{'payload': '/send_tree', 'title': 'Relancer le chatbot'}]
     return messages
 
 def generate_message(item, tree_id_selected):
