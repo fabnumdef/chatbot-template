@@ -10,7 +10,6 @@ def return_tree(item_id, tree_id_selected: list):
         item_id = "0b51f392-8efc-4938-996a-60df60c47332"
     item = next((x for x in data if x['id'] == item_id), None)
     while True:
-        print(item)
         if 'name' in item and item['name']:
             messages.append(generate_message(item, tree_id_selected))
 
@@ -28,7 +27,6 @@ def return_tree(item_id, tree_id_selected: list):
     return messages
 
 def return_full_tree(id, messages, choices_proceeded):
-    print('return full tree')
     messages = messages + return_tree(id, [])
     choices_proceeded.append(id)
     for m in reversed(messages):
@@ -54,7 +52,7 @@ def generate_message(item, tree_id_selected):
 def generate_buttons(item, tree_id_selected: list):
     buttons = []
     excluded_ids = [x for x in data if 'title' in x and 'redirect' in x['title']]
-    excluded_ids = [x['title'] for x in excluded_ids]
+    excluded_ids = [x['id'] for x in excluded_ids]
     for choice in item['choices']:
         sub_item = next((x for x in data if x['id'] == choice), None)
         if sub_item['next'] in tree_id_selected and sub_item['next'] not in excluded_ids:

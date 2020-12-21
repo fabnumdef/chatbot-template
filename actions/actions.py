@@ -33,7 +33,6 @@ class ActionSendTree(Action):
             tree_id_selected = tracker.get_slot('tree_id_selected')
 
         for message in messages:
-            print (message)
             if 'buttons' in message:
                 dispatcher.utter_message(text = message['text'], buttons = message['buttons'])
             else:
