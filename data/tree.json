@@ -10,7 +10,7 @@
     "type": "Choice",
     "id": "226c89fd-26ca-46e6-bea2-9edc395b5284",
     "title": "1#mini",
-    "name": "La Covid-19 est-elle vraiment dangereuse en général ?",
+    "name": "La Covid-19 est-elle vraiment dangereuse ?",
     "next": "4a2a14cb-17fd-465a-9ca6-1f0a412756b1"
   },
   {
@@ -50,7 +50,8 @@
       "226c89fd-26ca-46e6-bea2-9edc395b5284",
       "69edbb8f-7ee2-4fdd-8bb0-2b3b51459595",
       "9d788efa-3c93-49f6-94ff-68776b0988d8",
-      "5fb4ebb4-fe6a-4e53-bb17-95cfd0eac5e0"
+      "5fb4ebb4-fe6a-4e53-bb17-95cfd0eac5e0",
+      "fa8cac4d-0421-4b4c-8c15-0755839ce15b"
     ]
   },
   {
@@ -94,7 +95,6 @@
     "actor": "",
     "name": "",
     "choices": [
-      "fa8cac4d-0421-4b4c-8c15-0755839ce15b",
       "eca255cc-c490-458e-be72-be2aa7066ce5",
       "3e9d0500-d040-4954-a216-94692e4d0888"
     ],
@@ -103,21 +103,21 @@
   {
     "type": "Choice",
     "id": "3e9d0500-d040-4954-a216-94692e4d0888",
-    "title": "",
+    "title": "1",
     "name": "Je veux en savoir plus sur les effets à moyen et long terme de la Covid-19",
     "next": "68534869-7801-420d-84ef-ff57da11b06e"
   },
   {
     "type": "Choice",
     "id": "eca255cc-c490-458e-be72-be2aa7066ce5",
-    "title": "",
+    "title": "2",
     "name": "La Covid-19 est-elle plus dangereuse que la grippe ?\n",
     "next": "a3961ae8-0943-4227-b5f8-f0507d0d8ae4"
   },
   {
     "type": "Choice",
     "id": "fa8cac4d-0421-4b4c-8c15-0755839ce15b",
-    "title": "",
+    "title": "4#mini",
     "name": "Est-ce qu’une immunité de groupe est envisageable sans vaccination ?",
     "next": "d9e4354a-f506-4113-a6ba-e66ec58bfc6c"
   },
@@ -212,14 +212,14 @@
   {
     "type": "Choice",
     "id": "1d237c85-ab43-409c-b524-dbdd60b3ae2c",
-    "title": "",
+    "title": "1",
     "name": "Je suis jeune, en bonne santé, suis-je concerné ? ",
     "next": "a3534727-8d95-448f-968e-c5d5f95617ce"
   },
   {
     "type": "Choice",
     "id": "52227050-5ae0-4adf-b332-bb9916656d44",
-    "title": "",
+    "title": "2",
     "name": "Je pense avoir déjà eu la Covid-19, suis-je concerné ?",
     "next": "8b9d8716-82dc-4856-8b5d-25bac43e4de2"
   },
@@ -234,7 +234,7 @@
     "type": "Text",
     "id": "8b9d8716-82dc-4856-8b5d-25bac43e4de2",
     "actor": "",
-    "name": "<ahref: \"https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30764-7/fulltext?utm_source=Nature+Briefing&utm_campaign=6b3b78efc9-briefing-dy-20201013&utm_medium=email&utm_term=0_c9dfd39373-6b3b78efc9-44278933#seccestitle120\" >Plusieurs cas</a> de personnes ayant été infectées plusieurs fois par le coronavirus ont été documentés. Il est possible que l’infection par le coronavirus ne procure pas d’immunité permanente et que l'immunité acquise naturellement doive être renforcée par la vaccination. Les injections du vaccin pourraient permettre de conserver son immunité <ahref: \"https://www.nature.com/articles/s41577-020-00451-5\" >de manière plus sûre</a> que d’éventuelles réinfections par le virus lui-même.",
+    "name": "Il conviendra d'en discuter avec votre médecin mais <ahref: \"https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30764-7/fulltext?utm_source=Nature+Briefing&utm_campaign=6b3b78efc9-briefing-dy-20201013&utm_medium=email&utm_term=0_c9dfd39373-6b3b78efc9-44278933#seccestitle120\" pPlusieurs cas</a> de personnes ayant été infectées plusieurs fois par le coronavirus ont été documentés. Il est possible que l’infection par le coronavirus ne procure pas d’immunité permanente et que l'immunité acquise naturellement doive être renforcée par la vaccination. Les injections du vaccin pourraient permettre de conserver son immunité <ahref: \"https://www.nature.com/articles/s41577-020-00451-5\" >de manière plus sûre</a> que d’éventuelles réinfections par le virus lui-même.",
     "next": "29ed5de5-3b6d-40ce-95b0-6bbedb772465"
   },
   {
@@ -293,14 +293,14 @@
   {
     "type": "Choice",
     "id": "1f5a9ca0-7b20-4f9f-9eaa-732354b45922",
-    "title": "",
+    "title": "1",
     "name": "Les gestes barrières ne suffisent-ils pas ?",
     "next": "79b1fcab-8684-4ed7-9ebf-04e8c81be207"
   },
   {
     "type": "Choice",
     "id": "54eacf4a-2a09-4a54-b31e-602fec47110d",
-    "title": "",
+    "title": "2",
     "name": "Des traitements comme l’hydroxychloroquine ne suffiraient-ils pas?\n",
     "next": "8213aafe-c4a4-4635-81d5-9519c060ea64"
   },
@@ -452,10 +452,11 @@
     "choices": [
       "96de85db-a4bf-4a0c-acdb-5bc08818a40c",
       "0ff53911-d1a7-437e-8d5f-49d03082955e",
-      "b337a448-a226-4612-a0cf-922955ef337b",
       "d737d905-f82b-4661-9967-6b170bd776b7",
       "02d5a922-d5de-44b5-a61c-72ac97ca45b1",
-      "3cb1f7da-2a47-404f-a4a8-446de583bcd2"
+      "3cb1f7da-2a47-404f-a4a8-446de583bcd2",
+      "b21bbc3f-f3ca-433d-b40b-0bccf60c2555",
+      "02ddc625-0b0b-467e-9444-27e50ac6d4d0"
     ]
   },
   {
@@ -468,16 +469,9 @@
   {
     "type": "Choice",
     "id": "0ff53911-d1a7-437e-8d5f-49d03082955e",
-    "title": "2#mini",
+    "title": "3#mini",
     "name": "En général, les vaccins sont-ils dangereux ?",
     "next": "5b08eda9-4138-4461-ac49-ae3165adc825"
-  },
-  {
-    "type": "Choice",
-    "id": "b337a448-a226-4612-a0cf-922955ef337b",
-    "title": "3#mini",
-    "name": "Qu’est-ce qu’un vaccin à ARN messagers ?",
-    "next": "871798e5-1f27-4c22-8b07-dcc15026925a"
   },
   {
     "type": "Text",
@@ -506,8 +500,7 @@
     "actor": "",
     "name": "",
     "choices": [
-      "3de22e4a-2d96-4243-afd4-350c38747ddd",
-      "b21bbc3f-f3ca-433d-b40b-0bccf60c2555"
+      "3de22e4a-2d96-4243-afd4-350c38747ddd"
     ],
     "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
   },
@@ -521,7 +514,7 @@
   {
     "type": "Choice",
     "id": "b21bbc3f-f3ca-433d-b40b-0bccf60c2555",
-    "title": "4#mini",
+    "title": "2#mini",
     "name": "Les essais des vaccins Covid-19 sont-ils différents des essais pour d’autres vaccins ?",
     "next": "48dff85f-895c-4aa3-a3f5-51aa8a7190e3"
   },
@@ -650,8 +643,7 @@
     "actor": "",
     "name": "",
     "choices": [
-      "77527a17-02da-4bde-a143-c27d4a64ea13",
-      "02ddc625-0b0b-467e-9444-27e50ac6d4d0"
+      "77527a17-02da-4bde-a143-c27d4a64ea13"
     ],
     "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
   },
@@ -665,7 +657,7 @@
   {
     "type": "Choice",
     "id": "02ddc625-0b0b-467e-9444-27e50ac6d4d0",
-    "title": "6#mini",
+    "title": "4#mini",
     "name": "N’y a-t-il pas d’effets secondaires graves ?",
     "next": "b04bd920-2d72-4a64-a189-0231b7613dea"
   },
@@ -698,7 +690,7 @@
     "choices": [
       "ce4f7011-800d-4656-92c6-405708012cad"
     ],
-    "next": "170df416-2e78-4f85-bb79-16cc6a0ec141"
+    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
   },
   {
     "type": "Choice",
@@ -863,7 +855,7 @@
     "id": "02d5a922-d5de-44b5-a61c-72ac97ca45b1",
     "title": "4#mini",
     "name": "La nouvelle technologie de vaccins à ARN messagers, utilisée par Pfizer et Moderna, est-elle sûre ?",
-    "next": "c80bbe72-12d2-46af-bbe6-0e12dd03e7e3"
+    "next": "871798e5-1f27-4c22-8b07-dcc15026925a"
   },
   {
     "type": "Text",
@@ -877,7 +869,7 @@
     "id": "ffa92180-4092-47b1-9f69-667483de06a0",
     "actor": "",
     "name": "Dans le cas des vaccins à ARN messager, l’ARN ne pénètre pas dans les noyaux des cellules, là où se trouve notre ADN. Il n’y a donc <ahref: \"https://fr.wikipedia.org/wiki/Vaccin_%C3%A0_ARN\" >pas de risque</a> que leur code génétique soit incorporé dans notre ADN, ou qu’ils puissent modifier notre ADN.",
-    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
+    "next": "c80bbe72-12d2-46af-bbe6-0e12dd03e7e3"
   },
   {
     "type": "Choice",
@@ -952,6 +944,7 @@
       "7ae65a2a-1fc8-4712-abab-ce39f87717ff",
       "5577ebc5-9f09-473f-989e-8a085b4517f9",
       "7a2f2a06-3292-4a5e-b37c-f879f38e5d21",
+      "5ef35f19-a6ac-40ca-8eba-2f228cd9bbb2",
       "2db8638c-ba9c-4394-a76d-c2da4f3eb8d2"
     ]
   },
@@ -965,7 +958,7 @@
   {
     "type": "Choice",
     "id": "7ae65a2a-1fc8-4712-abab-ce39f87717ff",
-    "title": "4#mini",
+    "title": "1#mini",
     "name": "Comment fonctionnent les vaccins ?",
     "next": "353759a3-3b10-4a31-b3b1-988efdf0e175"
   },
@@ -1173,7 +1166,7 @@
   {
     "type": "Choice",
     "id": "7a2f2a06-3292-4a5e-b37c-f879f38e5d21",
-    "title": "6#mini",
+    "title": "2#mini",
     "name": "Connaît-on assez cette maladie pour élaborer un vaccin efficace ?",
     "next": "edf9dee1-8123-4289-a56c-08a5bc361c09"
   },
@@ -1196,22 +1189,12 @@
     "id": "d1568ad6-1d95-4b21-8879-364c8deebc9f",
     "actor": "",
     "name": "Grâce à cette extraordinaire mobilisation de la communauté scientifique mondiale, pas moins de 200 projets de vaccins sont à l'étude selon l’OMS. Actuellement, plusieurs dizaines de <ahref: \"https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html\" >vaccins</a> sont au stade de l'évaluation clinique chez l'Homme. ",
-    "next": "ad0362f8-a1a4-4cd7-b3f5-57f2ab9c8270"
-  },
-  {
-    "type": "Text",
-    "id": "ad0362f8-a1a4-4cd7-b3f5-57f2ab9c8270",
-    "actor": "",
-    "name": "",
-    "choices": [
-      "5ef35f19-a6ac-40ca-8eba-2f228cd9bbb2"
-    ],
     "next": "270cd515-03e6-46ae-b207-70a005361609"
   },
   {
     "type": "Choice",
     "id": "5ef35f19-a6ac-40ca-8eba-2f228cd9bbb2",
-    "title": "",
+    "title": "4#mini",
     "name": "Le virus pourrait-il muter, atténuant l’efficacité du vaccin ?",
     "next": "12aaf78a-ba55-4e32-a682-d181704b8b80"
   },
@@ -1284,7 +1267,8 @@
       "a771c17a-ad5a-4f1f-b0e4-60fad05be848",
       "17a36ddb-4769-4335-b11f-606c5242a993",
       "43707d47-6d0a-4278-bb76-ec0e6cc64f27",
-      "52cd3b93-e160-4cda-b159-901ff4dcf03a"
+      "52cd3b93-e160-4cda-b159-901ff4dcf03a",
+      "4743754a-59b4-4a8f-aeb3-d68c059df525"
     ]
   },
   {
@@ -1456,22 +1440,12 @@
     "id": "fd612333-1a96-4012-9a47-a937cf90efdd",
     "actor": "",
     "name": "Grâce à cette extraordinaire mobilisation de la communauté scientifique mondiale, pas moins de 200 projets de vaccins sont à l'étude selon l’OMS. Actuellement, plusieurs dizaines de <ahref: \"https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html\" >vaccins</a> sont au stade de l'évaluation clinique chez l'Homme. \n",
-    "next": "5a8ca69e-adc7-4f7e-9885-260077cd592d"
-  },
-  {
-    "type": "Text",
-    "id": "5a8ca69e-adc7-4f7e-9885-260077cd592d",
-    "actor": "",
-    "name": "",
-    "choices": [
-      "4743754a-59b4-4a8f-aeb3-d68c059df525"
-    ],
     "next": "bd78c0da-6519-43e5-af5f-cdf37bd4246b"
   },
   {
     "type": "Choice",
     "id": "4743754a-59b4-4a8f-aeb3-d68c059df525",
-    "title": "",
+    "title": "4#mini",
     "name": "Le virus pourrait-il muter, atténuant l’efficacité du vaccin ?",
     "next": "914905bf-0507-4457-aeb7-65c29461d541"
   },
@@ -1689,7 +1663,7 @@
     "type": "Choice",
     "id": "63fd7ae7-128f-4ae7-a834-7222b14b3cf0",
     "title": "5#mini",
-    "name": "Est-ce que le vaccin sera trop cher ?",
+    "name": "Vais-je devoir payer pour me faire vacciner ? ",
     "next": "acf9d29d-de8e-4d76-9309-91ce16720093"
   },
   {
@@ -1705,7 +1679,7 @@
   {
     "type": "Choice",
     "id": "30865683-7789-46d8-83d4-2eaafdbe7072",
-    "title": "",
+    "title": "1",
     "name": "Je veux en savoir plus sur le financement des futurs vaccins.",
     "next": "15cc2db6-f1ab-4caa-b307-9ed27267d4a4"
   },
@@ -1769,7 +1743,7 @@
     "type": "Text",
     "id": "acf9d29d-de8e-4d76-9309-91ce16720093",
     "actor": "",
-    "name": "Dans la situation actuelle, le vaccin sera fourni gratuitement à la population française.",
+    "name": "Non, le vaccin sera gratuit !",
     "next": "cc93dabd-0380-4934-9676-132a33354f95"
   },
   {
