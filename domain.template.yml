@@ -52,6 +52,10 @@ slots:
     type: bool
     initial_value: false
     influence_conversation: true
+  questions_answered:
+    type: list
+    initial_value: []
+    influence_conversation: false
 
 responses:
   utter_get_started:

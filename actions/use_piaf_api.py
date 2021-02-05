@@ -20,6 +20,7 @@ def ask_question_to_piaf(self,
     theme = tracker.get_slot('theme')
     sub_theme = tracker.get_slot('sub_theme')
     directory = tracker.get_slot('directory')
+    questions_answered = tracker.get_slot('questions_answered')
     url = "https://piaf.datascience.etalab.studio/models/1/doc-qa"
     data = {"questions": [f"{question}"], "filters": {}, "top_k_reader": 3, "top_k_retriever": 5}
 
@@ -38,7 +39,12 @@ def ask_question_to_piaf(self,
     if not response['results'][0]['answers']:
         response = None
     else:
-        response = response['results'][0]['answers'][0]
+        for r in response['results'][0]['answers']:
+            n = r.get('meta').get('name')
+            if n not in questions_answered:
+                response = r
+                questions_answered = questions_answered + [n]
+                break
 
     print(response)
 
@@ -62,7 +68,7 @@ def ask_question_to_piaf(self,
     # PIAF 1
     if not tracker.get_slot('ask_piaf_1') or not tracker.get_slot('ask_piaf_1_ok'):
         if probability >= proba_score:
-            return [SlotSet('ask_piaf_1', True), SlotSet('ask_piaf_1_ok', True), SlotSet('question', question)]
+            return [SlotSet('ask_piaf_1', True), SlotSet('ask_piaf_1_ok', True), SlotSet('question', question), SlotSet('questions_answered', questions_answered)]
         elif probability < proba_score and not sub_theme:
             print('not sub theme')
             return [SlotSet('ask_piaf_1', True), SlotSet('question', question)]
@@ -75,7 +81,7 @@ def ask_question_to_piaf(self,
     # PIAF 2
     else:
         if probability >= proba_score:
-            return [SlotSet('ask_piaf_2', True), SlotSet('ask_piaf_2_ok', True), SlotSet('question', question)]
+            return [SlotSet('ask_piaf_2', True), SlotSet('ask_piaf_2_ok', True), SlotSet('question', question), SlotSet('questions_answered', questions_answered)]
         else:
             return [SlotSet('ask_piaf_2', True), SlotSet('question', question)]
 
