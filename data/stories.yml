@@ -388,7 +388,6 @@ stories:
       - checkpoint: check_satisfaction
       - slot_was_set:
           - ask_piaf_1: true
-          - directory: true
       - intent: satisfaction_deny
       - slot_was_set:
         - ask_piaf_2: false
