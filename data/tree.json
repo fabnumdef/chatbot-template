@@ -71,7 +71,7 @@
     "type": "Text",
     "id": "4a2a14cb-17fd-465a-9ca6-1f0a412756b1",
     "actor": "",
-    "name": "La Covid-19 est la maladie infectieuse la plus meurtrière en Occident depuis des décennies. En un an, près de trois millions de personnes sont mortes dans le monde à cause de la Covid-19. ",
+    "name": "La Covid-19 est la maladie infectieuse la plus meurtrière en Occident depuis des décennies. En un an, <ahref: \"https://fr.statista.com/statistiques/1101324/morts-coronavirus-monde/\" >plus de trois millions de personnes</a> sont mortes dans le monde à cause de la Covid-19. ",
     "next": "5e2a43c4-6f83-4433-a25f-38a20857bdc5"
   },
   {
@@ -85,8 +85,8 @@
     "type": "Text",
     "id": "fd5d3b4d-b271-40db-b14a-52e7415af0fc",
     "actor": "",
-    "name": "Les symptômes les plus courants sont des troubles respiratoires, de la fièvre, une toux, un essoufflement et des difficultés respiratoires. La perte du goût et de l’odorat est fréquemment observée, et de nombreux patients présentent des problèmes pulmonaires et <ahref: \"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7351410/\" >cardiaques</a>. Dans les cas plus graves, l’infection peut entraîner une pneumonie, un syndrome respiratoire aigu sévère, une insuffisance rénale, et la mort. De plus, de nombreuses <ahref: \"https://www.vidal.fr/actualites/25119/covid_19_quelles_sequelles_a_long_terme_l_experience_du_sras_et_du_mers/\" >séquelles persistent à long-terme</a>. Certains patients rapportent par exemple des symptômes handicapants d’épuisement et d'essoufflement, des douleurs articulaires, ou encore des récidives de perte d’odorat et de goût. ",
-    "next": "d1d34bc6-69e5-4e49-b8db-6c700e5456db"
+    "name": "Les symptômes les plus courants sont des troubles respiratoires, de la fièvre, une toux, un essoufflement et des difficultés respiratoires. La perte du goût et de l’odorat est fréquemment observée, et de nombreux patients présentent des problèmes pulmonaires et <ahref: \"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7351410/\" >cardiaques</a>. Dans les cas plus graves, l’infection peut entraîner une pneumonie, un syndrome respiratoire aigu sévère, une insuffisance rénale, et la mort.  ",
+    "next": "f7a57ff8-2a79-48d0-b92e-66bd2d503eb7"
   },
   {
     "type": "Text",
@@ -154,14 +154,14 @@
     "id": "ad3d802e-0773-4c67-9a10-f5f3b8287fc3",
     "actor": "",
     "name": "Il est clair pour tous les experts qu’atteindre l’immunité de groupe sans vaccination représente beaucoup trop de malades pour que les structures hospitalières - en France ou ailleurs - puissent traiter le nombre de complications de la maladie. En essayant d’atteindre l’immunité collective en contaminant une grande partie de la population, les malades submergeraient les hôpitaux et de nombreuses personnes perdraient la vie, ainsi que des patients souffrant d’autres maladies qui ne pourraient pas être traitées. ",
-    "next": "d1d34bc6-69e5-4e49-b8db-6c700e5456db"
+    "next": "29ed5de5-3b6d-40ce-95b0-6bbedb772465"
   },
   {
     "type": "Text",
     "id": "8b99c3d2-a4d7-4c55-a682-af03be1f7c3c",
     "actor": "",
-    "name": "La pandémie a déjà fait près de trois millions de morts dans le monde en environ un an. La probabilité que quelqu’un meure s’il contracte la Covid-19 (taux de mortalité) est <ahref: \"https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-disease-2019-vs-the-flu\" >10 fois</a> plus élevée que s’il contracte la <ahref: \"https://medium.com/microbial-instincts/clarifying-the-true-fatality-rate-of-covid-19-same-as-the-flu-8148e38b9ab5\" >grippe</a>.",
-    "next": "d1d34bc6-69e5-4e49-b8db-6c700e5456db"
+    "name": "La pandémie a déjà fait <ahref: \"https://fr.statista.com/statistiques/1101324/morts-coronavirus-monde/\" >plus de trois millions de morts</a> dans le monde en environ un an. La probabilité que quelqu’un meure s’il contracte la Covid-19 (taux de mortalité) est <ahref: \"https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-disease-2019-vs-the-flu\" >10 fois</a> plus élevée que s’il contracte la <ahref: \"https://medium.com/microbial-instincts/clarifying-the-true-fatality-rate-of-covid-19-same-as-the-flu-8148e38b9ab5\" >grippe</a>.",
+    "next": "29ed5de5-3b6d-40ce-95b0-6bbedb772465"
   },
   {
     "type": "Text",
@@ -175,14 +175,14 @@
     "id": "7934fe30-a352-4477-ae6c-a1210a6ed474",
     "actor": "",
     "name": "En juin 2020, un <ahref: \"https://www.lejdd.fr/Societe/Sante/tribune-malades-au-long-cours-covid-19-il-est-urgent-de-coordonner-les-actions-pour-nous-soigner-3973276\" >collectif de plus d’un millier de personnes</a> ayant souffert de la Covid-19 s’est formé pour demander des actions de la part des autorités de santé afin de prendre en compte leur souffrance et leurs besoins. Ces personnes présentent des séquelles importantes de la Covid-19, en particulier une fatigue persistante et invalidante.",
-    "next": "d1d34bc6-69e5-4e49-b8db-6c700e5456db"
+    "next": "29ed5de5-3b6d-40ce-95b0-6bbedb772465"
   },
   {
     "type": "Text",
     "id": "88973cf8-3864-44a9-a9f2-f16f2c8c8b29",
     "actor": "",
     "name": "L’analyse des données épidémiologiques montre que le sexe (les hommes étant plus vulnérables), et surtout l’âge (les plus âgés étant plus vulnérables) favorisent le développement d’une forme grave de la maladie. Les personnes souffrant de certaines pathologies (pathologies cardiovasculaires, diabète, pathologies chroniques respiratoires ou obésité) ont également plus de risques de développer une forme grave de la Covid-19 que les autres. ",
-    "next": "c556b5ab-94ec-48e2-9746-947405957219"
+    "next": "6f6b3e6e-f701-4e04-9046-3b42be4fe219"
   },
   {
     "type": "Text",
@@ -221,21 +221,14 @@
     "id": "a3534727-8d95-448f-968e-c5d5f95617ce",
     "actor": "",
     "name": "Il est vrai que les jeunes sont moins susceptibles de présenter des manifestations graves de la Covid-19, mais ils peuvent néanmoins tomber sévèrement malades, avoir des symptômes handicapants ou des <ahref: \"https://jamanetwork.com/journals/jama/article-abstract/2768351\" >séquelles</a> à long terme—voire décéder de la Covid-19 dans de rares cas. ",
-    "next": "2f0b0d87-729e-415f-9a4d-9903e17ba2f4"
+    "next": "55fd58e2-8d1e-4ef3-88a8-918c3cf05d8b"
   },
   {
     "type": "Text",
     "id": "8b9d8716-82dc-4856-8b5d-25bac43e4de2",
     "actor": "",
-    "name": "Le fait d’avoir été infecté par le SARS-CoV-2 réduit nettement le risque d'être ré-infecté. La réponse immunitaire après une infection naturelle et une dose de vaccin est très importante chez les personnes en bonne santé, supérieure à celle observée après deux doses de vaccins, permettant probablement de réduire encore plus le risque de ré-infection. ",
+    "name": "Le fait d’avoir été infecté par le SARS-CoV-2 réduit nettement le risque d'être ré-infecté. La <ahref: \"https://www.mesvaccins.net/web/news/17000-apres-une-infection-par-le-sars-cov-2-la-vaccination-anti-covid-19-pourrait-ne-comporter-qu-une-dose-de-vaccin-a-arn\" >réponse immunitaire après une infection naturelle</a> et une dose de vaccin est très importante chez les personnes en bonne santé, supérieure à celle observée après deux doses de vaccins, permettant probablement de réduire encore plus le risque de ré-infection. ",
     "next": "c1d18578-a858-44a5-9e79-909b1c947de5"
-  },
-  {
-    "type": "Text",
-    "id": "2f0b0d87-729e-415f-9a4d-9903e17ba2f4",
-    "actor": "",
-    "name": "Parmi les personnes décédées de la Covid-19, une personne sur dix avait moins de 65 ans.",
-    "next": "55fd58e2-8d1e-4ef3-88a8-918c3cf05d8b"
   },
   {
     "type": "Text",
@@ -375,13 +368,6 @@
     "next": "f23e9a62-b7ee-47c5-b524-cce6f78c8d2a"
   },
   {
-    "type": "Text",
-    "id": "c556b5ab-94ec-48e2-9746-947405957219",
-    "actor": "",
-    "name": "La probabilité de développer une forme grave de la Covid-19 ou même de décéder de cette maladie quand on est jeune et en bonne santé est faible. Cependant, dans le cadre d’une épidémie touchant des millions de personnes, même les événements ayant une probabilité faible de survenir touchent un grand nombre de personnes.",
-    "next": "6f6b3e6e-f701-4e04-9046-3b42be4fe219"
-  },
-  {
     "type": "Choice",
     "id": "49af38d2-b0ea-4d65-ab18-d56cbb5356fa",
     "title": "1#menu",
@@ -399,7 +385,7 @@
     "type": "Choice",
     "id": "a402454e-1c83-4d16-95d1-1d9a2eaf139c",
     "title": "4#menu",
-    "name": "Peut-on faire confiance à ceux qui vont produire et disséminer le vaccin ? ",
+    "name": "Peut-on faire confiance à ceux qui vont produire et distribuer le vaccin ? ",
     "next": "b0a5d131-d0ea-488a-8131-722dff862b1f"
   },
   {
@@ -436,10 +422,10 @@
     "actor": "",
     "name": "",
     "choices": [
+      "02d5a922-d5de-44b5-a61c-72ac97ca45b1",
       "8b55665f-a71d-48a6-9470-b2db6f5a1bec",
       "db1fe8ea-7c34-4396-87cc-fcef51371828",
       "06fc41fa-24b6-46fc-851d-41b09754789b",
-      "02d5a922-d5de-44b5-a61c-72ac97ca45b1",
       "3cb1f7da-2a47-404f-a4a8-446de583bcd2"
     ]
   },
@@ -448,7 +434,7 @@
     "id": "b337a448-a226-4612-a0cf-922955ef337b",
     "title": "4#mini",
     "name": "Qu’est-ce qu’un vaccin à ARN messagers ?",
-    "next": "871798e5-1f27-4c22-8b07-dcc15026925a"
+    "next": "fe120ff6-cd74-475c-9327-7354af3b7627"
   },
   {
     "type": "Choice",
@@ -461,8 +447,8 @@
     "type": "Text",
     "id": "871798e5-1f27-4c22-8b07-dcc15026925a",
     "actor": "",
-    "name": "Un <ahref: \"https://www.inserm.fr/information-en-sante/c-est-quoi/secret-fabrication-c-est-quoi-arn-messager\" >ARN messager</a> est comme un mode d'emploi microscopique. Grâce au vaccin, ce mode d'emploi est envoyé aux cellules de l'organisme pour qu'elles produisent une des protéines du coronavirus. A elle seule, cette protéine est complètement inoffensive. Quand le système immunitaire repère cette protéine dans l’organisme, il fabrique des anticorps contre le coronavirus et active les cellules de l’immunité (Lymphocytes), ce qui nous permet de nous défendre par la suite contre le virus. Il est à noter que l’ARN du vaccin est dégradé en quelques jours par les cellules humaines.",
-    "next": "3117b7b7-0dff-4b3a-b7b6-972de67f974e"
+    "name": "Quand le système immunitaire repère cette protéine dans l’organisme, il fabrique des anticorps contre le coronavirus et active les cellules de l’immunité (Lymphocytes), ce qui nous permet de nous défendre par la suite contre le virus. Il est à noter que l’ARN du vaccin est dégradé en quelques jours par les cellules humaines.",
+    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
   },
   {
     "type": "Text",
@@ -483,7 +469,7 @@
     "id": "e214d721-4dfa-4f68-af34-b728fe6eb78f",
     "actor": "",
     "name": "Dans le cas des vaccins à ARN messager, l’ARN ne pénètre pas dans les noyaux des cellules, là où se trouve notre ADN. Il n’y a donc <ahref: \"https://fr.wikipedia.org/wiki/Vaccin_%C3%A0_ARN\" >pas de risque</a> que leur code génétique soit incorporé dans notre ADN, ou qu’ils puissent modifier notre ADN.",
-    "next": "3117b7b7-0dff-4b3a-b7b6-972de67f974e"
+    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
   },
   {
     "type": "Text",
@@ -545,8 +531,8 @@
     "type": "Text",
     "id": "1c7c41a2-b791-4465-aa3b-9954a61cba41",
     "actor": "",
-    "name": "Les vaccins sont testés de manière intensive avant leur mise sur le marché. Les essais chez l'Homme se déroulent en trois phases. La phase 1 consiste à tester l'absence de toxicité de la préparation chez un petit nombre de volontaires sains non exposés au virus. La phase 2 consiste à étudier chez un plus grand nombre de volontaires (50-200), la façon dont le vaccin devra être administré (doses, nombre d'injections) pour induire une immunité maximale. Dans cette phase, on mesure l’immunité à partir des anticorps présents dans le sang.",
-    "next": "fac0157b-f8b5-4436-9d27-20045f97d4b0"
+    "name": "Les vaccins sont testés de manière intensive avant leur mise sur le marché. Les essais chez l'Homme se déroulent en trois phases. La phase 1 consiste à tester l'absence de toxicité de la préparation chez un petit nombre de volontaires sains non exposés au virus. ",
+    "next": "9dec60be-b128-45d7-b881-e9e52883d6df"
   },
   {
     "type": "Text",
@@ -655,7 +641,7 @@
     "type": "Text",
     "id": "c9df2657-e75e-46e7-8402-5c205101c842",
     "actor": "",
-    "name": "Les vaccins protègent efficacement les populations, même les personnes qui ne sont pas vaccinées, à condition qu’une proportion suffisante de la population soit vaccinée. Pour la Covid-19, cette proportion pourrait être de \"https://www.numerama.com/sciences/664678-coronavirus-combien-de-personnes-devraient-idealement-se-faire-vacciner.html\" >70 à 90%</a>, en fonction de l’efficacité du vaccin pour bloquer la transmission du virus, et du taux de reproduction de la maladie.",
+    "name": "Les vaccins protègent efficacement les populations, même les personnes qui ne sont pas vaccinées, à condition qu’une proportion suffisante de la population soit vaccinée. Pour la Covid-19, cette proportion pourrait être de <ahref:\"https://www.numerama.com/sciences/664678-coronavirus-combien-de-personnes-devraient-idealement-se-faire-vacciner.html\" >70 à 90%</a>, en fonction de l’efficacité du vaccin pour bloquer la transmission du virus, et du taux de reproduction de la maladie.",
     "next": "c7c4536c-c133-4ee1-8dad-68664b330efd"
   },
   {
@@ -711,8 +697,8 @@
     "type": "Text",
     "id": "d6a8bd28-6503-4e93-81b7-ee451e249fb5",
     "actor": "",
-    "name": "En France, la vaccination contre la rougeole est entrée au <ahref: \"https://solidarites-sante.gouv.fr/IMG/pdf/plan_elimination_rougeole.pdf\" >calendrier vaccinal en 1983</a>. Le taux d'infection par la rougeole a chuté brusquement après l'introduction du vaccin, <ahref: \"https://fr.wikipedia.org/wiki/Rougeole#France\" >de près de 400 000 cas en 1987 à 44 000 cas en 1993</a>. Pourtant, les habitudes d'hygiène et d'assainissement n'ont pas beaucoup changé entre 1983 et 1993. A l’inverse, la diminution du taux de vaccination contre la rougeole ces dernières années a entraîné une <ahref: \"https://www.who.int/fr/news/item/12-11-2020-worldwide-measles-deaths-climb-50-from-2016-to-2019-claiming-over-207-500-lives-in-2019\" >augmentation du nombre de décès</a> suite à des formes graves de rougeole.",
-    "next": "5e965ad4-28e6-4ac6-adc1-f7ad47865d70"
+    "name": "En France, la vaccination contre la rougeole est entrée au <ahref: \"https://solidarites-sante.gouv.fr/IMG/pdf/plan_elimination_rougeole.pdf\" >calendrier vaccinal en 1983</a>. Le taux d'infection par la rougeole a chuté brusquement après l'introduction du vaccin, <ahref: \"https://fr.wikipedia.org/wiki/Rougeole#France\" >de près de 400 000 cas en 1987 à 44 000 cas en 1993</a>. Pourtant, les habitudes d'hygiène et d'assainissement n'ont pas beaucoup changé entre 1983 et 1993. ",
+    "next": "7cc46c07-1cf1-475a-9053-858705586fa0"
   },
   {
     "type": "Text",
@@ -775,20 +761,20 @@
     "id": "3cd1da4e-3287-4864-bbcf-5ac5020a32b1",
     "actor": "",
     "name": "Par rapport aux vaccins précédents, la mise en circulation de certains vaccins contre la Covid-19 est très rapide. Nous devons cette rapidité à la mobilisation de centaines d’équipes de recherche et de volontaires du monde entier. \n",
-    "next": "05f34a92-6354-4737-a209-0694d30debf5"
+    "next": "a56bfe28-ca72-4d39-aa99-ef186477677e"
   },
   {
     "type": "Text",
     "id": "05f34a92-6354-4737-a209-0694d30debf5",
     "actor": "",
-    "name": "Cependant, tous les vaccins, y compris les vaccins contre la Covid-19, passent par les mêmes procédures avant d’être distribués. Même après la mise sur le marché d’un vaccin, les agences nationales et internationales restent vigilantes et surveillent l’apparition de potentiels effets secondaires. Lorsqu’un doute s’est présenté à propos de l’association entre de rares cas de thrombose et le vaccin Oxford/AstraZeneca, la vaccination a été interrompue dans de nombreux pays afin de mener des études supplémentaires.",
-    "next": "f90e6c8e-ba6b-42c9-97ac-29e1925095c7"
+    "name": "Lorsqu’un doute s’est présenté à propos de l’association entre de rares cas de thrombose et le vaccin Oxford/AstraZeneca, la vaccination a été interrompue dans de nombreux pays afin de mener des études supplémentaires.",
+    "next": "c153cb7b-504a-42fe-97dd-91d2e00f83c1"
   },
   {
     "type": "Text",
     "id": "f90e6c8e-ba6b-42c9-97ac-29e1925095c7",
     "actor": "",
-    "name": "A la date du 15 avril, <ahref: \"https://ourworldindata.org/covid-vaccinations\" >plus de 750 millions</a> de doses de vaccins (Pfizer-BioNtech, Moderna, Oxford-Astrazeneca) ont été administrées dans le monde. A l’exception de très rares réactions allergiques et thromboses associés aux vaccins Oxford/AstraZeneca et Johnson & Johnson (environ un cas pour 100 000 à 1 000 000 de doses), aucun effet secondaire grave n’a été suspecté d’être lié au vaccin depuis le début des essais et de la vaccination, il y a plus d’un an. Les effets indésirables des vaccins survenant presque toujours au cours du <ahref: \"https://www.deplatformdisease.com/blog/long-term-effects-of-covid-19-vaccines-should-you-be-worried\" >premier mois</a> suivant l'administration du vaccin, nous avons désormais un bon recul sur les vaccins contre la Covid-19. ",
+    "name": "Les effets indésirables des vaccins survenant presque toujours au cours du <ahref: \"https://www.deplatformdisease.com/blog/long-term-effects-of-covid-19-vaccines-should-you-be-worried\" >premier mois</a> suivant l'administration du vaccin, nous avons désormais un bon recul sur les vaccins contre la Covid-19. ",
     "next": "bd78c0da-6519-43e5-af5f-cdf37bd4246b"
   },
   {
@@ -850,8 +836,8 @@
     "type": "Text",
     "id": "cb6c07e2-7033-4a28-bd98-ab2a5652d103",
     "actor": "",
-    "name": "Les essais cliniques pour tester l’efficacité des vaccins n’ont pas été précipités. Les vaccins contre la Covid-19 sont soumis aux mêmes protocoles rigoureux de vérification et d’évaluation que les autres vaccins. Toutes les contraintes réglementaires qui encadrent la mise sur le marché des vaccins ont été respectées, et continueront à l’être. Pour recevoir l’autorisation des autorités sanitaires, les vaccins ont dû, comme tout autre vaccin, respecter quatre étapes incontournables testant l’efficacité et la sûreté du vaccin. ",
-    "next": "061c1e60-fc90-41f5-b426-dbba194448a5"
+    "name": "Les essais cliniques pour tester l’efficacité des vaccins n’ont pas été précipités. Les vaccins contre la Covid-19 sont soumis aux mêmes protocoles rigoureux de vérification et d’évaluation que les autres vaccins. Toutes les contraintes réglementaires qui encadrent la mise sur le marché des vaccins ont été respectées, et continueront à l’être. ",
+    "next": "1f363572-45cf-4d7a-95f1-a05c59f9c995"
   },
   {
     "type": "Text",
@@ -913,7 +899,7 @@
     "id": "17a36ddb-4769-4335-b11f-606c5242a993",
     "title": "6#mini",
     "name": "Ne devrais-je pas attendre un vaccin plus efficace ?",
-    "next": "eb434047-3523-409a-b894-150640b63fdb"
+    "next": "2a4e5811-df5a-4ace-9863-7928187105b0"
   },
   {
     "type": "Choice",
@@ -933,14 +919,14 @@
     "type": "Text",
     "id": "eb434047-3523-409a-b894-150640b63fdb",
     "actor": "",
-    "name": "Les vaccins autorisés en France sont tous efficaces à 100% pour prévenir les complications liées à la Covid-19 (et donc les hospitalisations). Par ailleurs, la plupart des vaccins disponibles sont extrêmement efficaces pour éviter d’attraper la Covid-19 (environ 95% d’efficacité pour les vaccins Pfizer et Moderna). Dans la vie réelle, les vaccins Pfizer, Moderna et Astra-Zeneca sont également très efficaces. En Israël, où <ahref: \"https://factuel.afp.com/non-le-nombre-de-cas-de-covid-19-na-pas-explose-en-israel-malgre-la-campagne-de-vaccination\" >plus de 5 millions d'Israéliens</a> (plus de la moitié de la population) et 80% des plus de 50 ans, ont reçu les deux doses du vaccin, <ahref: \"https://graphics.reuters.com/world-coronavirus-tracker-and-maps/fr/countries-and-territories/israel/\" >15 cas pour 100.000 personnes</a> ont été recensés au cours des 7 derniers jours. Une <ahref: \"https://www.lenouvelliste.ca/actualites/covid-19/le-vaccin-pfizer-biontech-efficace-apres-une-dose-et-stable-a-de-plus-hautes-temperatures-e98464be36ba6c5d23864ad068e77596\" >étude israélienne</a> a conclu à un taux de protection de 95% après la deuxième dose.",
+    "name": "Dans la vie réelle, les vaccins Pfizer, Moderna et Astra-Zeneca sont également très efficaces. En Israël, où <ahref: \"https://factuel.afp.com/non-le-nombre-de-cas-de-covid-19-na-pas-explose-en-israel-malgre-la-campagne-de-vaccination\" >plus de 5 millions d'Israéliens</a> (plus de la moitié de la population) et 80% des plus de 50 ans, ont reçu les deux doses du vaccin, <ahref: \"https://graphics.reuters.com/world-coronavirus-tracker-and-maps/fr/countries-and-territories/israel/\" >15 cas pour 100.000 personnes</a> ont été recensés au cours des 7 derniers jours. Une <ahref: \"https://www.lenouvelliste.ca/actualites/covid-19/le-vaccin-pfizer-biontech-efficace-apres-une-dose-et-stable-a-de-plus-hautes-temperatures-e98464be36ba6c5d23864ad068e77596\" >étude israélienne</a> a conclu à un taux de protection de 95% après la deuxième dose.",
     "next": "08ee3ef2-e672-4846-9124-d705ea5b8d08"
   },
   {
     "type": "Text",
     "id": "1274eca6-135d-40df-87bc-0ba1a8f23045",
     "actor": "",
-    "name": "Même lorsque qu’un vaccin n’est pas efficace à 100 % pour éviter d’attraper le virus, il est tout de même très utile. Il peut par exemple permettre de désengorger les hôpitaux dans le cas de la Covid-19. Des études portant sur la vaccination contre un autre virus respiratoire bien connu – le virus de la grippe – suggèrent que la vaccination contribue à sauver des vies, même lorsque son efficacité est modérée (autour de <ahref: \"https://www.euro.who.int/fr/health-topics/communicable-diseases/influenza/vaccination/influenza-vaccination-frequently-asked-questions\" >60 %</a>). Par exemple, entre 2018 et 2019, <ahref: \"https://www.cdc.gov/flu/vaccines-work/vaccineeffect.htm\" >la vaccination contre la grippe a évité</a> environ 4,4 millions de cas de grippe, 2,3 millions de visites médicales, 58 000 hospitalisations et 3 500 décès.",
+    "name": "Il peut par exemple permettre de désengorger les hôpitaux dans le cas de la Covid-19. Des études portant sur la vaccination contre un autre virus respiratoire bien connu – le virus de la grippe – suggèrent que la vaccination contribue à sauver des vies, même lorsque son efficacité est modérée (autour de <ahref: \"https://www.euro.who.int/fr/health-topics/communicable-diseases/influenza/vaccination/influenza-vaccination-frequently-asked-questions\" >60 %</a>). Par exemple, entre 2018 et 2019, <ahref: \"https://www.cdc.gov/flu/vaccines-work/vaccineeffect.htm\" >la vaccination contre la grippe a évité</a> environ 4,4 millions de cas de grippe, 2,3 millions de visites médicales, 58 000 hospitalisations et 3 500 décès.",
     "next": "bd78c0da-6519-43e5-af5f-cdf37bd4246b"
   },
   {
@@ -1198,7 +1184,7 @@
     "type": "Text",
     "id": "dea916b2-b1aa-4d0d-9ef3-8a37f5e40785",
     "actor": "",
-    "name": "Les vaccins à vecteur viral, comme celui d’AstraZeneca, \"https://www.quebec.ca/sante/conseils-et-prevention/vaccination/vaccin-vecteur-viral-covid-19\" >contiennent</a> une toute petite quantité d’adénovirus; des sels; des acides aminés (les molécules qui permettent de former des protéines); des solvants (comme l’éthanol); des PEG; et du sucre.\n",
+    "name": "Les vaccins à vecteur viral, comme celui d’AstraZeneca, <ahref:\"https://www.quebec.ca/sante/conseils-et-prevention/vaccination/vaccin-vecteur-viral-covid-19\" >contiennent</a> une toute petite quantité d’adénovirus; des sels; des acides aminés (les molécules qui permettent de former des protéines); des solvants (comme l’éthanol); des PEG; et du sucre.",
     "next": "d5140fe9-47bf-45e2-aaf3-755bff969ad8"
   },
   {
@@ -1295,13 +1281,13 @@
     "id": "44ce323d-0d50-40b3-8fb1-5b087a562993",
     "actor": "",
     "name": "Les sels d'aluminium sont les adjuvants les plus utilisés à ce jour. Avec un recul d’utilisation de <ahref: \"https://www.inserm.fr/sites/default/files/2017-12/Inserm_MiseAuPoint_Vaccins_2017.pdf\" >90 ans</a> et des <ahref: \"https://www.inserm.fr/sites/default/files/2017-12/Inserm_MiseAuPoint_Vaccins_2017.pdf\" >centaines de millions de doses</a> injectées, les chercheurs ont pu montrer que la très petite quantité de sels d’aluminium contenue dans les vaccins n’a aucun effet mesurable sur la santé.",
-    "next": "2c92bbaf-a85d-4085-8fed-a19c2d50e3be"
+    "next": "a1e04cc7-4589-44f8-83d7-70ce3afdeb0f"
   },
   {
     "type": "Text",
     "id": "2c92bbaf-a85d-4085-8fed-a19c2d50e3be",
     "actor": "",
-    "name": "Par ailleurs, nous sommes exposés aux sels d’aluminium en dehors de la vaccination, ce qui fournit d’autres informations sur leurs effets. Par exemple, les adultes ingèrent environ <ahref: \"https://www.infovac.ch/fr/faq/l-aluminium-dans-les-vaccins\" >7 à 9 milligrammes</a> d'aluminium par jour dans leur alimentation (légumes, céréales, crustacés, chocolat). Cette dose quotidienne est 100 fois supérieure à la quantité contenue dans une seule dose des vaccins sur le marché (0,125 et 0,85 milligrammes d’aluminium par dose). L'aluminium qui pénètre dans notre circulation sanguine est rapidement traité et éliminé avec l'urine par les reins.\n",
+    "name": "Cette dose quotidienne est 100 fois supérieure à la quantité contenue dans une seule dose des vaccins sur le marché (0,125 et 0,85 milligrammes d’aluminium par dose). L'aluminium qui pénètre dans notre circulation sanguine est rapidement traité et éliminé avec l'urine par les reins.\n",
     "next": "d5140fe9-47bf-45e2-aaf3-755bff969ad8"
   },
   {
@@ -1330,13 +1316,13 @@
     "id": "16dc4884-5767-40f8-b511-6d4b745d8179",
     "actor": "",
     "name": "Pour stimuler la réponse immunitaire de certains vaccins, des substances que l'on appelle <ahref: \"https://vaccination-info-service.fr/Questions-frequentes/Questions-generales/Effets-indesirables-et-securite\" >adjuvants</a> sont parfois ajoutées aux vaccins. Les adjuvants peuvent être indispensables pour garantir l’efficacité des vaccins. La quantité d’adjuvants présents dans les vaccins est si faible qu’ils n’ont, dans l'immense majorité des cas, aucun effet néfaste.",
-    "next": "1c9f1f8f-fda6-48fd-9ca1-6ddc532d47c7"
+    "next": "0372aead-b9ac-4ac0-a0e3-3fe13969d846"
   },
   {
     "type": "Text",
     "id": "1c9f1f8f-fda6-48fd-9ca1-6ddc532d47c7",
     "actor": "",
-    "name": "Les premiers vaccins disponibles contre la Covid-19, les vaccins à ARN messager de Pfizer-BioNTech et Moderna, et le vaccin AstraZeneca à adénovirus recombinant, <ahref: \"https://www.infovac.fr/docman-marc/public/covid-19/1726-lien-a-fiche-vaccin-covid-contenus-def/file\" >ne contiennent pas d’adjuvants</a>.",
+    "name": "Dans un contexte de pandémie, ils jouent un rôle très important pour protéger rapidement un plus grand nombre de personnes parce qu’ils permettent que chaque personne ait besoin de moins d’antigènes pour être immunisée. Les vaccins qui contiennent des adjuvants sont soumis à des protocoles rigoureux pour tester leur sécurité et efficacité.",
     "next": "d5140fe9-47bf-45e2-aaf3-755bff969ad8"
   },
   {
@@ -1414,13 +1400,13 @@
     "id": "4fd8ef23-9305-4c80-ad62-7fc6c55cc2a6",
     "actor": "",
     "name": "L’ARNm des vaccins est entouré d’une couche de <ahref: \"https://www.lemonde.fr/les-decodeurs/article/2020/12/11/nanoparticules-et-vaccins-contre-le-covid-19-cinq-questions-pour-demeler-le-vrai-du-faux_6063083_4355770.html\" >nanoparticules</a> de lipides (de la graisse) qui sert à le protéger et se dégrade ensuite naturellement. Ces molécules de lipides sont tout à fait naturelles : nos cellules elles-mêmes sont entourées de lipides !",
-    "next": "3117b7b7-0dff-4b3a-b7b6-972de67f974e"
+    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
   },
   {
     "type": "Text",
     "id": "56c4901e-3604-4bbf-a6c0-5a4d28441a9e",
     "actor": "",
-    "name": "Si vous pensez avoir eu la Covid-19 sans avoir été testé positif, il est possible que vous ne l’ayez pas eue. Par contre, si vous avez été testé positif et que vous avez eu les symptômes de la Covid-19, il conviendra d’en discuter avec votre médecin. La \"https://www.has-sante.fr/jcms/p_3237456/fr/une-seule-dose-de-vaccin-pour-les-personnes-ayant-deja-ete-infectees-par-le-sars-cov-2\" >Haute Autorité de Santé (HAS)</a> préconise de n’injecter qu’une seule dose de vaccin, après un délai d’au moins 3 mois et, idéalement, de 6 mois après la fin des symptômes, à condition de ne pas être immunodéprimé (chimiothérapie, transplantation etc…).",
+    "name": "Si vous pensez avoir eu la Covid-19 sans avoir été testé positif, il est possible que vous ne l’ayez pas eue. Par contre, si vous avez été testé positif et que vous avez eu les symptômes de la Covid-19, il conviendra d’en discuter avec votre médecin. La <ahref:\"https://www.has-sante.fr/jcms/p_3237456/fr/une-seule-dose-de-vaccin-pour-les-personnes-ayant-deja-ete-infectees-par-le-sars-cov-2\" >Haute Autorité de Santé (HAS)</a> préconise de n’injecter qu’une seule dose de vaccin, après un délai d’au moins 3 mois et, idéalement, de 6 mois après la fin des symptômes, à condition de ne pas être immunodéprimé (chimiothérapie, transplantation etc…).",
     "next": "8b6667fc-d8a2-4232-9acb-040a5e1ea23b"
   },
   {
@@ -1594,8 +1580,8 @@
     "type": "Text",
     "id": "04c8a51c-38c6-4db7-a968-798f77ed2554",
     "actor": "",
-    "name": "Depuis janvier 2021, de nombreuses études sont en cours pour déterminer si les nouveaux variants de SARS-CoV-2 vont diminuer l’efficacité des vaccins. Une <ahref: \"https://www.ox.ac.uk/news/2021-02-05-oxford-vaccine-effective-against-major-b117-kent-coronavirus-strain-circulating-uk\" >étude préliminaire</a> menée sur des volontaires vaccinés entre octobre 2020 et janvier 2021 (date de la flambée du variant anglais au Royaume-Uni) a montré que le vaccin Astrazeneca était efficace contre le variant britannique B.1.1.7. De plus, les vaccins AstraZeneca et Pfizer/BioNTech ont été largement utilisés au Royaume-Uni alors que ce variant était majoritaire, et ont permis une réduction importante du nombre de cas de Covid-19. ",
-    "next": "eccb71e7-9b54-49c3-9474-234ea3f8e842"
+    "name": "Depuis janvier 2021, de nombreuses études sont en cours pour déterminer si les nouveaux variants de SARS-CoV-2 vont diminuer l’efficacité des vaccins. Une <ahref: \"https://www.ox.ac.uk/news/2021-02-05-oxford-vaccine-effective-against-major-b117-kent-coronavirus-strain-circulating-uk\" >étude préliminaire</a> menée sur des volontaires vaccinés entre octobre 2020 et janvier 2021 (date de la flambée du variant anglais au Royaume-Uni) a montré que le vaccin Astrazeneca était efficace contre le variant britannique B.1.1.7. ",
+    "next": "b56f5d73-b7d6-4301-81b0-9e63e09b867e"
   },
   {
     "type": "Text",
@@ -1630,11 +1616,32 @@
     "next": "061c1e60-fc90-41f5-b426-dbba194448a5"
   },
   {
+    "type": "Text",
+    "id": "fe120ff6-cd74-475c-9327-7354af3b7627",
+    "actor": "",
+    "name": "Un <ahref: \"https://www.inserm.fr/information-en-sante/c-est-quoi/secret-fabrication-c-est-quoi-arn-messager\" >ARN messager</a> est comme un mode d'emploi microscopique. Grâce au vaccin, ce mode d'emploi est envoyé aux cellules de l'organisme pour qu'elles produisent une des protéines du coronavirus. A elle seule, cette protéine est complètement inoffensive. ",
+    "next": "871798e5-1f27-4c22-8b07-dcc15026925a"
+  },
+  {
     "type": "Choice",
     "id": "ce087fff-ec78-4a54-81a6-ae186bdf2d7e",
     "title": "9#mini",
     "name": "Qu’est ce qu’un variant du coronavirus ?",
     "next": "23bc4ba8-0aec-474a-96e6-6d779249e2ee"
+  },
+  {
+    "type": "Text",
+    "id": "f7a57ff8-2a79-48d0-b92e-66bd2d503eb7",
+    "actor": "",
+    "name": "De plus, de nombreuses <ahref: \"https://www.vidal.fr/actualites/25119/covid_19_quelles_sequelles_a_long_terme_l_experience_du_sras_et_du_mers/\" >séquelles persistent à long-terme</a>. Certains patients rapportent par exemple des symptômes handicapants d’épuisement et d'essoufflement, des douleurs articulaires, ou encore des récidives de perte d’odorat et de goût.",
+    "next": "d1d34bc6-69e5-4e49-b8db-6c700e5456db"
+  },
+  {
+    "type": "Text",
+    "id": "a1e04cc7-4589-44f8-83d7-70ce3afdeb0f",
+    "actor": "",
+    "name": "Par ailleurs, nous sommes exposés aux sels d’aluminium en dehors de la vaccination, ce qui fournit d’autres informations sur leurs effets. Par exemple, les adultes ingèrent environ <ahref: \"https://www.infovac.ch/fr/faq/l-aluminium-dans-les-vaccins\" >7 à 9 milligrammes</a> d'aluminium par jour dans leur alimentation (légumes, céréales, crustacés, chocolat). ",
+    "next": "2c92bbaf-a85d-4085-8fed-a19c2d50e3be"
   },
   {
     "type": "Text",
@@ -1658,11 +1665,25 @@
     "next": "d225ddcc-ebf8-41dd-8165-d7a5d6c0ca0e"
   },
   {
+    "type": "Text",
+    "id": "0372aead-b9ac-4ac0-a0e3-3fe13969d846",
+    "actor": "",
+    "name": "Les premiers vaccins disponibles contre la Covid-19, les vaccins à ARN messager de Pfizer-BioNTech et Moderna, et le vaccin AstraZeneca à adénovirus recombinant, <ahref: \"https://www.infovac.fr/docman-marc/public/covid-19/1726-lien-a-fiche-vaccin-covid-contenus-def/file\" >ne contiennent pas d’adjuvants</a>.",
+    "next": "79f3b695-44cd-41af-b9a7-4ae18da5d66d"
+  },
+  {
     "type": "Choice",
     "id": "85069af5-a0ef-4f65-b003-434bc3f5599f",
     "title": "3#mini",
     "name": "Comment peut-on détecter des effets secondaires très rares ?",
     "next": "19e5925a-e417-4ad8-b60d-fae89491052e"
+  },
+  {
+    "type": "Text",
+    "id": "79f3b695-44cd-41af-b9a7-4ae18da5d66d",
+    "actor": "",
+    "name": "D’autres vaccins contre la Covid-19, en cours de développement, pourront contenir des <ahref: \"https://vaccination-info-service.fr/Questions-frequentes/Questions-generales/Effets-indesirables-et-securite\" >adjuvants</a>. Les adjuvants permettent d’augmenter la réponse immunitaire, et donc de réduire la quantité d’antigène (substance active qui stimule le système immunitaire) qui doit être utilisée dans chaque dose de vaccin. Les adjuvants contribuent donc à ce qu’une grande quantité de doses puisse être produite rapidement.",
+    "next": "1c9f1f8f-fda6-48fd-9ca1-6ddc532d47c7"
   },
   {
     "type": "Text",
@@ -1680,6 +1701,13 @@
   },
   {
     "type": "Text",
+    "id": "a56bfe28-ca72-4d39-aa99-ef186477677e",
+    "actor": "",
+    "name": "Cependant, tous les vaccins, y compris les vaccins contre la Covid-19, passent par les mêmes procédures avant d’être distribués. Même après la mise sur le marché d’un vaccin, les agences nationales et internationales restent vigilantes et surveillent l’apparition de potentiels effets secondaires. ",
+    "next": "05f34a92-6354-4737-a209-0694d30debf5"
+  },
+  {
+    "type": "Text",
     "id": "19e5925a-e417-4ad8-b60d-fae89491052e",
     "actor": "",
     "name": "Les effets secondaires les plus rares (par exemple ceux qui apparaissent chez une personne sur un million) sont pratiquement impossibles à détecter au cours des essais, car cela nécessiterait d’inclure dans les essais des dizaines de millions de personnes.",
@@ -1691,6 +1719,13 @@
     "title": "10#mini",
     "name": "De futures mutations du virus pourraient-elles affecter l’efficacité du vaccin ?",
     "next": "945c31dd-6c77-47db-9f1b-919d907a45a7"
+  },
+  {
+    "type": "Text",
+    "id": "c153cb7b-504a-42fe-97dd-91d2e00f83c1",
+    "actor": "",
+    "name": "A la date du 15 avril, <ahref: \"https://ourworldindata.org/covid-vaccinations\" >plus de 750 millions</a> de doses de vaccins (Pfizer-BioNtech, Moderna, Oxford-Astrazeneca) ont été administrées dans le monde. A l’exception de très rares réactions allergiques et thromboses associés aux vaccins Oxford/AstraZeneca et Johnson & Johnson (environ un cas pour 100 000 à 1 000 000 de doses), aucun effet secondaire grave n’a été suspecté d’être lié au vaccin depuis le début des essais et de la vaccination, il y a plus d’un an. ",
+    "next": "f90e6c8e-ba6b-42c9-97ac-29e1925095c7"
   },
   {
     "type": "Choice",
@@ -1708,6 +1743,13 @@
   },
   {
     "type": "Text",
+    "id": "1f363572-45cf-4d7a-95f1-a05c59f9c995",
+    "actor": "",
+    "name": "Pour recevoir l’autorisation des autorités sanitaires, les vaccins ont dû, comme tout autre vaccin, respecter quatre étapes incontournables testant l’efficacité et la sûreté du vaccin. ",
+    "next": "061c1e60-fc90-41f5-b426-dbba194448a5"
+  },
+  {
+    "type": "Text",
     "id": "0193a660-acc5-4edc-959f-c46152fb9f42",
     "actor": "",
     "name": "Les recherches portant sur le vaccin contre la Covid-19 ont commencé très tôt grâce à un séquençage du génome du virus précoce (janvier 2020), et les nouvelles technologies comme les vaccins à ARN ont permis d’accélérer le développement de nouveaux vaccins.",
@@ -1719,6 +1761,13 @@
     "actor": "",
     "name": "Heureusement, la plupart des mutations n’ont <ahref: \"https://www.lci.fr/sante/coronavirus-les-mutations-du-covid-19-rendent-elles-inefficaces-les-futurs-vaccins-2169855.html\" >pas d’effet</a> sur l’efficacité des vaccins. Étant donné que la structure d’un virus muté n’est généralement pas suffisamment modifiée, les premiers vaccins mis en circulation semblent également <ahref: \"https://www.nature.com/articles/s41591-021-01318-5\" >protéger contre les versions mutées du virus</a>.",
     "next": "caf8e0d7-403a-4a84-ace8-cafc412a326c"
+  },
+  {
+    "type": "Text",
+    "id": "2ff0da87-4ada-4a78-95d2-40d64e508610",
+    "actor": "",
+    "name": "Même lorsque qu’un vaccin n’est pas efficace à 100 % pour éviter d’attraper le virus, il est tout de même très utile. ",
+    "next": "1274eca6-135d-40df-87bc-0ba1a8f23045"
   },
   {
     "type": "Choice",
@@ -1757,6 +1806,13 @@
   },
   {
     "type": "Text",
+    "id": "2a4e5811-df5a-4ace-9863-7928187105b0",
+    "actor": "",
+    "name": "Les vaccins autorisés en France sont tous efficaces à 100% pour prévenir les complications liées à la Covid-19 (et donc les hospitalisations). Par ailleurs, la plupart des vaccins disponibles sont extrêmement efficaces pour éviter d’attraper la Covid-19 (environ 95% d’efficacité pour les vaccins Pfizer et Moderna). ",
+    "next": "eb434047-3523-409a-b894-150640b63fdb"
+  },
+  {
+    "type": "Text",
     "id": "c5d9037a-aad1-43b4-8dad-20e04ff7944c",
     "actor": "",
     "name": "Cependant, la probabilité de voir émerger de variants échappant à la réponse immunitaire est plus importante si le virus continue à circuler largement. Les mesures de restriction et les gestes barrières permettent de réduire la circulation virale avant que la population soit largement vaccinée. ",
@@ -1771,6 +1827,13 @@
   },
   {
     "type": "Text",
+    "id": "9dec60be-b128-45d7-b881-e9e52883d6df",
+    "actor": "",
+    "name": "La phase 2 consiste à étudier chez un plus grand nombre de volontaires (50-200), la façon dont le vaccin devra être administré (doses, nombre d'injections) pour induire une immunité maximale. Dans cette phase, on mesure l’immunité à partir des anticorps présents dans le sang.",
+    "next": "fac0157b-f8b5-4436-9d27-20045f97d4b0"
+  },
+  {
+    "type": "Text",
     "id": "a1794756-2559-48d1-8138-8278b05fcbf4",
     "actor": "",
     "name": "Les vaccins d’Oxford/AstraZeneca et de Johnson&Johnson à <ahref: \"https://sante.journaldesfemmes.fr/fiches-sante-du-quotidien/2697407-vaccin-a-adenovirus-definition-fonctionnement-mode-action-principe-technologie-covid-19/\" >adénovirus</a> sont d’autres moyens de donner l’ordre aux cellules de produire la protéine Spike. L’adénovirus utilisé a été modifié pour être inoffensif pour l’homme à ces doses, il ne se multiplie pas dans l’organisme.",
@@ -1782,6 +1845,13 @@
     "actor": "",
     "name": "Cependant, il existe un mécanisme permettant de détecter ce type d’effets secondaires rarissimes, dans ce que l’on appelle essai de phase 4. Il s'agit d'un contrôle qui évalue la sécurité des vaccins dans la population une fois qu'ils ont déjà été homologués pour s'assurer que rien de préoccupant n’a été négligé.",
     "next": "3008bfb6-dfe3-48b8-aefe-3f9edb869dd3"
+  },
+  {
+    "type": "Text",
+    "id": "7cc46c07-1cf1-475a-9053-858705586fa0",
+    "actor": "",
+    "name": "A l’inverse, la diminution du taux de vaccination contre la rougeole ces dernières années a entraîné une <ahref: \"https://www.who.int/fr/news/item/12-11-2020-worldwide-measles-deaths-climb-50-from-2016-to-2019-claiming-over-207-500-lives-in-2019\" >augmentation du nombre de décès</a> suite à des formes graves de rougeole.",
+    "next": "5e965ad4-28e6-4ac6-adc1-f7ad47865d70"
   },
   {
     "type": "Text",
@@ -1808,6 +1878,13 @@
     "actor": "",
     "name": "Les professionnels de santé et les patients eux-mêmes peuvent déclarer les évènements indésirables d'un vaccin ou d'un médicament sur le <ahref: \"https://signalement.social-sante.gouv.fr\" >Portail de signalement des événements sanitaires indésirables du Ministère de la Santé</a>.",
     "next": "93e69585-6c6d-4275-a3d0-e874427821f5"
+  },
+  {
+    "type": "Text",
+    "id": "b56f5d73-b7d6-4301-81b0-9e63e09b867e",
+    "actor": "",
+    "name": "De plus, les vaccins AstraZeneca et Pfizer/BioNTech ont été largement utilisés au Royaume-Uni alors que ce variant était majoritaire, et ont permis une réduction importante du nombre de cas de Covid-19. ",
+    "next": "eccb71e7-9b54-49c3-9474-234ea3f8e842"
   },
   {
     "type": "Text",
@@ -1870,14 +1947,14 @@
     "id": "cdefce0e-f96a-4d92-94f9-1b9ea2655480",
     "actor": "",
     "name": "Ce type de vaccin contre la COVID-19 entraîne le système immunitaire à reconnaître la protéine Spike. La réaction immunitaire produit des anticorps et des cellules-mémoires permettant l'activation des défenses en cas d'attaque par le virus.",
-    "next": "3117b7b7-0dff-4b3a-b7b6-972de67f974e"
+    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
   },
   {
     "type": "Text",
     "id": "08ee3ef2-e672-4846-9124-d705ea5b8d08",
     "actor": "",
     "name": "Chez les personnes les plus fragiles (par exemple les patients sous chimiothérapie, ou les personnes ayant subi une transplantation), cette efficacité est moins importante. Il est donc nécessaire de vacciner leur entourage afin de les protéger.",
-    "next": "1274eca6-135d-40df-87bc-0ba1a8f23045"
+    "next": "2ff0da87-4ada-4a78-95d2-40d64e508610"
   },
   {
     "type": "Text",
