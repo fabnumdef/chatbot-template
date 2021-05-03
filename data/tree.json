@@ -154,14 +154,14 @@
     "id": "ad3d802e-0773-4c67-9a10-f5f3b8287fc3",
     "actor": "",
     "name": "Il est clair pour tous les experts qu’atteindre l’immunité de groupe sans vaccination représente beaucoup trop de malades pour que les structures hospitalières - en France ou ailleurs - puissent traiter le nombre de complications de la maladie. En essayant d’atteindre l’immunité collective en contaminant une grande partie de la population, les malades submergeraient les hôpitaux et de nombreuses personnes perdraient la vie, ainsi que des patients souffrant d’autres maladies qui ne pourraient pas être traitées. ",
-    "next": "29ed5de5-3b6d-40ce-95b0-6bbedb772465"
+    "next": "d1d34bc6-69e5-4e49-b8db-6c700e5456db"
   },
   {
     "type": "Text",
     "id": "8b99c3d2-a4d7-4c55-a682-af03be1f7c3c",
     "actor": "",
     "name": "La pandémie a déjà fait <ahref: \"https://fr.statista.com/statistiques/1101324/morts-coronavirus-monde/\" >plus de trois millions de morts</a> dans le monde en environ un an. La probabilité que quelqu’un meure s’il contracte la Covid-19 (taux de mortalité) est <ahref: \"https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-disease-2019-vs-the-flu\" >10 fois</a> plus élevée que s’il contracte la <ahref: \"https://medium.com/microbial-instincts/clarifying-the-true-fatality-rate-of-covid-19-same-as-the-flu-8148e38b9ab5\" >grippe</a>.",
-    "next": "29ed5de5-3b6d-40ce-95b0-6bbedb772465"
+    "next": "d1d34bc6-69e5-4e49-b8db-6c700e5456db"
   },
   {
     "type": "Text",
@@ -175,7 +175,7 @@
     "id": "7934fe30-a352-4477-ae6c-a1210a6ed474",
     "actor": "",
     "name": "En juin 2020, un <ahref: \"https://www.lejdd.fr/Societe/Sante/tribune-malades-au-long-cours-covid-19-il-est-urgent-de-coordonner-les-actions-pour-nous-soigner-3973276\" >collectif de plus d’un millier de personnes</a> ayant souffert de la Covid-19 s’est formé pour demander des actions de la part des autorités de santé afin de prendre en compte leur souffrance et leurs besoins. Ces personnes présentent des séquelles importantes de la Covid-19, en particulier une fatigue persistante et invalidante.",
-    "next": "29ed5de5-3b6d-40ce-95b0-6bbedb772465"
+    "next": "d1d34bc6-69e5-4e49-b8db-6c700e5456db"
   },
   {
     "type": "Text",
@@ -448,7 +448,7 @@
     "id": "871798e5-1f27-4c22-8b07-dcc15026925a",
     "actor": "",
     "name": "Quand le système immunitaire repère cette protéine dans l’organisme, il fabrique des anticorps contre le coronavirus et active les cellules de l’immunité (Lymphocytes), ce qui nous permet de nous défendre par la suite contre le virus. Il est à noter que l’ARN du vaccin est dégradé en quelques jours par les cellules humaines.",
-    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
+    "next": "3117b7b7-0dff-4b3a-b7b6-972de67f974e"
   },
   {
     "type": "Text",
@@ -469,7 +469,7 @@
     "id": "e214d721-4dfa-4f68-af34-b728fe6eb78f",
     "actor": "",
     "name": "Dans le cas des vaccins à ARN messager, l’ARN ne pénètre pas dans les noyaux des cellules, là où se trouve notre ADN. Il n’y a donc <ahref: \"https://fr.wikipedia.org/wiki/Vaccin_%C3%A0_ARN\" >pas de risque</a> que leur code génétique soit incorporé dans notre ADN, ou qu’ils puissent modifier notre ADN.",
-    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
+    "next": "3117b7b7-0dff-4b3a-b7b6-972de67f974e"
   },
   {
     "type": "Text",
@@ -502,8 +502,8 @@
       "7ae65a2a-1fc8-4712-abab-ce39f87717ff",
       "5577ebc5-9f09-473f-989e-8a085b4517f9",
       "7a2f2a06-3292-4a5e-b37c-f879f38e5d21",
-      "2db8638c-ba9c-4394-a76d-c2da4f3eb8d2",
-      "b70172af-dbf1-4e9c-b91e-a79f52f4bf17"
+      "b70172af-dbf1-4e9c-b91e-a79f52f4bf17",
+      "2db8638c-ba9c-4394-a76d-c2da4f3eb8d2"
     ]
   },
   {
@@ -1400,7 +1400,7 @@
     "id": "4fd8ef23-9305-4c80-ad62-7fc6c55cc2a6",
     "actor": "",
     "name": "L’ARNm des vaccins est entouré d’une couche de <ahref: \"https://www.lemonde.fr/les-decodeurs/article/2020/12/11/nanoparticules-et-vaccins-contre-le-covid-19-cinq-questions-pour-demeler-le-vrai-du-faux_6063083_4355770.html\" >nanoparticules</a> de lipides (de la graisse) qui sert à le protéger et se dégrade ensuite naturellement. Ces molécules de lipides sont tout à fait naturelles : nos cellules elles-mêmes sont entourées de lipides !",
-    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
+    "next": "3117b7b7-0dff-4b3a-b7b6-972de67f974e"
   },
   {
     "type": "Text",
@@ -1947,7 +1947,7 @@
     "id": "cdefce0e-f96a-4d92-94f9-1b9ea2655480",
     "actor": "",
     "name": "Ce type de vaccin contre la COVID-19 entraîne le système immunitaire à reconnaître la protéine Spike. La réaction immunitaire produit des anticorps et des cellules-mémoires permettant l'activation des défenses en cas d'attaque par le virus.",
-    "next": "20d6780d-d83a-4e96-992c-8bfc71c94af1"
+    "next": "3117b7b7-0dff-4b3a-b7b6-972de67f974e"
   },
   {
     "type": "Text",
