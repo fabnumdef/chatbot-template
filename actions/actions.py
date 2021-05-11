@@ -25,12 +25,13 @@ class ActionSendTree(Action):
             tracker: Tracker,
             domain: Dict[Text, Any],
         ) -> List[Dict]:
-        messages = return_tree(tracker.get_slot('tree_id'), tracker.get_slot('tree_id_selected'))
 
         if tracker.get_slot('tree_id'):
             tree_id_selected = tracker.get_slot('tree_id_selected') + [tracker.get_slot('tree_id')]
         else:
             tree_id_selected = tracker.get_slot('tree_id_selected')
+
+        messages = return_tree(tracker.get_slot('tree_id'), tree_id_selected)
 
         for message in messages:
             if 'buttons' in message:

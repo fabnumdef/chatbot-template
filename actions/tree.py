@@ -1,5 +1,17 @@
 import json
 
+# TODO
+# Changer l'id next des 50#redirect avec 75a6be2a-1e1c-45ea-aa7b-795bd1e811e8
+# Mettre le menu principal dans cet ordre:
+#"49af38d2-b0ea-4d65-ab18-d56cbb5356fa",
+#"13888dd6-de13-43e6-9619-cf42a54a867a",
+#"ae8e61a1-fcc1-4db0-ab7e-fcd37cb2dc16",
+#"a402454e-1c83-4d16-95d1-1d9a2eaf139c",
+#"3a4cc61c-8e78-42cb-899a-3f0df9be49dd",
+#"b5a86b01-92c4-4b8e-a0b6-712122d9f776"
+
+# Rajouter next dans le sous menu 1.1 et 5.1
+
 with open('data/tree.json') as json_file:
     data = json.load(json_file)
     excluded_ids = [x for x in data if 'title' in x and ('redirect' in x['title'] or 'menu' in x['title'])]
