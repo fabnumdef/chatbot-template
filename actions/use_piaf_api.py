@@ -21,8 +21,8 @@ def ask_question_to_piaf(self,
     sub_theme = tracker.get_slot('sub_theme')
     directory = tracker.get_slot('directory')
     questions_answered = tracker.get_slot('questions_answered')
-    url = "https://piaf.datascience.etalab.studio/models/1/doc-qa"
-    data = {"questions": [f"{question}"], "filters": {}, "top_k_reader": 3, "top_k_retriever": 5}
+    url = "https://piaf.datascience.etalab.studio/dila/query"
+    data = {"query": f"{question}", "top_k_reader": 3, "top_k_retriever": 5}
 
     if theme and not sub_theme and not directory:
         data['filters']['theme'] = theme
