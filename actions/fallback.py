@@ -9,6 +9,10 @@ def return_fallback_suggestions(self,
                          dispatcher: CollectingDispatcher,
                          tracker: Tracker,
                          domain: Dict[Text, Any]):
+
+    if not tracker.get_slot('return_suggestions'):
+        return []
+
     banned_intents = ['nlu_fallback', 'phrase_presentation', 'phrase_feedback']
     intents_not_bad = [intent for intent in tracker.latest_message['intent_ranking'] if intent['confidence'] >= 0.2 and intent['name'] not in banned_intents]
     if len(intents_not_bad) <= 0:
