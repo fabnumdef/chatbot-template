@@ -27,4 +27,7 @@ def return_fallback_suggestions(self,
     for i in response.json():
         buttons_to_send.append({"payload": "/" + i['id'], "title": i['mainQuestion']})
 
+    if len(buttons_to_send) <= 0:
+        return []
+
     dispatcher.utter_message(text = "J'ai trouvé des propositions qui pourraient correspondre à votre recherche", buttons = buttons_to_send)
