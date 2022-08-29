@@ -25,5 +25,5 @@ policies:
     max_history: 1
   - name: RulePolicy
     core_fallback_threshold: 0.5
-    core_fallback_action_name: "utter_phrase_hors_sujet_0"
+    core_fallback_action_name: "utter_nlu_fallback_0"
 
