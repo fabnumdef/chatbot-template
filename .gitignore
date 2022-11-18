@@ -22,5 +22,4 @@ docker-local
 .pytype/
 endpoints.yml
 data/nlu.yml
-data/rules.yml
 domain.yml

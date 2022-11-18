@@ -1,5 +1,5 @@
 
-version: "2.0"
+version: "3.1"
 
 intents:
   - nlu_fallback
@@ -7,14 +7,26 @@ intents:
   - send_tree
   - send_full_tree
 
+entities:
+  - tree_id
+
+responses:
+  utter_nlu_fallback_0:
+    - text: "Désolé mais je ne saurais pas vous répondre ce coup ci !"
+
 slots:
   tree_id:
     type: text
     influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: tree_id
   tree_id_selected:
     type: list
     influence_conversation: false
     initial_value: []
+    mappings:
+      - type: custom
 
 actions:
   - action_send_tree
