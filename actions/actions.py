@@ -11,7 +11,6 @@ from typing import Any, Text, Dict, List, Union
 
 from rasa_sdk.events import AllSlotsReset, SlotSet
 
-from rasa_sdk.forms import FormAction
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from actions.fallback import return_fallback_suggestions
