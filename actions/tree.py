@@ -1,16 +1,13 @@
 import json
 
 # TODO
-# Changer l'id next des 50#redirect avec 75a6be2a-1e1c-45ea-aa7b-795bd1e811e8
 # Mettre le menu principal dans cet ordre:
-#"49af38d2-b0ea-4d65-ab18-d56cbb5356fa",
-#"13888dd6-de13-43e6-9619-cf42a54a867a",
-#"ae8e61a1-fcc1-4db0-ab7e-fcd37cb2dc16",
-#"a402454e-1c83-4d16-95d1-1d9a2eaf139c",
-#"3a4cc61c-8e78-42cb-899a-3f0df9be49dd",
-#"b5a86b01-92c4-4b8e-a0b6-712122d9f776"
-
-# Rajouter next dans le sous menu 1.1 et 5.1
+# "c43ae085-13e1-48c9-a90e-d85078c0b1c1",
+# "690fb2b9-7c75-49ed-ba7e-afc7feacb13a",
+# "620c7368-382f-4254-ba2a-cacc83c84db5",
+# "0eea0dbc-0f4a-4f47-a094-0540b12a6dce",
+# "5699fad2-90a1-4be9-89fe-f22dce13c048",
+# "8dafab70-25b2-4c8a-9feb-90f217e7ec9c"
 
 with open('data/tree.json') as json_file:
     data = json.load(json_file)
@@ -20,6 +17,10 @@ with open('data/tree.json') as json_file:
 def return_tree(item_id, tree_id_selected: list):
     print(item_id, tree_id_selected)
     messages = []
+    return_message = {
+        "text": "Retour en arrière",
+        "buttons": []
+    }
     if not item_id:
         item_id = "41022967-073c-4af5-be10-81c8e617189f"
     item = next((x for x in data if x['id'] == item_id), None)
@@ -28,6 +29,8 @@ def return_tree(item_id, tree_id_selected: list):
             messages.append(generate_message(item, tree_id_selected))
 
         if 'choices' in item and messages:
+            if not messages[-1]:
+                messages.append(return_message)
             if 'buttons' in messages[-1] and messages[-1]['buttons']:
                 messages[-1]['buttons'] = messages[-1]['buttons'] + generate_message(item, tree_id_selected)['buttons']
             else :
@@ -67,8 +70,8 @@ def generate_buttons(item, tree_id_selected: list):
     buttons = []
     for choice in item['choices']:
         sub_item = next((x for x in data if x['id'] == choice), None)
-        #if sub_item['next'] in tree_id_selected and sub_item['id'] not in excluded_ids:
-        #   buttons.append({'payload': None, 'title': sub_item['name']})
-        #else:
-        buttons.append({'payload': '/send_tree{"tree_id":"' + sub_item['next'] + '"}', 'title': sub_item['name'], 'id': sub_item['next']})
+        if sub_item['next'] in tree_id_selected and sub_item['id'] not in excluded_ids:
+           buttons.append({'payload': None, 'title': sub_item['name']})
+        else:
+            buttons.append({'payload': '/send_tree{"tree_id":"' + sub_item['next'] + '"}', 'title': sub_item['name'], 'id': sub_item['next']})
     return buttons
