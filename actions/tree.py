@@ -11,15 +11,14 @@ import json
 
 with open('data/tree.json') as json_file:
     data = json.load(json_file)
-    excluded_ids = [x for x in data if 'title' in x and ('redirect' in x['title'] or 'menu' in x['title'])]
+    excluded_ids = [x for x in data if 'title' in x and ('redirect' in x['title'] or 'menu' in x['title'] or 'Je veux revenir en arrière' in x['name'])]
     excluded_ids = [x['id'] for x in excluded_ids]
 
 def return_tree(item_id, tree_id_selected: list):
     print(item_id, tree_id_selected)
     messages = []
     return_message = {
-        "text": "Retour en arrière",
-        "buttons": []
+        "text": "Retour en arrière"
     }
     if not item_id:
         item_id = "41022967-073c-4af5-be10-81c8e617189f"
@@ -28,9 +27,10 @@ def return_tree(item_id, tree_id_selected: list):
         if 'name' in item and item['name']:
             messages.append(generate_message(item, tree_id_selected))
 
+        if 'choices' in item and not messages:
+            messages.append(return_message)
+
         if 'choices' in item and messages:
-            if not messages[-1]:
-                messages.append(return_message)
             if 'buttons' in messages[-1] and messages[-1]['buttons']:
                 messages[-1]['buttons'] = messages[-1]['buttons'] + generate_message(item, tree_id_selected)['buttons']
             else :
