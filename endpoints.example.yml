@@ -28,11 +28,11 @@ action_endpoint:
 tracker_store:
   type: sql
   dialect: "postgresql"
-  url: ${DATABASE_HOST}
-  port: ${DATABASE_PORT}
-  username: ${DATABASE_USER}
-  password: ${DATABASE_PASSWORD}
-  db: ${DATABASE_NAME}
+  url: "localhost"
+  port: "5432"
+  username: "rasa_user"
+  password: "postgres"
+  db: "rasa"
 
 # Event broker which all conversation events should be streamed to.
 # https://rasa.com/docs/rasa/api/event-brokers/
