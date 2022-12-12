@@ -27,7 +27,8 @@ class ActionSendTree(Action):
         ) -> List[Dict]:
 
         if tracker.get_slot('tree_id'):
-            tree_id_selected = tracker.get_slot('tree_id_selected') + [tracker.get_slot('tree_id')]
+            if not tracker.get_slot('tree_id') in tracker.get_slot('tree_id_selected'):
+                tree_id_selected = tracker.get_slot('tree_id_selected') + [tracker.get_slot('tree_id')]
         else:
             tree_id_selected = tracker.get_slot('tree_id_selected')
 

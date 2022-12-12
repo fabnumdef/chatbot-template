@@ -71,7 +71,7 @@ def generate_buttons(item, tree_id_selected: list):
     for choice in item['choices']:
         sub_item = next((x for x in data if x['id'] == choice), None)
         if sub_item['next'] in tree_id_selected and sub_item['id'] not in excluded_ids:
-           buttons.append({'payload': None, 'title': sub_item['name']})
+            buttons.append({'payload': '/send_tree{"tree_id":"' + sub_item['next'] + '"}', 'title': sub_item['name'] + '_disabled','id': sub_item['next']})
         else:
             buttons.append({'payload': '/send_tree{"tree_id":"' + sub_item['next'] + '"}', 'title': sub_item['name'], 'id': sub_item['next']})
     return buttons
