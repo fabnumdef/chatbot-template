@@ -21,5 +21,6 @@ terms
 docker-local
 .pytype/
 endpoints.yml
-data
+data/nlu.yml
+data/rules.yml
 domain.yml

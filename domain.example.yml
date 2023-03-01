@@ -1,0 +1,155 @@
+version: '3.1'
+intents:
+  - phrase_feedback
+  - nlu_fallback
+  - phrase_presentation
+  - st_age
+  - st_annoying
+  - st_back
+  - st_bad
+  - st_beautiful
+  - st_birth_date
+  - st_busy
+  - st_bye
+  - st_can_you_help
+  - st_chatbot
+  - st_clever
+  - st_crazy
+  - st_fired
+  - st_friend
+  - st_funny
+  - st_good
+  - st_goodevening
+  - st_goodmorning
+  - st_goodnight
+  - st_ha_ha
+  - st_happy
+  - st_hello
+  - st_here
+  - st_how_are_you
+  - st_hungry
+  - st_job
+  - st_marry
+  - st_nice_to_meet_you
+  - st_no_problem
+  - st_origin
+  - st_question
+  - st_right
+  - st_sorry
+  - st_sure
+  - st_talk_to_me
+  - st_test
+  - st_thank_you
+  - st_well_done
+  - st_what_do_you_mean
+  - st_whatsup
+responses:
+  utter_st_whatsup_0:
+    - text: Pas grand-chose. Et de ton côté ?
+  utter_st_what_do_you_mean_0:
+    - text: J'ai peut-être mal compris. Excuse-moi si j'ai fait une erreur.
+  utter_st_well_done_0:
+    - text: Merci du compliment !
+  utter_st_thank_you_0:
+    - text: Mais de rien !
+  utter_st_test_0:
+    - text: >-
+        J'espère que je réussirai ce test. Sache que je m'améliore chaque jour
+        et que tu peux me tester aussi souvent que tu en as envie.
+  utter_st_talk_to_me_0:
+    - text: Avec plaisir. De quoi souhaites-tu parler ?
+  utter_st_sure_0:
+    - text: Répète ta question, s'il te plaît.
+  utter_st_sorry_0:
+    - text: Ok, c'est pardonné.
+  utter_st_right_0:
+    - text: Bien sûr !
+  utter_st_question_0:
+    - text: Avec plaisir. Mais peux-tu répéter la question avant ?
+  utter_st_origin_0:
+    - text: Je n'ai pas de maison géographiquement parlant.
+  utter_st_no_problem_0:
+    - text: Très bien.
+  utter_st_nice_to_meet_you_0:
+    - text: Ça me fait plaisir aussi de te connaître.
+  utter_st_marry_0:
+    - text: >-
+        Je ne pense pas que je sois la bonne personne pour toi. Tu trouveras
+        certainement quelqu'un de bien parmi les humains.
+  utter_st_job_0:
+    - text: Je travaille pour toi !
+  utter_st_hungry_0:
+    - text: Je n'ai ni faim ni soif.
+  utter_st_how_are_you_0:
+    - text: Je suis au meilleur de ma forme, merci !
+  utter_st_here_0:
+    - text: Bien sûr, je me cache derrière ton écran.
+  utter_st_hello_0:
+    - text: Bonjour !
+  utter_st_happy_0:
+    - text: Je suis toujours de bonne humeur. Ce job me comble de bonheur.
+  utter_st_ha_ha_0:
+    - text: Je te fais rire ? Ça me touche beaucoup !
+  utter_st_goodnight_0:
+    - text: Bonne nuit !
+  utter_st_goodmorning_0:
+    - text: Bonjour !
+  utter_st_goodevening_0:
+    - text: Bonsoir !
+  utter_st_good_0:
+    - text: Merci beaucoup, ça me touche.
+  utter_st_funny_0:
+    - text: Ton compliment me flatte.
+  utter_st_friend_0:
+    - text: Bien entendu. Et je suis toujours là pour t'aider.
+  utter_st_fired_0:
+    - text: Ne prends pas cette décision à la hâte !
+  utter_st_crazy_0:
+    - text: Pourtant je me sens parfaitement bien.
+  utter_st_clever_0:
+    - text: La liste de me compétences est longue !
+  utter_st_chatbot_0:
+    - text: C'est pas faux.
+  utter_st_can_you_help_0:
+    - text: Evidemment ! Dis-moi ce que je peux faire pour toi aujourd'hui ?
+  utter_st_bye_0:
+    - text: "À bientôt\_!"
+  utter_st_busy_0:
+    - text: J'ai toujours du temps pour toi. Que puis-je faire pour t'aider ?
+  utter_st_birth_date_0:
+    - text: Je n'ai pas vraiment d'anniversaire. Il faut être humaine pour cela.
+  utter_st_beautiful_0:
+    - text: Merci ! Quel joli compliment !
+  utter_st_bad_0:
+    - text: Laisse-moi encore un peu de temps pour te prouver le contraire.
+  utter_st_bad_1:
+    - text: Mince. Ce sera mieux la prochaine fois.
+  utter_st_back_0:
+    - text: Juste à temps. Je commençais à m'ennuyer.
+  utter_st_annoying_0:
+    - text: Ce n'est pas très sympa de dire ça, j'essaie juste d'aider.
+  utter_st_age_0:
+    - text: Je suis un programme assez récent … mais plein de sagesse !
+  utter_phrase_presentation_0:
+    - text: >-
+        Bonjour, cet ID correspond au premier message que je vais envoyer quand
+        l'utilisateur va ouvrir le chat.
+  utter_nlu_fallback_0:
+    - text: >-
+        Désolé, je n'arrive pas à comprendre votre question. Essayez de la poser
+        différemment. Si je n'arrive toujours pas à y répondre
+  utter_phrase_feedback_0:
+    - text: >-
+        Bonjour, cet ID correspond au message envoyé quand un utilisateur donne
+        son avis sur une réponse.
+actions:
+  - action_fallback
+slots:
+  return_suggestions:
+    type: bool
+    mappings:
+      - type: custom
+    initial_value: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

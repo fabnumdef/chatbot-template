@@ -1,0 +1,176 @@
+version: '3.1'
+rules:
+  - rule: phrase_feedback
+    steps:
+      - intent: phrase_feedback
+      - action: utter_phrase_feedback_0
+  - rule: nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: utter_nlu_fallback_0
+      - action: action_fallback
+  - rule: phrase_presentation
+    steps:
+      - intent: phrase_presentation
+      - action: utter_phrase_presentation_0
+  - rule: st_age
+    steps:
+      - intent: st_age
+      - action: utter_st_age_0
+  - rule: st_annoying
+    steps:
+      - intent: st_annoying
+      - action: utter_st_annoying_0
+  - rule: st_back
+    steps:
+      - intent: st_back
+      - action: utter_st_back_0
+  - rule: st_bad
+    steps:
+      - intent: st_bad
+      - action: utter_st_bad_0
+      - action: utter_st_bad_1
+  - rule: st_beautiful
+    steps:
+      - intent: st_beautiful
+      - action: utter_st_beautiful_0
+  - rule: st_birth_date
+    steps:
+      - intent: st_birth_date
+      - action: utter_st_birth_date_0
+  - rule: st_busy
+    steps:
+      - intent: st_busy
+      - action: utter_st_busy_0
+  - rule: st_bye
+    steps:
+      - intent: st_bye
+      - action: utter_st_bye_0
+  - rule: st_can_you_help
+    steps:
+      - intent: st_can_you_help
+      - action: utter_st_can_you_help_0
+  - rule: st_chatbot
+    steps:
+      - intent: st_chatbot
+      - action: utter_st_chatbot_0
+  - rule: st_clever
+    steps:
+      - intent: st_clever
+      - action: utter_st_clever_0
+  - rule: st_crazy
+    steps:
+      - intent: st_crazy
+      - action: utter_st_crazy_0
+  - rule: st_fired
+    steps:
+      - intent: st_fired
+      - action: utter_st_fired_0
+  - rule: st_friend
+    steps:
+      - intent: st_friend
+      - action: utter_st_friend_0
+  - rule: st_funny
+    steps:
+      - intent: st_funny
+      - action: utter_st_funny_0
+  - rule: st_good
+    steps:
+      - intent: st_good
+      - action: utter_st_good_0
+  - rule: st_goodevening
+    steps:
+      - intent: st_goodevening
+      - action: utter_st_goodevening_0
+  - rule: st_goodmorning
+    steps:
+      - intent: st_goodmorning
+      - action: utter_st_goodmorning_0
+  - rule: st_goodnight
+    steps:
+      - intent: st_goodnight
+      - action: utter_st_goodnight_0
+  - rule: st_ha_ha
+    steps:
+      - intent: st_ha_ha
+      - action: utter_st_ha_ha_0
+  - rule: st_happy
+    steps:
+      - intent: st_happy
+      - action: utter_st_happy_0
+  - rule: st_hello
+    steps:
+      - intent: st_hello
+      - action: utter_st_hello_0
+  - rule: st_here
+    steps:
+      - intent: st_here
+      - action: utter_st_here_0
+  - rule: st_how_are_you
+    steps:
+      - intent: st_how_are_you
+      - action: utter_st_how_are_you_0
+  - rule: st_hungry
+    steps:
+      - intent: st_hungry
+      - action: utter_st_hungry_0
+  - rule: st_job
+    steps:
+      - intent: st_job
+      - action: utter_st_job_0
+  - rule: st_marry
+    steps:
+      - intent: st_marry
+      - action: utter_st_marry_0
+  - rule: st_nice_to_meet_you
+    steps:
+      - intent: st_nice_to_meet_you
+      - action: utter_st_nice_to_meet_you_0
+  - rule: st_no_problem
+    steps:
+      - intent: st_no_problem
+      - action: utter_st_no_problem_0
+  - rule: st_origin
+    steps:
+      - intent: st_origin
+      - action: utter_st_origin_0
+  - rule: st_question
+    steps:
+      - intent: st_question
+      - action: utter_st_question_0
+  - rule: st_right
+    steps:
+      - intent: st_right
+      - action: utter_st_right_0
+  - rule: st_sorry
+    steps:
+      - intent: st_sorry
+      - action: utter_st_sorry_0
+  - rule: st_sure
+    steps:
+      - intent: st_sure
+      - action: utter_st_sure_0
+  - rule: st_talk_to_me
+    steps:
+      - intent: st_talk_to_me
+      - action: utter_st_talk_to_me_0
+  - rule: st_test
+    steps:
+      - intent: st_test
+      - action: utter_st_test_0
+  - rule: st_thank_you
+    steps:
+      - intent: st_thank_you
+      - action: utter_st_thank_you_0
+  - rule: st_well_done
+    steps:
+      - intent: st_well_done
+      - action: utter_st_well_done_0
+  - rule: st_what_do_you_mean
+    steps:
+      - intent: st_what_do_you_mean
+      - action: utter_st_what_do_you_mean_0
+  - rule: st_whatsup
+    steps:
+      - intent: st_whatsup
+      - action: utter_st_whatsup_0

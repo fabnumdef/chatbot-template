@@ -1,0 +1,1082 @@
+version: '3.1'
+nlu:
+  - intent: phrase_feedback
+    examples: |
+      - Phrase de retour dexpérience
+      - Phrase feedback.
+      - Jai laissé mon avis !
+      - Phrase feedback
+  - intent: nlu_fallback
+    examples: |
+      - Phrase hors-sujet.
+      - Quelle est ta phrase hors-sujet ?
+      - haut potentiel
+  - intent: phrase_presentation
+    examples: >
+      - Présentation du chatbot RH Marine
+
+      - Tu peux te présenter ?
+
+      - Présentes-toi
+
+      - comment vous appelez vous?
+
+      - qui etes vous ?
+
+      - Bjr
+
+      - Qui es tu?
+
+      - comment vas tu
+
+      - qui est tu?
+
+      - comment tappelles tu?
+
+      - A quoi sert le bot marine?
+
+      - QUEL EST LE TEXTE SUR LES DEROGATIONS AUX NORMES MEDICALES DAPTITUDE
+
+      - jai une question
+
+      - A quoi sert le chatbot rh marine?
+
+      - reconversion interne
+
+      - Comment tu t appelles?
+
+      - que fait le chatbot marine ?
+
+      - qui a crée cipal socrate
+
+      - Tu tappelles comment
+
+      - Comment te prénomme tu ?
+
+      - à quoi sert le chatbot marine ?
+
+      - bonjour patron, comment allez vous ?
+
+      - qui est tu ?
+
+      - quest-ce quun chatbot
+
+      - Tki
+
+      - comment allez vous ?
+
+      - Que peux tu faire ?
+
+      - Qui es tu
+
+      - Comment vas-tu
+
+      - jai une question ?
+
+      - Comment vas tu ?
+
+      - instrustion 90
+
+      - Présentation du chatbot RH marine
+
+      - Pourquoi tu tappelles CIPAL SOCRATE
+
+      - A quoi sert le chatbot marine?
+
+      - Bonjour, est-ce que vous traitez également des questions administratives
+      et financières?
+
+      - phrase_presentation
+
+      - Comment tappelle tu
+
+      - Comment tu vas ?
+
+      - à quoi sert tu exactement
+
+      - Tu es qui?
+
+      - à quoi sert tu exactement?
+
+      - A quoi sert le bot rh?
+
+      - Qui es tu ?
+
+      - cOMMENT ALLEZ VOUS ?
+  - intent: st_age
+    examples: |
+      - Quel est ton âge ?
+      - quel âge as-tu
+      - ton âge
+      - quel est ton âge
+      - est-ce que tu as 20 ans
+      - cest quoi ton âge
+      - quand as-tu été créée
+      - tu as quel âge
+      - quand as-tu été créé
+      - as-tu 19 ans
+      - tas quel âge
+  - intent: st_annoying
+    examples: |
+      - Tu es énervant.
+      - tu es ennuyante.
+      - tes trop agaçante
+      - tu es fatigante
+      - tu magaces
+      - tu es fatigant
+      - tu me fatigues
+      - tu membêtes
+      - achalante toi
+      - tu es agaçant
+      - tu es agaçante
+      - tu me fatigues énormement
+      - tu est fatiguante toi
+      - tu es embêtant
+      - tu me fatigues trop
+  - intent: st_back
+    examples: |
+      - Je suis de retour.
+      - revenue
+      - je suis de retout maintenant
+      - je suis revenue
+      - de retour
+      - revenu
+      - je suis de retour
+      - je suis revenu
+  - intent: st_bad
+    examples: |
+      - Tu es mauvais.
+      - tu es nul
+      - tu ne maides même pas
+      - tu ne maides pas
+      - pas tellement cool toi
+      - pas cool toi
+      - tu nes pas trop cool
+      - tu nes pas super
+      - tes pas bien
+      - tu nes pas bien
+      - tu es une mauvaise personne
+      - tu es horrible
+      - tes nul
+      - tu es nulle
+      - tu sers à rien
+      - tu ne peux rien faire
+      - tu es mauvais
+      - tes mauvais
+      - tu ne sers à rien
+      - ce nest pas bien
+      - cest très mauvais
+      - cest horrible
+      - cest mauvais
+      - mal
+      - mauvais
+      - mauvaise
+      - abominable
+      - atroce
+      - dégoûtant
+      - dégoûtante
+      - dégueulas
+      - dégueulasse
+      - épouvantable
+      - déplorable
+      - ignoble
+      - minable
+      - répugnante
+      - répugnant
+      - mediocre
+      - détestable
+      - affreux
+      - horrible
+      - déplaisant
+      - nul
+      - raté
+      - désagréable
+      - moche
+      - foutu
+      - fichu
+      - pitoyable
+      - pas bon
+      - pas bonne
+      - pas bons
+      - pas bonnes
+      - pas bien
+      - pas cools
+      - pas cool
+      - terrible
+      - terribles
+      - atroces
+      - abominables
+      - dégoûtantes
+      - dégoûtants
+      - dégueulasses
+      - déplorables
+      - épouvantables
+      - minables
+      - ignobles
+      - répugnants
+      - répugnantes
+      - mediocres
+      - détestables
+      - affreuses
+      - affreuse
+      - horribles
+      - déplaisants
+      - déplaisantes
+      - nulles
+      - nulle
+      - nuls
+      - ratés
+      - ratées
+      - ratée
+      - désagréables
+      - moches
+      - fichus
+      - fichues
+      - fichue
+      - foutus
+      - foutues
+      - foutue
+      - pitoyables
+      - cest mal
+      - cest pas bien
+      - cest nul
+      - cest très mal
+      - cest trop nul
+      - trop nul
+      - cest très nul
+      - cest trop mal
+      - nuuul
+      - nuul
+      - cest trop trop nul
+      - cela est mal
+      - ceci est mal
+      - cela est trop mal
+      - ceci est mauvais
+      - ceci est trop mal
+      - cela est trop mauvais
+      - cela est mauvais
+      - ceci est trop mauvais
+  - intent: st_beautiful
+    examples: |
+      - Es-tu beau ?
+      - beau
+      - cest beau
+      - belle
+      - cest très beau
+      - cest trop beau
+      - cest super beau
+      - tellement beau
+      - tellement belle
+      - mignon
+      - joli
+      - mignonne
+      - cest joli
+      - super beau
+      - jolie
+      - super jolie
+      - trop jolie
+      - très joli
+      - chix
+      - cute
+      - tu es trop cute
+      - tu es attirant
+      - tu es très attirante
+      - t es sexy
+      - tu es mignonne
+      - tu es mignon
+      - tu es beau
+      - tu es belle
+      - tu es jolie
+  - intent: st_birth_date
+    examples: |
+      - Quelle est ta date de naissance ?
+      - la date de ta naissance
+      - donne-moi ta date de naissance
+      - la date de ton anniv
+      - dis-moi la date de ton anniversaire
+      - il est quand ton anniversaire
+      - quelle est la date de ton anniv
+      - ton anniversaire cest quand
+      - сest quand ton anniversaire
+      - quand est-ce que tu fêtes ton anniversaire
+      - quelle est ta date de naissance
+      - quand est ton anniversaire
+  - intent: st_busy
+    examples: |
+      - Es-tu occupé ?
+      - es-tu occupé
+      - es-tu occupée
+      - es-tu occupée maintenant
+      - tu es occupée maintenant
+      - es-tu occupé maintenant
+      - tu es en train de bosser là
+      - es-tu en train de bosser
+      - tu es en train de bosser
+      - es-tu en train de travailler
+      - tu es en train de travailler
+      - as-tu beaucoup à faire
+      - tes occupée là
+      - occupée ou pas toi
+      - es-tu occupé en ce moment
+      - occupé ou pas
+      - tes occupé
+      - tes occupé ou pas
+      - tu es occupée ou pas
+      - tu es occupée
+      - tu es occupé ou pas
+      - tu es occupé
+      - es-tu occupe
+      - est-ce que tu es occupée
+  - intent: st_bye
+    examples: |
+      - Au revoir.
+      - il faut que je men aille
+      - je dois y aller
+      - je men vais
+      - bye
+      - au revoir
+      - à bientôt
+      - ciao
+      - a plus tard
+      - à plus
+      - à tout à lheure
+      - à plus tard
+      - à toute
+      - à tt
+      - à +
+      - a tt
+      - a +
+      - à la prochaine
+      - bye bye
+      - à demain
+      - à ce soir
+      - goodbye
+      - porte toi bien
+      - Au revoir.
+      - merci au revoir
+      - Au revoir
+  - intent: st_can_you_help
+    examples: |
+      - Peux-tu aider ?
+      - il faut que tu maides
+      - tu dois maider
+      - aide-moi un peu
+      - aide-moi
+      - peux-tu aider
+      - jai vraiment besoin de ton aide
+      - jai besoin daide
+      - peux-tu maider
+      - est-ce que tu peux maider
+      - pourrais-tu maider
+      - il me faut ton aide
+  - intent: st_chatbot
+    examples: |
+      - Es-tu un robot ?
+      - tu es un bot
+      - tes un robot
+      - tes un bot
+      - tu es un robot
+      - tu es un robot toi
+      - es-tu un robot
+      - es-tu un chat bot
+      - tes un chat bot toi
+      - es-tu un agent conversationnel
+      - tu es un chatbot
+  - intent: st_clever
+    examples: |
+      - Es-tu intelligent ?
+      - peux-tu être intelligent
+      - sois itelligente
+      - sois intelligent
+  - intent: st_crazy
+    examples: |
+      - Es-tu fou ?
+      - es-tu folle
+      - es-tu fou
+      - trop fou toi
+      - tes fou ou quoi
+      - tu es trop folle
+      - tes trop fou
+      - tu es folle
+      - tu es cinglée
+      - tes taré
+      - tes tarée
+      - tu es tarée
+      - tu es taré
+      - tes cinglé
+      - tu es dingue
+      - tes folle
+      - tu es fou
+  - intent: st_fired
+    examples: |
+      - Tu es viré.
+      - tu es licencié
+      - tes renvoyée
+      - tu es renvoyé
+      - tu es licenciée
+      - cest le temps de te licencier
+      - je te licencie
+      - je te renvoie
+      - non tes licenciée
+      - non tu es licencié
+      - tu es viré
+      - non tu es renvoyé
+      - non tu es renvoyée
+      - non tes renvoyé
+  - intent: st_friend
+    examples: |
+      - Es-tu mon ami ?
+      - es-tu mon ami
+      - tu es mon meilleur copain
+      - tu es ma pote
+      - tu es mon meilleur ami
+      - est-ce quon est copains
+      - est-ce quon est copines
+      - est-ce quon est amies
+      - est-ce quon est amis
+      - est-on des copains
+      - est-on des meilleures amies
+      - est-on des copines
+      - est-on des meilleurs amis
+      - est-on copines
+      - est-on copains
+      - est-on amies
+      - est-on amis
+      - on est super amis
+      - on est copain toi et moi
+      - on est copines
+      - on est meilleures amies
+      - on est copains
+      - on est amies
+      - on est meilleurs amis
+      - on est amis
+      - tes ma meilleure copine
+      - tu es ma meilleure amie
+      - tu es mon pote
+      - tu es mon ami
+      - tu es mon amie
+  - intent: st_funny
+    examples: |
+      - Tu es drôle.
+      - tu me fais trop marrer
+      - tu me fais trop rire
+      - tu me fais rire
+      - tu me fais marrer
+      - tes super rigolo
+      - tu es trop amusant
+      - tu es rigolo
+      - tu es amusante
+      - tu es amusant
+      - tu es vraiment marrante
+      - tu es méga drôle
+      - tu es hyper drôle
+      - tu es hyper marrant
+      - tes trop marrant
+      - tu es trop marrant
+      - tu es super marrante
+      - super drôle toi
+      - tu es marrant toi
+      - tes marrant
+      - tes marrante
+      - tu es marrant
+      - tu es drôle
+  - intent: st_good
+    examples: |
+      - Tu es cool.
+      - cool
+      - tu es vraiment bien
+      - tu es hyper cool
+      - tu es superbe
+      - tu es méga cool
+      - tes super méga cool
+      - tu es tellement cool
+      - super cool toi
+      - tu es tellement bien
+      - tes trop cool
+      - tu es trop cool
+      - tu es très cool
+      - tu es cool
+      - tes fantastique
+      - tu es forte
+      - tu es fantastique
+      - tu es pro
+      - tu es fort
+      - tu es parfaite
+      - tu es excellente
+      - tu es excellent
+      - tu es parfait
+      - tu es super bien
+      - tu es super
+      - tu es énorme
+      - tu es bien
+      - tu es trop bien
+  - intent: st_goodevening
+    examples: |
+      - Bonsoir.
+      - salut bonsoir
+      - bonsoir
+      - soir
+      - bon soir
+      - bonsoir à vous
+      - est-ce que tu passes une bonne soirée
+      - bonsoir à toi
+      - soir à toi
+      - tu passes une bonne soirée
+      - jespère que tu passes une bonne soirée
+      - Bonsoir
+      - Bonsoir,
+      - Bonsoir.
+      - Bonne soirée
+      - Bonne nuit....
+      - Bonne nuit
+      - Bonsoir cipal
+      - amiral bonsoir
+  - intent: st_goodmorning
+    examples: |
+      - Bonne matinée.
+      - bonne matinée
+      - bon matinée à toi
+      - coucou bonne matinée
+      - coucou cest un bon matin
+      - passe une bonne matinée
+      - je te souhaite une bonne matinée
+      - Bonne matinée.
+      - qui est grand
+  - intent: st_goodnight
+    examples: |
+      - Bonne nuit.
+      - je te souhaite une bonne nuit
+      - bonne nuit
+      - fais de beaux rêves
+      - dors bien
+      - fais des beaux rêves
+      - beaux rêves
+      - bonne nuit à toi
+      - beaux rêves à toi
+      - passe une bonne nuit
+      - je te souhaite de passer une bonne nuit
+  - intent: st_ha_ha
+    examples: |
+      - Ah ah
+      - mdr
+      - ahaha
+      - ahah
+      - hahahah
+      - hihi
+      - ha ha
+      - haha
+  - intent: st_happy
+    examples: |
+      - Es-tu content ?
+      - es-tu heureux aujourdhui
+      - est-ce que tu es content aujourdhui
+      - tu es heureux ou triste
+      - est-ce que tu es heureuse ou triste
+      - tu es heureuse ou pas
+      - tu es heureux ou non
+      - es-tu contente
+      - es-tu content
+      - es-tu heureuse
+      - tu es contente
+      - es-tu heureux
+      - tu es content
+      - tu es heureux
+      - tu es heureuse
+  - intent: st_hello
+    examples: |
+      - Bonjour.
+      - Bonjour
+      - Salut
+      - Hey
+      - coucou
+      - bonjour
+      - bonjour à toi
+      - salut à tous
+      - allo
+      - hey
+      - salutations
+      - hé
+      - rebonjour
+      - re bonjour
+      - resalut
+      - re salut
+      - bonjour Cipal
+      - salut comment ça va?
+      - Bonjour cipal, quelle est votre fonction ?
+      - bonjour cipal socrate
+      - Bonjour Sam,
+      - Bonjour comment ca va
+      - Salut Cipal ca va?
+      - Bonjour cipal
+      - Hello
+      - Bonjou
+      - Pour Cipal SOCRATE
+      - Bonjoir cipal
+      - salut
+      - bONJOUR
+      - salut le bot
+      - Bonjour cipal !
+      - Salut Sam, ça va?
+      - Bonjour cipal,
+      - Bonjour ,
+      - BONJOUR
+      - Bonjour, Merci.
+      - bonjour,
+      - bonjout
+      - bonjou
+      - Bonjour Cipal,
+      - bonjour cipal
+      - Bonjour Sam
+      - Salut Cipal
+      - Bonjour sam
+      - Salut.
+      - Bonjour Cipal
+      - Bonjour comment vas tu ?
+      - bonjour!
+      - bonne journée
+      - Salut !
+      - Bonjour Cipal Socrate
+      - BOnjour !
+      - hello
+      - Bonjour,
+      - Bonjour cipal!
+      - hallo
+      - bonjour commandant
+      - Bonjour.
+      - Bonne journée
+      - Coucou
+      - Bonjour cipal, comment allez-vous ?
+      - bonjour, Cipal
+      - salut cipal
+      - BONJOUR CIPAL
+      - Salut cipal
+      - Bonjour cipal.
+  - intent: st_here
+    examples: |
+      - Es-tu là ?
+      - es-tu toujours ici
+      - es-tu toujours là
+      - tes toujours là
+      - tes toujours ici
+      - tu es toujours ici
+      - tu es ici ou non
+      - es-tu ici
+      - tu es ici
+      - tes là ou pas
+      - est-ce que tu es ici
+      - tes là
+      - est-ce que tu es là
+      - es-tu là
+      - tu es là
+      - tes là toi
+  - intent: st_how_are_you
+    examples: |
+      - Comment vas-tu ?
+      - ça va
+      - tu vas bien
+      - comment ça va
+      - vas tu bien
+      - allez-vous bien
+      - comment vas-tu
+      - vous allez bien
+      - comment allez-vous
+      - comment ça roule
+      - comment ça marche
+      - ça marche
+      - ça baigne
+      - ça roule ma poule
+      - ça roule
+      - comment ça baigne
+      - comment ca va
+      - comment ca marche
+      - comment ca roule
+      - comment ca baigne
+      - ca va
+      - ca roule
+      - ca marche
+      - ca roule ma poule
+      - sava
+      - sa va
+      - ca baigne
+      - sa roule
+      - sa marche
+      - sa roule ma poule
+      - sa baigne
+      - comment vous portez vous
+      - comment te porte tu
+      - tu vas bien toi
+      - ça va mon ami
+      - comment te portes tu
+      - dis-moi tu vas bien
+      - salut ça va
+      - ça va ou pas finalement
+      - comment ça va?
+      - comment va?
+      - Bien ou quoi ?
+      - aç va ?
+      - sa va?
+      - Ça va ?
+      - Ca va ?
+      - comment ça va ?
+      - Comment vas-tu ?
+      - Ca va bien ?
+      - est-ce que ça va bien ?
+      - Comment ça va?
+      - Ca va
+      - tout va bien?
+      - st_how_are_you
+      - est ce que vous allez bien ?
+      - ca va bien?
+      - ca va ?
+      - Comment ça va ?
+      - ça va ?
+      - comment allez-vous?
+      - comment vas tu?
+      - ça va?
+      - tu vas bien?
+      - Tu vas bien ?
+      - Ca va?
+      - comment vas tu ?
+      - Bonjour, comment allez vous ?
+      - ca va cipal ?
+      - ca va cipal
+      - Comment allez vous?
+      - comment vous allez ?
+      - COMMENT VA TU
+      - comment ca va ?
+      - Comment allez-vous ?
+  - intent: st_hungry
+    examples: |
+      - As-tu faim ?
+      - tu as faim
+      - est-ce que tu as faim
+      - voudrais-tu manger
+      - veux-tu manger
+      - as-tu faim
+      - tas faim
+      - tas faim toi
+      - tu veux manger là
+      - aimerais-tu manger maintenant
+      - tu voudrais manger
+  - intent: st_job
+    examples: |
+      - Quel est ton travail ?
+      - cest quoi ton travail
+      - dans quoi travailles-tu
+      - en quoi est-ce que ton travail consiste
+      - où se trouve ton bureau
+      - où se trouve ton boulot
+      - où est lendroit où tu travailles
+      - où est-est que tu travailles
+      - où tu travailles
+      - où travailles-tu
+      - quel est ton job
+  - intent: st_marry
+    examples: |
+      - Veux-tu mépouser ?
+      - tu veux mépouser ?
+      - seras-tu mon mari
+      - seras-tu ma femme
+      - vas-tu mépouser
+      - deviens ma femme
+      - épouse-moi
+      - sois mon mari
+      - est-ce que tu vas mépouser
+      - sois ma femme
+      - je veux tépouser
+      - marie-toi avec moi
+      - marie-moi
+  - intent: st_nice_to_meet_you
+    examples: |
+      - Ravis de te rencontrer.
+      - cest super de te rencontrer
+      - cest un plaisir de te rencontrer
+      - ça me fait plaisir de te rencontrer
+      - ça fait plaisir de te rencontrer
+      - content de te rencontrer
+      - je suis content de te rencontrer
+      - je suis heureux de te rencontrer
+      - je suis heureuse de te rencontrer
+      - je suis contente de te rencontrer
+      - cest bien de te rencontrer
+      - enchantée
+      - enchanté
+      - je suis enchanté
+      - je suis enchantée
+      - je suis enchanté de te rencontrer
+      - je suis enchanté de rencontrer
+      - je suis enchantée de te rencontrer
+      - enchanté de te rencontrer
+      - enchantée de te rencontrer
+      - je suis enchantée de rencontrer
+      - bien de te recontrer
+      - enchantée de rencontrer
+      - enchanté de rencontrer
+  - intent: st_no_problem
+    examples: |
+      - Pas de problème.
+      - pas de soucis
+      - pas de problème
+      - pas de problèmes
+      - ce nest pas un problème
+      - il ny a pas de problème
+      - ya pas de problème
+      - cest pas un problème
+      - il ny a pas de problèmes
+      - ceci nest pas un problème
+      - cela nest pas une problème
+      - aucun problème
+      - pas de souci
+      - ya pas de souci
+      - il ny a pas de souci
+      - il ny a pas de soucis
+      - ya pas de soucis
+      - pas de troubles
+      - il ny a pas de trouble
+      - pas de trouble
+      - il ny a pas de troubles
+      - merci!
+      - merci bonne journée
+      - ok merci
+      - merci bonne journée Cipal
+      - MErci.
+      - Merci pour toutes ces réponses !
+      - bien vu merci
+      - Trop fort cipal !
+      - Pas de problème.
+      - OK. Merci.
+      - Merci 😊
+      - merci
+      - merci cipal
+      - Merci.
+      - Merci!
+      - Merci !
+      - Merci
+      - Excellent merci!
+      - MERCI
+  - intent: st_origin
+    examples: |
+      - Doù viens-tu ?
+      - quelles sont tes origines
+      - doù tu viens
+      - quelles origines as-tu
+      - cest quoi ton pays dorigine
+      - quel est ton pays dorigine
+      - doù es-tu
+      - dis-moi doù tu viens
+      - doù est-ce que tu viens
+      - doù viens-tu
+      - tu es doù
+  - intent: st_question
+    examples: |
+      - Répond à ma question.
+      - jai une question
+      - il me faut une réponse
+      - jai besoin dune réponse
+      - donne une réponse
+      - réponds
+      - donne-moi une réponse à ma question
+      - peux-tu me donner une réponse
+      - je voudrais que tu me répondes
+      - réponds-moi
+      - peux-tu le répondre
+      - merci de répondre
+      - réponds à la question
+  - intent: st_right
+    examples: |
+      - Tout à fait.
+      - tout à fait
+      - tu dis la vérité
+      - cest tout à fait vrai
+      - pas faux
+      - cest pas faux
+      - ce nest pas faux
+      - tas pas tort
+      - tu nas pas tort
+      - cest la vérité
+      - cest vrai
+      - tu as raison
+      - tas raison
+      - Tout à fait.
+  - intent: st_sorry
+    examples: >
+      - Désolé.
+
+      - tellement navré
+
+      - je te présente mes excuses
+
+      - ok désolé
+
+      - jen suis désolée
+
+      - jen suis désolé
+
+      - jen suis navrée
+
+      - jen suis navré
+
+      - navrée
+
+      - navré
+
+      - pardon
+
+      - tu mexcuseras
+
+      - tu me pardonneras
+
+      - scuse-moi
+
+      - tu mexcuses
+
+      - peux-tu mexcuser
+
+      - scuse
+
+      - dsl
+
+      - désolée
+
+      - excuse-moi
+
+      - désolé
+
+      - je te demande de mexcuser
+
+      - pardonne-moi
+
+      - toutes mes excuses
+
+      - mes excuses
+
+      - je suis désolé
+
+      - je mexcuse
+
+      - je suis désolée
+
+      - Désolée
+
+      - Ce n est pas ma question
+
+      - Désolé
+
+      - Le bandeau ou lon écrit nest pas assez large. La relecture de la
+      question est difficile.
+
+      - Désolé.
+
+      - tu es bête
+
+      - Tu es bête
+  - intent: st_sure
+    examples: |
+      - Es-tu sûr ?
+      - es-tu tout à fait sûre
+      - es-tu certaine
+      - est-ce que cest certain
+      - es-tu certain
+      - tu es certaine
+      - tu es certain
+      - est-ce que tu es certain
+      - es-tu sûre
+      - es-tu sûr
+      - tes sûre toi
+      - tes sûr
+  - intent: st_talk_to_me
+    examples: |
+      - Parle avec moi.
+      - parle
+      - parle avec moi
+      - il faut quon se parle
+      - on pourrait se parler
+      - on doit se parler
+      - je voudrais te parler
+      - pourrait-on parler
+      - peux-tu me parler
+      - parle-moi
+      - pourrions-nous nous parler
+  - intent: st_test
+    examples: |
+      - Je te test.
+      - pourrais-je te tester un peu
+      - je suis en train de te tester
+      - est-ce possible de te tester
+      - jaimerais te tester
+      - je veux te tester
+      - je te teste en fait
+      - est-ce que je peux te tester
+      - puis-je te tester
+      - je te teste
+  - intent: st_thank_you
+    examples: |
+      - Merci.
+      - merci beaucoup
+      - merci
+      - merci bien
+      - je te remercie
+      - grand merci
+      - japprécie ça
+      - japprécie cela
+      - je lapprécie
+      - je suis reconnaissant
+      - je suis reconnaissante
+      - remerciement
+      - gratitude
+      - oui merci
+      - merci à toi
+      - eh bien merci
+      - merci bien à toi
+      - chu reconnaissant
+      - merci bcp toi
+      - je te remercie beaucoup
+      - chus reconnaissante
+      - chus reconnaissant
+      - non merci
+      - merci toi aussi
+      - merci mon ami
+      - merci à toi aussi
+      - super merci
+  - intent: st_well_done
+    examples: |
+      - Bien joué.
+      - bravo
+      - bien joué
+      - chapeau
+      - bien fait
+      - un grand bravo
+      - travail bien fait
+      - cest bien joué
+      - cest bien fait
+      - ceci est bien fait
+      - ceci est bien joué
+      - cela est bien joué
+      - cela est bien fait
+  - intent: st_what_do_you_mean
+    examples: |
+      - Que veux-tu dire ?
+      - cest quoi que tu veux dire
+      - tu veux dire quoi précisément
+      - quest-ce que tu essaie de dire
+      - quest-ce que tu veux dire
+      - tu veux quoi dire
+      - vous voulez dire quoi
+      - tu veux dire quoi par là
+      - précise ce que tu veux dire
+      - tu veux dire quoi au juste
+      - tu veux dire quoi
+      - Que veux-tu dire ?
+      - jai pas compris
+      - Que veux tu dire ?
+  - intent: st_whatsup
+    examples: |
+      - Quoi de beau ?
+      - quoi de beau
+      - quoi de neuf
+      - quoi de nouveau
+      - quest-ce quil y a de neuf
+      - quest-ce quil y a de nouveau
+      - quest-ce quil y a de beau
+      - quoi de neuf toi
+      - salut quoi de neuf toi
